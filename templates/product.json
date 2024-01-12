@@ -81,7 +81,7 @@
       ],
       "custom_css": [
         ".max-width {max-width: 990px;}",
-        ".rich-text__heading{margin-bottom: 40px}"
+        ".rich-text__heading {margin-bottom: 40px;}"
       ],
       "settings": {
         "content_alignment": "left",
@@ -97,9 +97,9 @@
         "collapsible_row_pPkQMR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Key features",
-            "row_content": "<p>A product metafield will need to be setup and added here<\/p>",
-            "page": ""
+            "heading": "Application Rates",
+            "row_content": "",
+            "page": "how-to-use-biochar"
           }
         },
         "collapsible_row_t3MDrA": {
@@ -113,7 +113,7 @@
         "collapsible_row_6FCq3E": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Application Rates",
+            "heading": "",
             "row_content": "<p>A product metafield will need to be setup and added here<\/p>",
             "page": ""
           }
