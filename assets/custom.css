@@ -87,6 +87,7 @@ a {
 }
 .button:hover, .shopify-challenge__button:hover, .customer button:hover, .spr-summary-actions-newreview:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .icon-arrow {
@@ -520,6 +521,10 @@ quantity-input .quantity__input {
   font-family: "Gilroy Bold";
   src: url("Gilroy-Bold.ttf") format("truetype");
 }
+p strong, span strong, div strong, .strong {
+  font-family: "Gilroy Bold";
+}
+
 p, .p, body, a, select, ul, li {
   font-family: "Gilroy Light";
   font-style: normal;
@@ -535,7 +540,7 @@ p, .p, body, a, select, ul, li {
   }
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1, .h1, h1 strong, h2, .h2, h2 strong, h3, .h3, h3 strong, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Nexa";
   font-style: normal;
   font-weight: 700;
@@ -602,10 +607,6 @@ h5, .h5 {
   .hero-text {
     font-size: 80px;
   }
-}
-
-p strong, span strong, .strong {
-  font-family: "Gilroy Bold";
 }
 
 input, textarea, select {
@@ -2198,6 +2199,7 @@ cart-drawer-items.is-empty .checkout-wrap {
     border: none;
     padding-top: 31px;
     padding-bottom: 36px;
+    margin-bottom: -128px;
   }
 }
 .footer__credits .copyright__content, .footer__credits .copyright__content a {

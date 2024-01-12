@@ -24,11 +24,11 @@
       {% else %}
         {% if block.settings.collection != blank %} 
           <div class="collection-list__card">            
-            <a href="" class="collection-list__image">
+            <a href="{{ block.settings.collection.url   }}" class="collection-list__image">
               {% if block.settings.collection.image != blank %}
               {{
                 block.settings.collection.image
-                | image_url: width: 400
+                | image_url: width: 800
                 | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100, 1500, 2200, 3000'
               }}
 

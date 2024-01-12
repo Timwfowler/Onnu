@@ -16,7 +16,9 @@
 
 
 
-
+p strong, span strong, div strong, .strong{
+  font-family: 'Gilroy Bold';
+}
 
 
 p, .p, body, a, select, ul, li{
@@ -33,12 +35,11 @@ p, .p, body, a, select, ul, li{
   }
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+h1, .h1, h1 strong , h2, .h2, h2 strong, h3, .h3, h3 strong, h4, .h4, h5, .h5, h6, .h6{
   font-family: 'Nexa';
   font-style: normal;
   font-weight: 700;
   margin: 0;
-
 }
 
 
@@ -99,9 +100,7 @@ h5, .h5{
   }
 }
 
-p strong, span strong, .strong{
-  font-family: 'Gilroy Bold';
-}
+
 
 input, textarea, select{
   background-color: #F1F1F1;
