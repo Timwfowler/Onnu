@@ -108,14 +108,14 @@
         "template--21745040523557__2aa64823-3250-4f9d-aa30-367f74081903-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "aw22-winter",
-            "title": ""
+            "collection": "biochar-for-lawns-and-turfs",
+            "title": "For Lawns and Turfs"
           }
         },
         "d622a4cb-a5f1-44e4-bc70-465a3d67091b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "urban-collection",
+            "collection": "biochar-for-agriculture",
             "title": ""
           }
         }
