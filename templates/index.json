@@ -6,8 +6,8 @@
         "template--18893739131173__e98b3c02-a1d0-460f-be28-c436dab9a1e2-168388454115d31620-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rh.png",
-            "text_protection": 0,
+            "image": "shopify:\/\/shop_images\/Hero.jpg",
+            "text_protection": 60,
             "color_scheme": "inverse",
             "layout": "bottom-left",
             "subheading": "Unleashing the power of Biochar",
@@ -43,7 +43,6 @@
         "045854ed-4eb1-462a-8158-b29b2cdcebf8": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ggggg.png",
             "subheading": "Sub",
             "heading": "",
             "text": "<ul><li>Improved Soil Structure<\/li><li>Enhanced Water Retention<\/li><li>Increased Nutrient Retention<\/li><li>Improved Resistance to<\/li><li>Environmental Stresses<\/li><\/ul>",
@@ -54,7 +53,6 @@
         "fb0037db-5228-4cdd-adb9-5177a92fb85c": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ggggg.png",
             "subheading": "",
             "heading": "",
             "text": "<ul><li>Improved Soil Structure<\/li><li>Enhanced Water Retention<\/li><li>Increased Nutrient Retention<\/li><li>Improved Resistance to<\/li><li>Environmental Stresses<\/li><\/ul>",
@@ -65,7 +63,6 @@
         "fd7c52d9-146e-4c81-ae40-b968d78371eb": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ggggg.png",
             "subheading": "",
             "heading": "",
             "text": "<ul><li>Improved Soil Structure<\/li><li>Enhanced Water Retention<\/li><li>Increased Nutrient Retention<\/li><li>Improved Resistance to<\/li><li>Environmental Stresses<\/li><\/ul>",
@@ -84,7 +81,6 @@
         "scrollable": false,
         "design": "3",
         "color_scheme": "inverse",
-        "color_bg_black": "black",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -129,7 +125,9 @@
       ],
       "settings": {
         "title": "Collections",
+        "color_scheme": "",
         "design": "imgs",
+        "no_margin": false,
         "columns": "4",
         "heading_size": "h1"
       }
@@ -140,7 +138,6 @@
         "94eddf88-8799-41c8-93d9-4d4d7239868c": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bac2233fd334dd186e8a97ad7a708668.png",
             "subheading": "",
             "heading": "Bespoke Blends",
             "text": "<p>Discover bespoke biochar blend development, tailored to your specific needs..<\/p>",
@@ -151,7 +148,6 @@
         "66f6eba2-94d1-462a-82b3-ab46a2cc332f": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/earhstrheag.png",
             "subheading": "",
             "heading": "Soil Testing",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -162,7 +158,6 @@
         "1d25f3de-6a1f-4669-96c5-80ec4c479a1c": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sraetj.png",
             "subheading": "",
             "heading": "Soil Consultation",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -173,7 +168,6 @@
         "b4fa6c42-2f4c-419c-a8a4-312f4efcc333": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fffffffffff.png",
             "subheading": "",
             "heading": "Transportation",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -193,7 +187,6 @@
         "scrollable": false,
         "design": "4",
         "color_scheme": "inverse",
-        "color_bg_black": "white",
         "no_margin": true,
         "heading_size": "h1"
       }
