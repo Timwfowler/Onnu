@@ -2215,7 +2215,7 @@ cart-drawer-items.is-empty .checkout-wrap {
 }
 .footer__credits {
   display: flex;
-  align-items: center;
+  align-items: end;
   flex-direction: column-reverse;
   padding-bottom: 15px;
 }
