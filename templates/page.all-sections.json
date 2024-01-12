@@ -162,28 +162,28 @@
         "template--18894188511525__55dab50f-3d38-4ae6-8c98-e9e24d2a3390-168628952161bff78c-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses",
+            "collection": "biochar-for-horticulture",
             "title": ""
           }
         },
         "c6fa3c01-a688-408e-8a97-aba7d9511111": {
           "type": "featured_collection",
           "settings": {
-            "collection": "urban-collection",
+            "collection": "biochar-for-trees",
             "title": ""
           }
         },
         "d484a2d1-e5c4-4527-9bbd-e222077c132b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vintage-collection",
+            "collection": "biochar-for-agriculture",
             "title": "Title changed"
           }
         },
         "9dd82386-ee07-4f22-a5bf-7f5b033b6969": {
           "type": "featured_collection",
           "settings": {
-            "collection": "womens-spring-collection",
+            "collection": "biochar-for-trees",
             "title": "Title changed"
           }
         }
