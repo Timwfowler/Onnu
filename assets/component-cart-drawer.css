@@ -209,6 +209,7 @@ cart-drawer-items {
 
 .cart-drawer .cart-item__image {
   max-width: 100%;
+  mix-blend-mode: darken;
 }
 
 .cart-drawer .cart-items thead {
