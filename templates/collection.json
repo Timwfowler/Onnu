@@ -57,41 +57,6 @@
         "no_margin": false
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-      }
-    },
-    "collection-description": {
-      "type": "collection-description",
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "enable_filtering": true,
-        "filter_type": "vertical",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_promo_cards_TFimpk": {
       "type": "section-promo-cards",
       "blocks": {
@@ -159,21 +124,56 @@
         "card_cYajrh"
       ],
       "settings": {
-        "title": "Promotional cards",
+        "title": "Certificates",
         "scrollable": true,
         "design": "4",
         "color_scheme": "background-1",
         "no_margin": false,
         "heading_size": "h1"
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+      }
+    },
+    "collection-description": {
+      "type": "collection-description",
+      "settings": {
+        "content_alignment": "center",
+        "text_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "29f37c81-de94-49e5-a613-6e4274238d25",
     "collection_description_DfKNcD",
+    "section_promo_cards_TFimpk",
     "banner",
     "collection-description",
-    "product-grid",
-    "section_promo_cards_TFimpk"
+    "product-grid"
   ]
 }
