@@ -711,57 +711,6 @@
         "heading_size": "h1"
       }
     },
-    "81ff280e-745c-4422-9228-c7a03e2f6c70": {
-      "type": "section-collapsible-content",
-      "blocks": {
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed rhoncus ex, et lobortis nisi. Vestibulum imperdiet facilisis nunc sed dignissim. Vivamus sit amet varius justo. Integer dui ipsum, mattis ut ultrices lacinia, posuere eu massa. In nec pretium dui. Vestibulum fringilla tempor dui vel interdum. Nullam vel massa odio. Duis enim dui, laoreet laoreet sem sit amet, efficitur facilisis quam. Donec cursus dapibus risus, a dictum lorem. Nullam porttitor porttitor nisl in fermentum. Proin rhoncus semper quam at tincidunt<\/p>",
-            "page": ""
-          }
-        },
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
-            "page": "wysisg-page"
-          }
-        },
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-0",
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-1",
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-2",
-        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-3"
-      ],
-      "settings": {
-        "open_first_collapsible_row": true,
-        "title": "Frequently asked questions",
-        "content": "",
-        "color_scheme": "",
-        "no_margin": false,
-        "heading_size": "h2"
-      }
-    },
     "3749267a-f9e9-4e17-8a25-042cc1d38d46": {
       "type": "section-email-signup-banner",
       "settings": {
@@ -781,16 +730,6 @@
         "heading_size": "h1"
       }
     },
-    "71024b2a-dacb-4cd9-be27-1f3a0ab6827b": {
-      "type": "section-contact-form",
-      "settings": {
-        "title": "We are here to help",
-        "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
-        "color_scheme": "",
-        "no_margin": false,
-        "heading_size": "h1"
-      }
-    },
     "d2a822f6-cba1-4412-8f97-ce1fe073e637": {
       "type": "section-email-signup-banner",
       "settings": {
@@ -800,17 +739,55 @@
         "heading_size": "h1"
       }
     },
-    "8f4b92af-75cf-4ced-aa55-dc60936074e5": {
-      "type": "section-featured-collection",
+    "section_collapsible_content_c8DtMK": {
+      "type": "section-collapsible-content",
+      "blocks": {
+        "collapsible_row_MUJYhB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_dXke8A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_TQQynb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_bctENT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_MUJYhB",
+        "collapsible_row_dXke8A",
+        "collapsible_row_TQQynb",
+        "collapsible_row_bctENT"
+      ],
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "tops",
-        "scrollable": false,
-        "count": 4,
-        "design": "4",
-        "color_scheme": "",
-        "no_margin": true,
-        "heading_size": "h1"
+        "open_first_collapsible_row": false,
+        "title": "FAQs",
+        "content": "<p>Add some text here<\/p>",
+        "color_scheme": "inverse",
+        "no_margin": false,
+        "heading_size": "h2"
       }
     }
   },
@@ -831,11 +808,9 @@
     "de9a1b95-a57b-4b79-8740-468fe47a87c1",
     "e35db63e-c58a-4ef4-83d4-8ce8ff546291",
     "2f2477c0-2643-4989-ba92-80d248079bc4",
-    "81ff280e-745c-4422-9228-c7a03e2f6c70",
     "3749267a-f9e9-4e17-8a25-042cc1d38d46",
     "c603e753-2e48-401e-9268-315cdda58c65",
-    "71024b2a-dacb-4cd9-be27-1f3a0ab6827b",
     "d2a822f6-cba1-4412-8f97-ce1fe073e637",
-    "8f4b92af-75cf-4ced-aa55-dc60936074e5"
+    "section_collapsible_content_c8DtMK"
   ]
 }
