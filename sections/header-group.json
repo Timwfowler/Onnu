@@ -11,10 +11,18 @@
             "text": "Sign up for alerts and get 10% off",
             "link": "#"
           }
+        },
+        "announcement_LEzy3Y": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_LEzy3Y"
       ],
       "settings": {
         "bg": "#000000",
