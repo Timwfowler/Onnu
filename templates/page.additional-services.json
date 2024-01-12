@@ -85,6 +85,22 @@
         "button_label_2": "",
         "button_link_2": ""
       }
+    },
+    "section_image_text_VqL7FQ": {
+      "type": "section-image-text",
+      "settings": {
+        "no_margin": false,
+        "color_scheme": "",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/soil_consulting-unpaid.jpg",
+        "heading": "Soil Consultation",
+        "heading_size": "h3",
+        "text": "<p>Our team of soil specialists offers personalized consultations to address your unique soil challenges and goals. Whether you're looking to improve crop yield, restore nutrient balance, or tackle soil health issues, our tailored advice and strategies will guide you towards optimal soil management. Benefit from our expertise and make informed decisions to nurture a thriving and sustainable soil environment.<\/p>",
+        "button_label": "Button",
+        "button_link": "",
+        "button_label_2": "",
+        "button_link_2": ""
+      }
     }
   },
   "order": [
@@ -92,6 +108,7 @@
     "main",
     "section_rich_text_eYEHwL",
     "section_image_text_9hGyNw",
-    "section_image_text_RkAYye"
+    "section_image_text_RkAYye",
+    "section_image_text_VqL7FQ"
   ]
 }
