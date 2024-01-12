@@ -208,43 +208,6 @@
         "no_margin": false
       }
     },
-    "8126ba8b-c7ed-4ffd-9a18-b028c9fe8f1b": {
-      "type": "section-lifestyle-grid",
-      "blocks": {
-        "fa8ea1e0-4e85-49b3-90de-d9f97c056dad": {
-          "type": "grid",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/pexels-cottonbro-studio-3888252-4096x2160-50fps (1) (1) (1).mp4",
-            "video_url": "",
-            "desktop_width": "full",
-            "text_alignment": "top-left",
-            "color_scheme": "black",
-            "text_protection": 0,
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "h4",
-            "button_label": "",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "fa8ea1e0-4e85-49b3-90de-d9f97c056dad"
-      ],
-      "custom_css": [
-        ".lifestyle-grid__inner {margin-bottom: 20px;}",
-        "@media (min-width: 1024px) {.lifestyle-grid__inner {margin-bottom: 40px; }}",
-        "@media (max-width: 1024px) {.lifestyle-grid__card {padding-bottom: 150%; }}"
-      ],
-      "settings": {
-        "section_heading": "",
-        "no_margin": false,
-        "heading_size": "h3"
-      }
-    },
     "15b735a6-86c4-4e2c-b68c-87d53821a20b": {
       "type": "section-rich-text",
       "blocks": {
@@ -272,43 +235,6 @@
         "color_scheme": "",
         "full_width": true,
         "no_margin": false
-      }
-    },
-    "079da896-28ae-43e5-9c32-3fbd14f51e9d": {
-      "type": "section-lifestyle-grid",
-      "blocks": {
-        "194e9869-96c1-4053-8348-153a09e9308b": {
-          "type": "grid",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/pexels-rostislav-uzunov-8303104-1920x1080-24fps.mp4",
-            "video_url": "",
-            "desktop_width": "full",
-            "text_alignment": "top-left",
-            "color_scheme": "black",
-            "text_protection": 0,
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "h4",
-            "button_label": "",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "194e9869-96c1-4053-8348-153a09e9308b"
-      ],
-      "custom_css": [
-        ".lifestyle-grid__inner {margin-bottom: 20px;}",
-        "@media (min-width: 1024px) {.lifestyle-grid__inner {margin-bottom: 40px; }}",
-        "@media (max-width: 1024px) {.lifestyle-grid__card {padding-bottom: 150%; }}"
-      ],
-      "settings": {
-        "section_heading": "",
-        "no_margin": false,
-        "heading_size": "h1"
       }
     },
     "610308c4-2e97-4c0b-bcef-4ad93af80dbb": {
@@ -418,9 +344,8 @@
     "b023b084-14a4-4ac9-b918-08e1cd0b02b6",
     "1684827641a29ec28f",
     "88f76f97-f3cb-4466-87f2-76f68c1f65a9",
-    "8126ba8b-c7ed-4ffd-9a18-b028c9fe8f1b",
     "15b735a6-86c4-4e2c-b68c-87d53821a20b",
-    "079da896-28ae-43e5-9c32-3fbd14f51e9d",
+    
     "610308c4-2e97-4c0b-bcef-4ad93af80dbb",
     "9c260e76-c66c-4508-b53a-f0161365b384",
     "a00f4ca7-86eb-4ba7-b481-bd593b62e499",
