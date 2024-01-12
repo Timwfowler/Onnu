@@ -2452,7 +2452,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 @media screen and (min-width: 990px) {
   .header--middle-left .header__heading-link,
   .header--top-left .header__heading-link {
-    margin-left: -0.75rem;
+
   }
 
   .header__heading,
