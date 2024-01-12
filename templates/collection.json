@@ -37,6 +37,11 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+      }
+    },
     "6eb0ea0b-1b87-48e9-b13a-a37624bc01d9": {
       "type": "section-rich-text",
       "blocks": {
@@ -92,11 +97,11 @@
     "collection-description": {
       "type": "collection-description",
       "settings": {
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
+        "content_alignment": "center",
+        "text_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false
       }
     },
     "product-grid": {
@@ -122,8 +127,8 @@
   },
   "order": [
     "29f37c81-de94-49e5-a613-6e4274238d25",
-    "6eb0ea0b-1b87-48e9-b13a-a37624bc01d9",
     "banner",
+    "6eb0ea0b-1b87-48e9-b13a-a37624bc01d9",
     "collection-description",
     "product-grid"
   ]
