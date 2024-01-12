@@ -13,8 +13,8 @@
             </h2>
             {%- when 'text' -%}
 
-              {% if collection.description != blank %}
-                {{ collection.description }}
+              {% if product.description != blank %}
+                {{ product.description }}
               {% endif %}
             <div class="rich-text__block rich-text__text rte" {{ block.shopify_attributes }}>
               {{ block.settings.text }}
@@ -152,7 +152,7 @@
       }, 
       {
         "type": "text",
-        "name": "Collection description",
+        "name": "Product description",
         "limit": 1,
         "settings": [
         ]
@@ -195,20 +195,6 @@
             "type": "url",
             "id": "button_link_3",
             "label": "Second button link"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Product description",
-        "blocks": [
-          {
-            "type": "heading"
-          }, {
-            "type": "text"
-          }, {
-            "type": "button"
           }
         ]
       }
