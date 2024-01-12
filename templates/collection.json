@@ -91,6 +91,81 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_promo_cards_TFimpk": {
+      "type": "section-promo-cards",
+      "blocks": {
+        "card_jgkmFm": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EBC_logo_360_c606442b-ad58-495c-b371-d0f3ae49afb8.png",
+            "subheading": "SUBHEADING",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "card_tFDWMV": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Certified_B_Corporation_B_Corp_Logo_2022_Black_RGB_svg.png",
+            "subheading": "SUBHEADING",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "card_TLBmXB": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png",
+            "subheading": "SUBHEADING",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "card_yX9XBg": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soil_Association-logo-264E43B735-seeklogo.com.png",
+            "subheading": "SUBHEADING",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "card_cYajrh": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EBC_logo_360_c606442b-ad58-495c-b371-d0f3ae49afb8.png",
+            "subheading": "SUBHEADING",
+            "heading": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_jgkmFm",
+        "card_tFDWMV",
+        "card_TLBmXB",
+        "card_yX9XBg",
+        "card_cYajrh"
+      ],
+      "settings": {
+        "title": "Promotional cards",
+        "scrollable": true,
+        "design": "4",
+        "color_scheme": "background-1",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
     }
   },
   "order": [
@@ -98,6 +173,7 @@
     "collection_description_DfKNcD",
     "banner",
     "collection-description",
-    "product-grid"
+    "product-grid",
+    "section_promo_cards_TFimpk"
   ]
 }
