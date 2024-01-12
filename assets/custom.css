@@ -3276,53 +3276,21 @@ price-range input {
 
 .pdp-usps {
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
-.pdp-usps .global-usps {
-  margin-left: -20px;
-  width: calc(100% + 40px);
+.pdp-usps .usp__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-@media (min-width: 1024px) {
-  .pdp-usps .global-usps {
-    margin-left: 0;
-    width: 100%;
-  }
-}
-.pdp-usps .global-usps__usp {
-  justify-content: flex-start;
-  margin-left: 0;
-}
-.pdp-usps .global-usps__inner {
-  background: #F6F6F6;
-  color: rgb(var(--color-background));
-  border-radius: 0;
-}
-@media (min-width: 1024px) {
-  .pdp-usps .global-usps__inner {
-    grid-auto-columns: auto;
-    grid-auto-flow: inherit;
-    padding: 20px 28px;
-  }
-}
-.pdp-usps .global-usps__inner h4 {
-  color: rgb(var(--color-background));
-  max-width: none !important;
-}
-@media (min-width: 1024px) {
-  .pdp-usps .global-usps__inner h4 {
-    font-size: 18px;
-  }
-}
-.pdp-usps .global-usps__inner p {
-  color: rgb(var(--color-background));
-}
-.pdp-usps .global-usps__inner svg {
-  background-color: rgb(var(--color-background));
-  border-radius: 50%;
-  height: 46px;
-  width: 46px;
-}
-.pdp-usps .global-usps__inner svg circle {
-  stroke: rgb(var(--color-background));
+.pdp-usps .usp__item img {
+  width: 66%;
+  height: 43%;
+  object-fit: contain;
+  /* text-align: center; */
 }
 
 .spr-form-review-rating {

@@ -291,8 +291,61 @@
               %}
 
               {%- when 'usps' -%}
+
+
                 <div class="pdp-usps">
-                  {% render 'global-usps': add_text: "<h4>Buy direct from the people who made it</h4>" %}
+                  {% if block.settings.usp_1 != blank %}
+                    <div class="usp__item">
+                      <img src="{{ block.settings.usp_1 | img_url: '400x' }}" alt="">
+                      {% if block.settings.usp_title_1 != blank %}
+                        <p>{{ block.settings.usp_title_1 }}</p>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.usp_2 != blank %}
+                    <div class="usp__item">
+                      <img src="{{ block.settings.usp_2 | img_url: '400x' }}" alt="">
+                      {% if block.settings.usp_title_2 != blank %}
+                        <p>{{ block.settings.usp_title_2 }}</p>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.usp_3 != blank %}
+                    <div class="usp__item">
+                      <img src="{{ block.settings.usp_3 | img_url: '400x' }}" alt="">
+                      {% if block.settings.usp_title_3 != blank %}
+                        <p>{{ block.settings.usp_title_3 }}</p>
+                      {% endif %}
+                    </div>
+                  {% endif %}                  
+                  {% if block.settings.usp_4 != blank %}
+                    <div class="usp__item">
+                      <img src="{{ block.settings.usp_4 | img_url: '400x' }}" alt="">
+                      {% if block.settings.usp_title_4 != blank %}
+                        <p>{{ block.settings.usp_title_4 }}</p>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.usp_5 != blank %}
+                    <div class="usp__item">
+                      <img src="{{ block.settings.usp_5 | img_url: '400x' }}" alt="">
+                      {% if block.settings.usp_title_5 != blank %}
+                        <p>{{ block.settings.usp_title_5 }}</p>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if block.settings.usp_6 != blank %}
+                    <div class="usp__item">
+                      <img src="{{ block.settings.usp_6 | img_url: '400x' }}" alt="">
+                      {% if block.settings.usp_title_6 != blank %}
+                        <p>{{ block.settings.usp_title_6 }}</p>
+                      {% endif %}
+                    </div>
+                  {% endif %}                                    
+
+
+                  
+                  
                 </div>
 
 
@@ -762,6 +815,96 @@
           "id": "custom_liquid",
           "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
           "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "type": "usps",
+      "name": "USPs",
+      "settings": [
+        {
+          "type": "header",
+          "content": "USP 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "usp_1",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "usp_title_1",
+          "label": "Heading"
+        },
+        {
+          "type": "header",
+          "content": "USP 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "usp_2",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "usp_title_2",
+          "label": "Heading"
+        },
+        {
+          "type": "header",
+          "content": "USP 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "usp_3",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "usp_title_3",
+          "label": "Heading"
+        },
+        {
+          "type": "header",
+          "content": "USP 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "usp_4",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "usp_title_4",
+          "label": "Heading"
+        },
+        {
+          "type": "header",
+          "content": "USP 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "usp_5",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "usp_title_5",
+          "label": "Heading"
+        },
+        {
+          "type": "header",
+          "content": "USP 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "usp_6",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "usp_title_6",
+          "label": "Heading"
         }
       ]
     },
