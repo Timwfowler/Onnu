@@ -123,6 +123,9 @@
         "card_yX9XBg",
         "card_cYajrh"
       ],
+      "custom_css": [
+        ".promo-cards__image img{object-fit: contain}"
+      ],
       "settings": {
         "title": "Certificates",
         "scrollable": true,
