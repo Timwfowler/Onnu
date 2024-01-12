@@ -396,7 +396,7 @@
         "title": "Promotional cards slider showing 4",
         "scrollable": true,
         "design": "4",
-        "color_scheme": "",
+        "color_scheme": "accent-1",
         "no_margin": false,
         "heading_size": "h1"
       }
