@@ -4,7 +4,7 @@
 
 {% unless template.name == 'index' or template.name == 'cart' %}
   <nav class="breadcrumb      {% if template.name != "collection" %} page-width {% endif %}" role="navigation" aria-label="breadcrumbs">
-    <a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home_link_title' | t }}">Home</a>
+    <a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home_link_title' | t }}">Home/</a>
 
     {% if template.name == 'product' %}
 
