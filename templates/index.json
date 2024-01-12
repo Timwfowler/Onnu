@@ -237,7 +237,7 @@
         "text_alignment": "center",
         "color_scheme": "inverse",
         "full_width": true,
-        "no_margin": false
+        "no_margin": true
       }
     }
   },
