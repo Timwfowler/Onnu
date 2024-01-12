@@ -26,6 +26,11 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+    
+
+      .text-image__text,.text-image__heading {
+        max-width: 600px;
+      }
     }
   }
 

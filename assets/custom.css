@@ -1348,6 +1348,9 @@ input:focus, textarea:focus, select:focus {
     flex-direction: column;
     justify-content: center;
   }
+  .text-image__text-wrap .text-image__text, .text-image__text-wrap .text-image__heading {
+    max-width: 600px;
+  }
 }
 .text-image__image {
   width: 100%;
