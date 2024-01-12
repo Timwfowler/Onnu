@@ -442,7 +442,7 @@
       "type": "section-featured-collection",
       "settings": {
         "title": "Featured collection grid",
-        "home_featured_products": "dummy-collection",
+        "home_featured_products": "biochar-for-lawns-and-turfs",
         "scrollable": false,
         "count": 8,
         "design": "4",
@@ -457,31 +457,31 @@
         "7687bb64-ea30-4079-9256-481817cb6ebe": {
           "type": "product",
           "settings": {
-            "product": "ella-oversized-jacket-in-pink"
+            "product": "biocompost-seed-horticulture"
           }
         },
         "50dd5a0d-9a30-4847-a4d8-52894fb01ede": {
           "type": "product",
           "settings": {
-            "product": "cropped-boxy-top-in-off-white"
+            "product": "nutrichar-enriched-shrub-fertilizer"
           }
         },
         "debaa222-7353-48aa-84d4-7d69498bf53e": {
           "type": "product",
           "settings": {
-            "product": "lilac-vest"
+            "product": "soil-revitalizer-rural-trees-and-shrubs"
           }
         },
         "f1ef846a-d4c6-40e6-b91d-d0267d94456b": {
           "type": "product",
           "settings": {
-            "product": "midi-jumper-dress"
+            "product": "biocompost-urban-tree-blend"
           }
         },
         "82ace671-2d23-4d64-9ed5-f89ce05bcf54": {
           "type": "product",
           "settings": {
-            "product": "dummy-one"
+            "product": "biocompost-urban-tree-blend"
           }
         }
       },
