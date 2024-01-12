@@ -12,7 +12,7 @@
             "layout": "bottom-left",
             "subheading": "Unleashing the power of Biochar",
             "show_below": true,
-            "heading": "Collection one",
+            "heading": "{{ collection.title }}",
             "button_label": "",
             "link": "",
             "button_label_two": "",
