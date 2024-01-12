@@ -1278,6 +1278,7 @@ input:focus, textarea:focus, select:focus {
   left: 0;
   height: 100%;
   width: 100%;
+  object-position: 38% 39%;
 }
 .slideshow__text-wrapper {
   justify-content: flex-start;
