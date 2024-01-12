@@ -42,58 +42,6 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "fcf40ff8-c6ea-4548-b461-c2cb74e37cb8": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size & Fit",
-            "icon": "none",
-            "content": "<p>Model's height: 173cm\/5'8\"Model is wearing: Size Medium<\/p>",
-            "page": ""
-          }
-        },
-        "ddec527e-cd15-48f7-9725-c68facb5a417": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Free Delivery and Returns",
-            "icon": "none",
-            "content": "",
-            "page": "wysisg-page"
-          }
-        },
-        "5201ab63-3170-4602-9d0c-a9f7a8e1cac2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How This Was Made",
-            "icon": "none",
-            "content": "<p>Model's height: 173cm\/5'8\"Model is wearing: Size Medium<\/p>",
-            "page": ""
-          }
-        },
-        "df993a83-3a30-4725-beb1-fd777fa0f426": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 1,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
-        },
-        "ac62ce03-58d0-4eae-ae57-ce69082f58cc": {
-          "type": "popup",
-          "settings": {
-            "text": "Auto popup",
-            "page": "sustainability"
-          }
         }
       },
       "block_order": [
@@ -103,13 +51,7 @@
         "6c34ba82-ff66-46e0-8960-7ced1c39d385",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "description",
-        "fcf40ff8-c6ea-4548-b461-c2cb74e37cb8",
-        "ddec527e-cd15-48f7-9725-c68facb5a417",
-        "5201ab63-3170-4602-9d0c-a9f7a8e1cac2",
-        "df993a83-3a30-4725-beb1-fd777fa0f426",
-        "ac62ce03-58d0-4eae-ae57-ce69082f58cc"
+        "buy_buttons"
       ],
       "settings": {
         "image_zoom": "lightbox",
