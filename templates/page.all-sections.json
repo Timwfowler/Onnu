@@ -232,8 +232,8 @@
             "video_url": "",
             "desktop_width": "half",
             "text_alignment": "top-left",
-            "color_scheme": "scheme_1",
-            "text_protection": 0,
+            "color_scheme": "inverse",
+            "text_protection": 40,
             "sub_heading": "",
             "heading": "100% Vintage Style",
             "heading_size": "h4",
@@ -290,6 +290,7 @@
         "3c71b910-8611-460c-a5d9-c5af870e2ff2": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/a654fc8ba0144ab5304a215360361dd7b713d6bf-1424x1064.webp",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -300,6 +301,7 @@
         "909213cc-2528-45d9-89cf-a6a071de03b4": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/horticulture_hero.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
