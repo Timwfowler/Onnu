@@ -145,6 +145,53 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "section_collection_list_yyAqfH": {
+      "type": "section-collection-list",
+      "blocks": {
+        "featured_collection_YmxzBz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "biochar-for-agriculture",
+            "title": ""
+          }
+        },
+        "featured_collection_GVbHLj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "biochar-for-horticulture",
+            "title": ""
+          }
+        },
+        "featured_collection_NDJqBM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "biochar-for-lawns-and-turfs",
+            "title": ""
+          }
+        },
+        "featured_collection_XUGjbW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "biochar-for-trees",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_YmxzBz",
+        "featured_collection_GVbHLj",
+        "featured_collection_NDJqBM",
+        "featured_collection_XUGjbW"
+      ],
+      "settings": {
+        "title": "Explore other applications",
+        "color_scheme": "",
+        "design": "imgs",
+        "no_margin": false,
+        "columns": "4",
+        "heading_size": "h3"
+      }
     }
   },
   "order": [
@@ -152,6 +199,7 @@
     "product_description_CdF9gY",
     "section_collapsible_content_Ng9dY3",
     "related-products",
-    "b4acc032-b36b-4e53-9a0b-0034cd4e5135"
+    "b4acc032-b36b-4e53-9a0b-0034cd4e5135",
+    "section_collection_list_yyAqfH"
   ]
 }
