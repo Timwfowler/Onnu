@@ -555,58 +555,59 @@
         "ae1a1c1a-69a5-41cc-a7ce-35ed5ed6f6cf": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png"
           }
         },
-        "ec5c9367-21c9-45ef-aa65-dbc010c5a700": {
+        "logo_MaDjy8": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EBC_logo_360_c606442b-ad58-495c-b371-d0f3ae49afb8.png"
+          }
+        },
+        "logo_NmWztG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png"
           }
         },
         "9c7f1ba5-7eed-450f-b095-4c1a80f42673": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Soil_Association-logo-264E43B735-seeklogo.com.png"
           }
         },
-        "1a42ce8d-1314-4a66-a409-2779a10e35ab": {
+        "logo_gDhPaM": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png"
           }
         },
-        "f3f7dc2b-8c3a-47be-be5f-3b1dff767a13": {
+        "ec5c9367-21c9-45ef-aa65-dbc010c5a700": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EBC_logo_360_c606442b-ad58-495c-b371-d0f3ae49afb8.png"
           }
         },
-        "09abc5dd-bf43-44a7-ad70-38cfe8b7e7e9": {
+        "logo_Rr34G6": {
           "type": "logo",
           "settings": {
-          }
-        },
-        "6e7f9a53-4e0e-4df9-a351-bb0d3f74b6c4": {
-          "type": "logo",
-          "settings": {
-          }
-        },
-        "0d466914-8a4d-4274-953c-715719bcb950": {
-          "type": "logo",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/Soil_Association-logo-264E43B735-seeklogo.com.png"
           }
         }
       },
       "block_order": [
         "ae1a1c1a-69a5-41cc-a7ce-35ed5ed6f6cf",
-        "ec5c9367-21c9-45ef-aa65-dbc010c5a700",
+        "logo_MaDjy8",
+        "logo_NmWztG",
         "9c7f1ba5-7eed-450f-b095-4c1a80f42673",
-        "1a42ce8d-1314-4a66-a409-2779a10e35ab",
-        "f3f7dc2b-8c3a-47be-be5f-3b1dff767a13",
-        "09abc5dd-bf43-44a7-ad70-38cfe8b7e7e9",
-        "6e7f9a53-4e0e-4df9-a351-bb0d3f74b6c4",
-        "0d466914-8a4d-4274-953c-715719bcb950"
+        "logo_gDhPaM",
+        "ec5c9367-21c9-45ef-aa65-dbc010c5a700",
+        "logo_Rr34G6"
       ],
       "settings": {
         "title": "Logo list slider",
         "color_scheme": "",
-        "design": "6",
+        "design": "5",
         "no_margin": false,
         "scrollable": true,
         "heading_size": "h1"
