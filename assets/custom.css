@@ -427,36 +427,36 @@ quantity-input button {
   opacity: 1;
 }
 
-.color-inverse, .color-background-2, .color-background-4, .color-background-5 {
+.color-inverse, .color-background-2, .color-background-4, .color-background-5, .color-accent-1 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 @media (min-width: 1024px) {
-  .color-inverse, .color-background-2, .color-background-4, .color-background-5 {
+  .color-inverse, .color-background-2, .color-background-4, .color-background-5, .color-accent-1 {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
-.color-inverse .quick-add__submit:hover .hover-show, .color-background-2 .quick-add__submit:hover .hover-show, .color-background-4 .quick-add__submit:hover .hover-show, .color-background-5 .quick-add__submit:hover .hover-show {
+.color-inverse .quick-add__submit:hover .hover-show, .color-background-2 .quick-add__submit:hover .hover-show, .color-background-4 .quick-add__submit:hover .hover-show, .color-background-5 .quick-add__submit:hover .hover-show, .color-accent-1 .quick-add__submit:hover .hover-show {
   color: rgba(var(--color-background));
 }
-.color-inverse .quick-add .iconsearch path, .color-inverse .quick-add .icon-plus path, .color-background-2 .quick-add .iconsearch path, .color-background-2 .quick-add .icon-plus path, .color-background-4 .quick-add .iconsearch path, .color-background-4 .quick-add .icon-plus path, .color-background-5 .quick-add .iconsearch path, .color-background-5 .quick-add .icon-plus path {
+.color-inverse .quick-add .iconsearch path, .color-inverse .quick-add .icon-plus path, .color-background-2 .quick-add .iconsearch path, .color-background-2 .quick-add .icon-plus path, .color-background-4 .quick-add .iconsearch path, .color-background-4 .quick-add .icon-plus path, .color-background-5 .quick-add .iconsearch path, .color-background-5 .quick-add .icon-plus path, .color-accent-1 .quick-add .iconsearch path, .color-accent-1 .quick-add .icon-plus path {
   stroke: rgba(var(--color-background)) !important;
 }
-.color-inverse.featured-content-cards .promo-cards__textwrap, .color-background-2.featured-content-cards .promo-cards__textwrap, .color-background-4.featured-content-cards .promo-cards__textwrap, .color-background-5.featured-content-cards .promo-cards__textwrap {
+.color-inverse.featured-content-cards .promo-cards__textwrap, .color-background-2.featured-content-cards .promo-cards__textwrap, .color-background-4.featured-content-cards .promo-cards__textwrap, .color-background-5.featured-content-cards .promo-cards__textwrap, .color-accent-1.featured-content-cards .promo-cards__textwrap {
   background: rgb(var(--color-foreground));
 }
-.color-inverse.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-2.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-4.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-5.featured-content-cards .promo-cards__textwrap *:not(.button) {
+.color-inverse.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-2.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-4.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-5.featured-content-cards .promo-cards__textwrap *:not(.button), .color-accent-1.featured-content-cards .promo-cards__textwrap *:not(.button) {
   color: rgb(var(--color-background));
 }
-.color-inverse.newsletter-section input::placeholder, .color-inverse.newsletter-section textarea::placeholder, .color-inverse.contact-form input::placeholder, .color-inverse.contact-form textarea::placeholder, .color-background-2.newsletter-section input::placeholder, .color-background-2.newsletter-section textarea::placeholder, .color-background-2.contact-form input::placeholder, .color-background-2.contact-form textarea::placeholder, .color-background-4.newsletter-section input::placeholder, .color-background-4.newsletter-section textarea::placeholder, .color-background-4.contact-form input::placeholder, .color-background-4.contact-form textarea::placeholder, .color-background-5.newsletter-section input::placeholder, .color-background-5.newsletter-section textarea::placeholder, .color-background-5.contact-form input::placeholder, .color-background-5.contact-form textarea::placeholder {
+.color-inverse.newsletter-section input::placeholder, .color-inverse.newsletter-section textarea::placeholder, .color-inverse.contact-form input::placeholder, .color-inverse.contact-form textarea::placeholder, .color-background-2.newsletter-section input::placeholder, .color-background-2.newsletter-section textarea::placeholder, .color-background-2.contact-form input::placeholder, .color-background-2.contact-form textarea::placeholder, .color-background-4.newsletter-section input::placeholder, .color-background-4.newsletter-section textarea::placeholder, .color-background-4.contact-form input::placeholder, .color-background-4.contact-form textarea::placeholder, .color-background-5.newsletter-section input::placeholder, .color-background-5.newsletter-section textarea::placeholder, .color-background-5.contact-form input::placeholder, .color-background-5.contact-form textarea::placeholder, .color-accent-1.newsletter-section input::placeholder, .color-accent-1.newsletter-section textarea::placeholder, .color-accent-1.contact-form input::placeholder, .color-accent-1.contact-form textarea::placeholder {
   color: rgb(var(--color-background));
 }
-.color-inverse.video-section.full-width-with-margin, .color-background-2.video-section.full-width-with-margin, .color-background-4.video-section.full-width-with-margin, .color-background-5.video-section.full-width-with-margin {
+.color-inverse.video-section.full-width-with-margin, .color-background-2.video-section.full-width-with-margin, .color-background-4.video-section.full-width-with-margin, .color-background-5.video-section.full-width-with-margin, .color-accent-1.video-section.full-width-with-margin {
   padding-top: 0;
   padding-bottom: 0;
 }
-.color-inverse.section-accordian .icon-caret path, .color-background-2.section-accordian .icon-caret path, .color-background-4.section-accordian .icon-caret path, .color-background-5.section-accordian .icon-caret path {
+.color-inverse.section-accordian .icon-caret path, .color-background-2.section-accordian .icon-caret path, .color-background-4.section-accordian .icon-caret path, .color-background-5.section-accordian .icon-caret path, .color-accent-1.section-accordian .icon-caret path {
   stroke: rgb(var(--color-foreground));
 }
 
