@@ -7,12 +7,24 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "section_contact_form_xWWz4B": {
+      "type": "section-contact-form",
+      "settings": {
+        "title": "Contact us",
+        "content": "<p>Add some text here<\/p>",
+        "color_scheme": "",
+        "no_margin": false,
+        "heading_size": "h2"
       }
     }
   },
   "order": [
     "section_breadcrumbs_LAYVdx",
-    "main"
+    "main",
+    "section_contact_form_xWWz4B"
   ]
 }
