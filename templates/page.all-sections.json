@@ -209,6 +209,7 @@
         "34083516-ff8d-42bd-9963-ea599395e8eb": {
           "type": "grid",
           "settings": {
+            "image": "shopify:\/\/shop_images\/a654fc8ba0144ab5304a215360361dd7b713d6bf-1424x1064.webp",
             "video_url": "",
             "desktop_width": "half",
             "text_alignment": "middle-left",
@@ -219,6 +220,25 @@
             "heading_size": "h4",
             "button_label": "Button",
             "button_link": "#",
+            "button_label_2": "",
+            "button_link_2": "",
+            "description": ""
+          }
+        },
+        "grid_tNmNpf": {
+          "type": "grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.jpg",
+            "video_url": "",
+            "desktop_width": "half",
+            "text_alignment": "top-left",
+            "color_scheme": "scheme_1",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "100% Vintage Style",
+            "heading_size": "h4",
+            "button_label": "Home",
+            "button_link": "\/",
             "button_label_2": "",
             "button_link_2": "",
             "description": ""
@@ -245,6 +265,7 @@
       },
       "block_order": [
         "34083516-ff8d-42bd-9963-ea599395e8eb",
+        "grid_tNmNpf",
         "8568a095-0417-4590-bea9-5d1ec5f20883"
       ],
       "settings": {
