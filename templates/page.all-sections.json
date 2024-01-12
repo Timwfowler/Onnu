@@ -786,7 +786,7 @@
         "title": "FAQs",
         "content": "<p>Add some text here<\/p>",
         "color_scheme": "inverse",
-        "no_margin": false,
+        "no_margin": true,
         "heading_size": "h2"
       }
     }
