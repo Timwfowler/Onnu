@@ -186,7 +186,7 @@
       ],
       "settings": {
         "title": "Explore other applications",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "design": "imgs",
         "no_margin": false,
         "columns": "4",
