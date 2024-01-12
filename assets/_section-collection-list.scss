@@ -90,6 +90,7 @@
       white-space: normal;
       max-width: calc(100% - 20px);
       font-size: 13px;
+      word-break: break-word;
 
       @include breakpoint(md){
         font-size: 15px;

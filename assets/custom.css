@@ -1515,6 +1515,7 @@ input:focus, textarea:focus, select:focus {
   white-space: normal;
   max-width: calc(100% - 20px);
   font-size: 13px;
+  word-break: break-word;
 }
 @media (min-width: 1024px) {
   .collection-list__card .button {
