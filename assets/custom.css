@@ -863,7 +863,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 .header--dropdown header {
-  align-items: flex-start;
+  align-items: center;
 }
 .header--dropdown .header__inline-menu {
   padding-top: 5px;
