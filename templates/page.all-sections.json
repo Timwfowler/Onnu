@@ -461,7 +461,7 @@
         "scrollable": true,
         "count": 4,
         "design": "4",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "no_margin": false,
         "heading_size": "h1"
       }
