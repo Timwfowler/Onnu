@@ -152,6 +152,7 @@
         "66f6eba2-94d1-462a-82b3-ab46a2cc332f": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Soil_Testing-unpaid.jpg",
             "subheading": "",
             "heading": "Soil Testing",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -162,6 +163,7 @@
         "1d25f3de-6a1f-4669-96c5-80ec4c479a1c": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/soil_consulting-unpaid.jpg",
             "subheading": "",
             "heading": "Soil Consultation",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -172,6 +174,7 @@
         "b4fa6c42-2f4c-419c-a8a4-312f4efcc333": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/truckv1.png",
             "subheading": "",
             "heading": "Transportation",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
