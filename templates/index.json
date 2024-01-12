@@ -94,15 +94,15 @@
         "template--21745040523557__2aa64823-3250-4f9d-aa30-367f74081903-featured_collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dummy-collection",
+            "collection": "biochar-for-trees",
             "title": ""
           }
         },
         "template--21745040523557__2aa64823-3250-4f9d-aa30-367f74081903-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses",
-            "title": ""
+            "collection": "biochar-for-horticulture",
+            "title": "For Horticulture"
           }
         },
         "template--21745040523557__2aa64823-3250-4f9d-aa30-367f74081903-featured_collection-3": {
