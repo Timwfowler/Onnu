@@ -14,7 +14,6 @@
         },
         "0fd3c49e-9309-4aee-bb6b-74ab27d7ec78": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
