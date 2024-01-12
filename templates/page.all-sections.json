@@ -498,7 +498,7 @@
         "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-3": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "swatch"
+            "picker_type": "button"
           }
         },
         "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-4": {
