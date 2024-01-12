@@ -37,54 +37,17 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-      }
-    },
-    "6eb0ea0b-1b87-48e9-b13a-a37624bc01d9": {
-      "type": "section-rich-text",
+    "collection_description_DfKNcD": {
+      "type": "collection-description",
       "blocks": {
-        "template--21745040654629__6eb0ea0b-1b87-48e9-b13a-a37624bc01d9-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Rich text (centred) white bg",
-            "heading_size": "h2"
-          }
-        },
-        "template--21745040654629__6eb0ea0b-1b87-48e9-b13a-a37624bc01d9-text-1": {
+        "text_yBkxD6": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--21745040654629__6eb0ea0b-1b87-48e9-b13a-a37624bc01d9-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_label_3": "",
-            "button_link_3": ""
-          }
-        },
-        "cd2d04ae-3811-4abd-b869-617b0efd7209": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "template--21745040654629__6eb0ea0b-1b87-48e9-b13a-a37624bc01d9-heading-1",
-        "template--21745040654629__6eb0ea0b-1b87-48e9-b13a-a37624bc01d9-text-1",
-        "template--21745040654629__6eb0ea0b-1b87-48e9-b13a-a37624bc01d9-button-1",
-        "cd2d04ae-3811-4abd-b869-617b0efd7209"
+        "text_yBkxD6"
       ],
       "settings": {
         "content_alignment": "left",
@@ -92,6 +55,11 @@
         "color_scheme": "",
         "full_width": true,
         "no_margin": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
       }
     },
     "collection-description": {
@@ -127,8 +95,8 @@
   },
   "order": [
     "29f37c81-de94-49e5-a613-6e4274238d25",
+    "collection_description_DfKNcD",
     "banner",
-    "6eb0ea0b-1b87-48e9-b13a-a37624bc01d9",
     "collection-description",
     "product-grid"
   ]
