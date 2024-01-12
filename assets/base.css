@@ -423,16 +423,19 @@ blockquote {
 table:not([class]) {
   table-layout: fixed;
   border-collapse: collapse;
-  font-size: 1.4rem;
   border-style: hidden;
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.2);
+
   /* draws the table border  */
 }
 
 table:not([class]) td,
 table:not([class]) th {
   padding: 1em;
-  border: 0.1rem solid rgba(var(--color-foreground), 0.2);
+  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+  border-left: none;
+    border-right: none;
+    padding-left: 0;
+    padding-right: 40px;
 }
 
 @media screen and (max-width: 749px) {
@@ -3084,8 +3087,8 @@ details-disclosure > details {
 
 @media screen and (min-width: 750px) {
   .rte table td {
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
+    padding-left: 0;
+    padding-right: 40px;
   }
 }
 
