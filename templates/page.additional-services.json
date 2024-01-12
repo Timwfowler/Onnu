@@ -53,11 +53,28 @@
         "full_width": true,
         "no_margin": false
       }
+    },
+    "section_image_text_9hGyNw": {
+      "type": "section-image-text",
+      "settings": {
+        "no_margin": false,
+        "color_scheme": "",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/bespoke_blends-unpaid.jpg",
+        "heading": "Bespoke Blends",
+        "heading_size": "h3",
+        "text": "<p>Discover bespoke biochar blend development, tailored to your specific needs. Our expert team collaborates with you to create the perfect biochar blend for your agricultural, landscaping, or environmental project. With a focus on optimizing soil health and enhancing plant growth, we ensure a product uniquely suited to your goals. Explore custom solutions and dedicated support to maximize the benefits of your biochar blend.<\/p>",
+        "button_label": "Button",
+        "button_link": "",
+        "button_label_2": "",
+        "button_link_2": ""
+      }
     }
   },
   "order": [
     "section_breadcrumbs_LAYVdx",
     "main",
-    "section_rich_text_eYEHwL"
+    "section_rich_text_eYEHwL",
+    "section_image_text_9hGyNw"
   ]
 }
