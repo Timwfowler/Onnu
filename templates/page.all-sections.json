@@ -12,14 +12,13 @@
         "template--18894188511525__5e5b550e-7625-413f-8aca-8a99e7ff30fd-16838967495f9867d7-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/zdhhh.png",
-            "image_mob": "shopify:\/\/shop_images\/Group_17gg.png",
-            "text_protection": 60,
+            "image": "shopify:\/\/shop_images\/Lawns_hero.png",
+            "text_protection": 30,
             "color_scheme": "inverse",
             "layout": "bottom-left",
             "subheading": "Unleashing the power of Biochar",
             "show_below": true,
-            "heading": "All\nSections",
+            "heading": "AllSections",
             "button_label": "Button one",
             "link": "#",
             "button_label_two": "Button Two",
@@ -197,7 +196,9 @@
       ],
       "settings": {
         "title": "Collections",
+        "color_scheme": "",
         "design": "imgs",
+        "no_margin": false,
         "columns": "4",
         "heading_size": "h1"
       }
@@ -208,8 +209,6 @@
         "34083516-ff8d-42bd-9963-ea599395e8eb": {
           "type": "grid",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rh.png",
-            "image_mob": "shopify:\/\/shop_images\/KnobblyHoody.jpg",
             "video_url": "",
             "desktop_width": "half",
             "text_alignment": "middle-left",
@@ -260,7 +259,6 @@
         "0126468f-82d2-4200-9780-a4f59e8851a5": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_3.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -271,7 +269,6 @@
         "3c71b910-8611-460c-a5d9-c5af870e2ff2": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_10_2_38f57bb1-1908-4474-93df-dc2812e710cc.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -282,7 +279,6 @@
         "909213cc-2528-45d9-89cf-a6a071de03b4": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_2_e78cc3aa-39dd-41fc-99c1-6fb3670e4e2d.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
@@ -354,7 +350,6 @@
         "36e1652f-29da-4368-9df5-355d8598e2dc": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_10_5.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "",
@@ -365,7 +360,6 @@
         "e412a5a5-73e7-4aae-91d9-b0944ca98c3a": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_10_4.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "",
@@ -376,7 +370,6 @@
         "e2face11-5b93-4381-8450-16b9c1f1313d": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wide-shot-jumper.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "",
@@ -387,7 +380,6 @@
         "2d4dcd8d-1e68-456a-85a7-24ad9ecc32cf": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Producthero.jpg",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "",
@@ -398,7 +390,6 @@
         "2fda3f23-1655-4ad0-b7ce-b07d5f85ef32": {
           "type": "card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/black-shoe.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "",
@@ -431,6 +422,7 @@
         "scrollable": false,
         "count": 8,
         "design": "4",
+        "color_scheme": "",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -482,6 +474,7 @@
         "scrollable": true,
         "count": 4,
         "design": "4",
+        "color_scheme": "",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -491,6 +484,8 @@
       "settings": {
         "title": "Featured blog",
         "home_featured_blog": "news",
+        "no_margin": false,
+        "color_scheme": "",
         "count": 3,
         "design": "3",
         "scrollable": false,
@@ -547,6 +542,7 @@
       ],
       "settings": {
         "product": "dummy-one",
+        "no_margin": false,
         "color_scheme": "background-1",
         "secondary_background": false,
         "image_zoom": "lightbox",
@@ -608,6 +604,8 @@
       "settings": {
         "title": "Custom blog list",
         "home_featured_blog": "",
+        "no_margin": false,
+        "color_scheme": "",
         "count": 4,
         "design": "4",
         "scrollable": true,
@@ -624,7 +622,6 @@
         "full_width": true,
         "no_margin": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=CkJOTnsWY6M",
-        "cover_image": "shopify:\/\/shop_images\/Lifestyle_-_Small_156b8d17-a2b4-4e9d-b0a3-1841a1f31c43.png",
         "text_alignment": "bottom-left",
         "text_protection": 30,
         "color_scheme": "white",
@@ -643,49 +640,41 @@
         "ae1a1c1a-69a5-41cc-a7ce-35ed5ed6f6cf": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector.svg"
           }
         },
         "ec5c9367-21c9-45ef-aa65-dbc010c5a700": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Footer-leaf.svg"
           }
         },
         "9c7f1ba5-7eed-450f-b095-4c1a80f42673": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fill_211.svg"
           }
         },
         "1a42ce8d-1314-4a66-a409-2779a10e35ab": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/customer-service.svg"
           }
         },
         "f3f7dc2b-8c3a-47be-be5f-3b1dff767a13": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bespoke-service.svg"
           }
         },
         "09abc5dd-bf43-44a7-ad70-38cfe8b7e7e9": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bug-insect-code-development-svgrepo-com.svg"
           }
         },
         "6e7f9a53-4e0e-4df9-a351-bb0d3f74b6c4": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/27323.svg"
           }
         },
         "0d466914-8a4d-4274-953c-715719bcb950": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fill_211.svg"
           }
         }
       },
@@ -701,7 +690,9 @@
       ],
       "settings": {
         "title": "Logo list slider",
+        "color_scheme": "",
         "design": "6",
+        "no_margin": false,
         "scrollable": true,
         "heading_size": "h1"
       }
@@ -738,7 +729,9 @@
       ],
       "settings": {
         "title": "Collections",
+        "color_scheme": "",
         "design": "btns",
+        "no_margin": false,
         "columns": "6",
         "heading_size": "h1"
       }
@@ -749,37 +742,31 @@
         "597ba726-b619-49a5-bfa1-7c8f55062a05": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/customer-service.svg"
           }
         },
         "de52306c-9e6c-4a74-bdb4-919b970d158f": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bespoke-service.svg"
           }
         },
         "46571572-6711-4b26-83b4-38dc71759c6d": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Footer-leaf.svg"
           }
         },
         "d848ae47-edee-450a-aaed-604b0f6c79aa": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bug-insect-code-development-svgrepo-com.svg"
           }
         },
         "602f0d24-dda2-4c23-a4b9-3f21b4901842": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vector.svg"
           }
         },
         "0f9a2bd8-6c55-4cd9-81c2-5d14a780f503": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fill_211.svg"
           }
         }
       },
@@ -793,7 +780,9 @@
       ],
       "settings": {
         "title": "Logo list",
+        "color_scheme": "",
         "design": "6",
+        "no_margin": false,
         "scrollable": false,
         "heading_size": "h1"
       }
@@ -844,6 +833,8 @@
         "open_first_collapsible_row": true,
         "title": "Frequently asked questions",
         "content": "",
+        "color_scheme": "",
+        "no_margin": false,
         "heading_size": "h2"
       }
     },
@@ -851,6 +842,7 @@
       "type": "section-email-signup-banner",
       "settings": {
         "title": "Sign up for alerts and get 10% off",
+        "color_scheme": "",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -860,6 +852,7 @@
       "settings": {
         "title": "We are here to help",
         "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
+        "color_scheme": "",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -869,6 +862,7 @@
       "settings": {
         "title": "We are here to help",
         "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
+        "color_scheme": "",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -877,6 +871,7 @@
       "type": "section-email-signup-banner",
       "settings": {
         "title": "Sign up for alerts and get 10% off",
+        "color_scheme": "",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -889,6 +884,7 @@
         "scrollable": false,
         "count": 4,
         "design": "4",
+        "color_scheme": "",
         "no_margin": true,
         "heading_size": "h1"
       }
