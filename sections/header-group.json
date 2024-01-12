@@ -8,21 +8,13 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Sign up for alerts and get 10% off",
-            "link": "#"
-          }
-        },
-        "announcement_LEzy3Y": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Sign up to our newsletter",
+            "link": "#footer-newsletter"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_LEzy3Y"
+        "announcement-bar-0"
       ],
       "settings": {
         "bg": "#000000",
