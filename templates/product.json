@@ -35,6 +35,20 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
+        },
+        "usps_hKtXeg": {
+          "type": "usps",
+          "settings": {
+            "usp_1": "shopify:\/\/shop_images\/EBC.png",
+            "usp_title_1": "EBC certified",
+            "usp_2": "shopify:\/\/shop_images\/b-corp.png",
+            "usp_title_2": "B-Corp certified",
+            "usp_3": "shopify:\/\/shop_images\/leafv3.png",
+            "usp_title_3": "Carbon negative",
+            "usp_title_4": "",
+            "usp_title_5": "",
+            "usp_title_6": ""
+          }
         }
       },
       "block_order": [
@@ -43,7 +57,8 @@
         "28f8de42-eaf4-4052-94d9-909455e10fa5",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "usps_hKtXeg"
       ],
       "settings": {
         "image_zoom": "lightbox",
