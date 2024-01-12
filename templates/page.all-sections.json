@@ -325,49 +325,6 @@
         "heading_size": "h1"
       }
     },
-    "499fa979-421d-4506-b234-3e6b1dc32c82": {
-      "type": "section-rich-text",
-      "blocks": {
-        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Rich text (centred) white bg",
-            "heading_size": "h2"
-          }
-        },
-        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_label_3": "",
-            "button_link_3": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-heading-1",
-        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-text-1",
-        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-button-1"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false
-      }
-    },
     "af1d8c8e-cd5e-4d8e-9257-4d4700f4097c": {
       "type": "section-promo-cards",
       "blocks": {
@@ -442,7 +399,7 @@
       "type": "section-featured-collection",
       "settings": {
         "title": "Featured collection grid",
-        "home_featured_products": "biochar-for-lawns-and-turfs",
+        "home_featured_products": "biochar-for-agriculture",
         "scrollable": false,
         "count": 8,
         "design": "4",
@@ -856,7 +813,6 @@
     "55dab50f-3d38-4ae6-8c98-e9e24d2a3390",
     "b80cdab0-a5ed-4502-a129-7ef234225743",
     "58f6d952-cbb4-4885-9cff-8c56e612b03f",
-    "499fa979-421d-4506-b234-3e6b1dc32c82",
     "af1d8c8e-cd5e-4d8e-9257-4d4700f4097c",
     "67904a40-56f2-49cb-bac3-bb5c86de6e39",
     "be2fcff6-59ac-4b6c-bfb8-6d8b6896cd03",
