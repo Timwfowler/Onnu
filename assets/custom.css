@@ -3291,6 +3291,7 @@ price-range input {
   width: 66%;
   height: 43%;
   object-fit: contain;
+  max-width: 66px;
   /* text-align: center; */
 }
 
