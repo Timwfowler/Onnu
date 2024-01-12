@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "section_breadcrumbs_LAYVdx": {
+      "type": "section-breadcrumbs",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "section_breadcrumbs_LAYVdx",
+    "main"
+  ]
+}
