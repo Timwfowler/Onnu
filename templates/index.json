@@ -37,6 +37,22 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "section_image_text_LXp9Uk": {
+      "type": "section-image-text",
+      "settings": {
+        "no_margin": false,
+        "color_scheme": "",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/Rectangle_2dd.png",
+        "heading": "What is Biochar?",
+        "heading_size": "h3",
+        "text": "<p>Biochar is a carbon-rich material produced through a process known as pyrolysis, which involves the thermal decomposition of organic matter (such as wood, manure, agricultural residues, and other types of biomass) in an environment with limited oxygen.<\/p>",
+        "button_label": "Know more",
+        "button_link": "#",
+        "button_label_2": "",
+        "button_link_2": ""
+      }
+    },
     "5d44f721-1083-441c-862d-58ea9fa4a97c": {
       "type": "section-promo-cards",
       "blocks": {
@@ -201,6 +217,7 @@
   },
   "order": [
     "e98b3c02-a1d0-460f-be28-c436dab9a1e2",
+    "section_image_text_LXp9Uk",
     "5d44f721-1083-441c-862d-58ea9fa4a97c",
     "2aa64823-3250-4f9d-aa30-367f74081903",
     "1b8fd989-dbff-4f7e-ad71-e6a67f924b58"
