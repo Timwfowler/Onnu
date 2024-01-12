@@ -574,72 +574,6 @@
         "enable_video_looping": false
       }
     },
-    "ee627394-2b5b-4b6f-85b6-f692ba6109c3": {
-      "type": "section-blog-posts",
-      "blocks": {
-        "37edb7bc-cb65-4bc7-a629-000e5b5b35f4": {
-          "type": "article",
-          "settings": {
-            "article": "news\/html-article-elements",
-            "custom_title": "",
-            "custom_excerpt": ""
-          }
-        },
-        "e290b6b3-d8cf-404a-9b39-8713dffd03a0": {
-          "type": "article",
-          "settings": {
-            "article": "news\/aw23-latest-news",
-            "custom_title": "",
-            "custom_excerpt": ""
-          }
-        },
-        "caffe905-b341-423b-bbb3-29dae229ee12": {
-          "type": "article",
-          "settings": {
-            "article": "news\/fashion-retail-s-battle-for-third-party-brands",
-            "custom_title": "Custom title",
-            "custom_excerpt": "Custom excerpt"
-          }
-        },
-        "1256c276-6762-4885-b289-daff76139a7f": {
-          "type": "article",
-          "settings": {
-            "article": "news\/why-shopping-centres-are-enjoying-a-retail-renaissance",
-            "custom_title": "",
-            "custom_excerpt": ""
-          }
-        },
-        "4deb4514-600f-4077-8bb3-ee6c687922b8": {
-          "type": "article",
-          "settings": {
-            "article": "news\/leather-and-down-should-brands-fake-it-or-make-it",
-            "custom_title": "",
-            "custom_excerpt": ""
-          }
-        }
-      },
-      "block_order": [
-        "37edb7bc-cb65-4bc7-a629-000e5b5b35f4",
-        "e290b6b3-d8cf-404a-9b39-8713dffd03a0",
-        "caffe905-b341-423b-bbb3-29dae229ee12",
-        "1256c276-6762-4885-b289-daff76139a7f",
-        "4deb4514-600f-4077-8bb3-ee6c687922b8"
-      ],
-      "settings": {
-        "title": "Custom blog list",
-        "home_featured_blog": "",
-        "no_margin": false,
-        "color_scheme": "",
-        "count": 4,
-        "design": "4",
-        "scrollable": true,
-        "view_all": true,
-        "show_date": true,
-        "show_author": false,
-        "show_except": true,
-        "heading_size": "h1"
-      }
-    },
     "6488ddf1-e89e-4e12-9ed1-81e95726e7a3": {
       "type": "section-video",
       "settings": {
@@ -928,7 +862,6 @@
     "be2fcff6-59ac-4b6c-bfb8-6d8b6896cd03",
     "3a09cea7-1fbe-4659-ba7f-c8e63110ee35",
     "2f52263b-845d-4e91-87ca-f8e59aa26d5d",
-    "ee627394-2b5b-4b6f-85b6-f692ba6109c3",
     "6488ddf1-e89e-4e12-9ed1-81e95726e7a3",
     "de9a1b95-a57b-4b79-8740-468fe47a87c1",
     "e35db63e-c58a-4ef4-83d4-8ce8ff546291",
