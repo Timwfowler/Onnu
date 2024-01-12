@@ -91,6 +91,22 @@
         "no_margin": false
       }
     },
+    "section_image_text_MaNyTm": {
+      "type": "section-image-text",
+      "settings": {
+        "no_margin": true,
+        "color_scheme": "background-2",
+        "layout": "left",
+        "image": "shopify:\/\/shop_images\/Lawns_hero.png",
+        "heading": "Image & text",
+        "heading_size": "h3",
+        "text": "<p>Soft engineered mesh has 3 advantages to help your next run: lightweight so you can feel fast; structured fit for stability; and breathability for airflow so your feet stay cool.<\/p>",
+        "button_label": "Button",
+        "button_link": "",
+        "button_label_2": "",
+        "button_link_2": ""
+      }
+    },
     "b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4": {
       "type": "section-rich-text",
       "blocks": {
@@ -752,6 +768,7 @@
     "main",
     "0226ae9e-a46f-41a4-a92a-dd773488ecea",
     "3b747367-8f92-47ca-b8c0-4de79bcc65d4",
+    "section_image_text_MaNyTm",
     "b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4",
     "55dab50f-3d38-4ae6-8c98-e9e24d2a3390",
     "b80cdab0-a5ed-4502-a129-7ef234225743",
