@@ -1,5 +1,5 @@
 <div class="text-image">
-  <div class="text-image__inner page-width {% if section.settings.no_margin %} page-width--no-margin {% endif %}">
+  <div class="text-image__inner page-width index-section {% if section.settings.no_margin %} page-width--no-margin {% endif %} text-image__inner--{{ section.settings.layout   }} color-{{ section.settings.color_scheme }}">
     <div class="text-image__image">
       {% if section.settings.image_mob != blank %}
         <picture>
@@ -15,13 +15,20 @@
         </picture>
       {% endif %}
     </div>
-    <div class="text-image__text-wrap max-width">
+    <div class="text-image__text-wrap">
+      {% if section.settings.heading != blank %}
       <h2 class="text-image__heading text {{ section.settings.heading_size }}" {{ section.shopify_attributes }}>
         {{ section.settings.heading }}
       </h2>
+      {% endif %}
+
+      {% if section.settings.text != blank %}
       <div class="text-image__text {{ section.settings.text_style }}" {{ section.shopify_attributes }}>
         {{ section.settings.text }}
       </div>
+      {% endif %}
+
+
       <div class="text-image__buttons{% if section.settings.button_label != blank and section.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
         {%- if section.settings.button_label != blank -%}
           {% render 'component-button', label: section.settings.button_label, link: section.settings.button_link %}
@@ -34,11 +41,11 @@
   </div>
 </div>
 
-{%- comment -%}
+
 
 {% schema %}
   {
-    "name": "New Image with text",
+    "name": "Image with text",
     "class": "section index-section",
     "disabled_on": {
       "groups": ["header", "footer"]
@@ -50,6 +57,28 @@
       "label": "Remove section space below",
       "default": false
     },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "scheme_1",
+      "label": "Color Scheme"
+    },      
+    {
+        "type": "select",
+        "id": "layout",
+        "label": "Image position",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
       {
         "type": "image_picker",
         "id": "image",
@@ -123,10 +152,9 @@
     ],
     "presets": [
       {
-        "name": "New Image with text"
+        "name": "Image with text"
       }
     ]
   }
 {% endschema %}
 
-{%- endcomment -%}

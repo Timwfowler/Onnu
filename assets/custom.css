@@ -1329,37 +1329,60 @@ input:focus, textarea:focus, select:focus {
   margin-bottom: 10px;
   gap: 10px;
 }
+@media (min-width: 1024px) {
+  .text-image__inner {
+    display: flex;
+    gap: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .text-image__inner--right {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 1024px) {
+  .text-image__text-wrap {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .text-image__image {
+  width: 100%;
+  height: auto;
   margin-bottom: 20px;
 }
 @media (min-width: 1024px) {
   .text-image__image {
-    margin-bottom: 40px;
+    width: 50%;
+    margin-bottom: 0;
   }
 }
 .text-image__image img {
   width: 100%;
+  height: auto;
 }
-.text-image__heading {
-  display: flex;
-  justify-content: center;
+@media (min-width: 1024px) {
+  .text-image__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: calc(50vw - 120px);
+  }
 }
 .text-image__text {
-  display: flex;
-  justify-content: center;
   padding: 20px 0px 0px 0px;
 }
 .text-image__text p {
   margin: 0;
 }
 .text-image__buttons {
-  display: flex;
-  justify-content: center;
   padding-top: 30px;
 }
 .text-image__buttons .button {
-  margin-right: 10px;
-  margin-left: 10px;
+  width: fit-content;
 }
 
 .promo-cards__inner {
