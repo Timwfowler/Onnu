@@ -619,21 +619,28 @@
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses",
+            "collection": "biochar-for-trees",
             "title": ""
           }
         },
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dummy-collection",
+            "collection": "biochar-for-lawns-and-turfs",
             "title": ""
           }
         },
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "urban-collection",
+            "collection": "biochar-for-agriculture",
+            "title": ""
+          }
+        },
+        "featured_collection_cYMVBB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "biochar-for-lawns-and-turfs",
             "title": ""
           }
         }
@@ -641,7 +648,8 @@
       "block_order": [
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-0",
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-1",
-        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-2"
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-2",
+        "featured_collection_cYMVBB"
       ],
       "settings": {
         "title": "Collections",
