@@ -1308,6 +1308,8 @@ input:focus, textarea:focus, select:focus {
 }
 .rich-text__blocks {
   width: 100%;
+  max-width: 100vw;
+  overflow: scroll;
 }
 .rich-text__blocks--left {
   margin-left: 0;
