@@ -172,11 +172,11 @@
       },
       "background-2": {
         "settings": {
-          "background": "#6c7182",
+          "background": "#f3f3f3",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#8ca23b",
-          "button_label": "#ffffff",
+          "text": "#121212",
+          "button": "#ffffff",
+          "button_label": "#3b3d3f",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
