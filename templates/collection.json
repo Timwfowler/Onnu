@@ -89,6 +89,11 @@
         "no_margin": false
       }
     },
+    "collection-description": {
+      "type": "collection-description",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -119,6 +124,7 @@
     "29f37c81-de94-49e5-a613-6e4274238d25",
     "6eb0ea0b-1b87-48e9-b13a-a37624bc01d9",
     "banner",
+    "collection-description",
     "product-grid"
   ]
 }
