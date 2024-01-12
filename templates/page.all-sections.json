@@ -157,7 +157,7 @@
       "settings": {
         "content_alignment": "left",
         "text_alignment": "left",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "full_width": true,
         "no_margin": false
       }
