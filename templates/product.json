@@ -119,7 +119,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -133,207 +132,9 @@
         "columns_mobile": "2"
       }
     },
-    "b023b084-14a4-4ac9-b918-08e1cd0b02b6": {
-      "type": "section-featured-collection",
-      "blocks": {
-        "ed4ef977-167a-48a6-9132-948b59d364ad": {
-          "type": "product",
-          "settings": {
-            "product": "sweat-seamless-long-sleeve-crop-top-1"
-          }
-        },
-        "a3c1a138-31af-4e37-bccc-45c0581053df": {
-          "type": "product",
-          "settings": {
-            "product": "sweat-seamless-long-sleeve-crop-top"
-          }
-        },
-        "4d49aa88-67f9-4f5f-b241-64c44b05d353": {
-          "type": "product",
-          "settings": {
-            "product": "sweat-seamless-long-sleeve-crop-top-2"
-          }
-        }
-      },
-      "block_order": [
-        "ed4ef977-167a-48a6-9132-948b59d364ad",
-        "a3c1a138-31af-4e37-bccc-45c0581053df",
-        "4d49aa88-67f9-4f5f-b241-64c44b05d353"
-      ],
-      "settings": {
-        "title": "Complete the look",
-        "home_featured_products": "",
-        "scrollable": false,
-        "count": 3,
-        "design": "3",
-        "no_margin": false,
-        "heading_size": "h1"
-      }
-    },
-    "1684827641a29ec28f": {
-      "type": "apps",
-      "blocks": {
-        "65364fd2-c914-4637-b66c-c18938538ca8": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "65364fd2-c914-4637-b66c-c18938538ca8"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "88f76f97-f3cb-4466-87f2-76f68c1f65a9": {
-      "type": "section-rich-text",
-      "blocks": {
-        "template--18893738705189__88f76f97-f3cb-4466-87f2-76f68c1f65a9-16871869683c77b2b0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Explore the Sweat Seamless Long Sleeve Crop Top",
-            "heading_size": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "template--18893738705189__88f76f97-f3cb-4466-87f2-76f68c1f65a9-16871869683c77b2b0-0"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false
-      }
-    },
-    "15b735a6-86c4-4e2c-b68c-87d53821a20b": {
-      "type": "section-rich-text",
-      "blocks": {
-        "template--18893738705189__15b735a6-86c4-4e2c-b68c-87d53821a20b-168697949568932468-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Spring 23 Collection",
-            "heading_size": "h3"
-          }
-        },
-        "template--18893738705189__15b735a6-86c4-4e2c-b68c-87d53821a20b-168697949568932468-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Elevate your wardrobe with Urban Collection.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18893738705189__15b735a6-86c4-4e2c-b68c-87d53821a20b-168697949568932468-0",
-        "template--18893738705189__15b735a6-86c4-4e2c-b68c-87d53821a20b-168697949568932468-1"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false
-      }
-    },
-    "610308c4-2e97-4c0b-bcef-4ad93af80dbb": {
-      "type": "section-rich-text",
-      "blocks": {
-        "20fa6a41-c57f-40a4-b644-b98648c45bf5": {
-          "type": "heading",
-          "settings": {
-            "heading": "Breathable Comfort",
-            "heading_size": "h3"
-          }
-        },
-        "69fa6a5f-9dd1-44dc-b3d4-917086e4616c": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stay refreshed & feel the difference with our breathable comfrtable design<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "20fa6a41-c57f-40a4-b644-b98648c45bf5",
-        "69fa6a5f-9dd1-44dc-b3d4-917086e4616c"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false
-      }
-    },
-    "9c260e76-c66c-4508-b53a-f0161365b384": {
-      "type": "section-lifestyle-grid",
-      "blocks": {
-        "b6207d6c-03cc-4838-b89f-47520bcd6463": {
-          "type": "grid",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_10_3.png",
-            "video_url": "",
-            "desktop_width": "full",
-            "text_alignment": "top-left",
-            "color_scheme": "black",
-            "text_protection": 0,
-            "sub_heading": "",
-            "heading": "",
-            "heading_size": "h4",
-            "button_label": "",
-            "button_link": "",
-            "button_label_2": "",
-            "button_link_2": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "b6207d6c-03cc-4838-b89f-47520bcd6463"
-      ],
-      "custom_css": [
-        ".lifestyle-grid__inner {margin-bottom: 20px;}",
-        "@media (min-width: 1024px) {.lifestyle-grid__inner {margin-bottom: 40px; }}",
-        "@media (max-width: 1024px) {.lifestyle-grid__card {padding-bottom: 150%; }}"
-      ],
-      "settings": {
-        "section_heading": "",
-        "no_margin": false,
-        "heading_size": "h1"
-      }
-    },
-    "a00f4ca7-86eb-4ba7-b481-bd593b62e499": {
-      "type": "section-rich-text",
-      "blocks": {
-        "f1d0c70c-3a49-42b1-aadb-0817acc4ca51": {
-          "type": "heading",
-          "settings": {
-            "heading": "22 Urban Collection",
-            "heading_size": "h3"
-          }
-        },
-        "c5bcbde9-bdc1-45d9-9433-1e1773adcb67": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Elevate your wardrobe with Urban Collection.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "f1d0c70c-3a49-42b1-aadb-0817acc4ca51",
-        "c5bcbde9-bdc1-45d9-9433-1e1773adcb67"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "no_margin": false
-      }
-    },
     "b4acc032-b36b-4e53-9a0b-0034cd4e5135": {
       "type": "section-recently-viewed",
+      "disabled": true,
       "settings": {
       }
     }
@@ -341,14 +142,6 @@
   "order": [
     "main",
     "related-products",
-    "b023b084-14a4-4ac9-b918-08e1cd0b02b6",
-    "1684827641a29ec28f",
-    "88f76f97-f3cb-4466-87f2-76f68c1f65a9",
-    "15b735a6-86c4-4e2c-b68c-87d53821a20b",
-    
-    "610308c4-2e97-4c0b-bcef-4ad93af80dbb",
-    "9c260e76-c66c-4508-b53a-f0161365b384",
-    "a00f4ca7-86eb-4ba7-b481-bd593b62e499",
     "b4acc032-b36b-4e53-9a0b-0034cd4e5135"
   ]
 }
