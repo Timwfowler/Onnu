@@ -1,0 +1,972 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "0226ae9e-a46f-41a4-a92a-dd773488ecea": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--18894188511525__5e5b550e-7625-413f-8aca-8a99e7ff30fd-16838967495f9867d7-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zdhhh.png",
+            "image_mob": "shopify:\/\/shop_images\/Group_17gg.png",
+            "text_protection": 60,
+            "color_scheme": "inverse",
+            "layout": "bottom-left",
+            "subheading": "Unleashing the power of Biochar",
+            "show_below": true,
+            "heading": "All\nSections",
+            "button_label": "Button one",
+            "link": "#",
+            "button_label_two": "Button Two",
+            "link_two": "#",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__5e5b550e-7625-413f-8aca-8a99e7ff30fd-16838967495f9867d7-0"
+      ],
+      "settings": {
+        "mob_height": 620,
+        "tab_height": 780,
+        "desk_height": 490,
+        "layout": "full_bleed",
+        "no_margin": false,
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "3b747367-8f92-47ca-b8c0-4de79bcc65d4": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18894188511525__3b747367-8f92-47ca-b8c0-4de79bcc65d4-16861963943aef9d76-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text centred white bg",
+            "heading_size": "h2"
+          }
+        },
+        "template--18894188511525__3b747367-8f92-47ca-b8c0-4de79bcc65d4-16861963943aef9d76-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18894188511525__3b747367-8f92-47ca-b8c0-4de79bcc65d4-16861963943aef9d76-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_label_3": "",
+            "button_link_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__3b747367-8f92-47ca-b8c0-4de79bcc65d4-16861963943aef9d76-0",
+        "template--18894188511525__3b747367-8f92-47ca-b8c0-4de79bcc65d4-16861963943aef9d76-1",
+        "template--18894188511525__3b747367-8f92-47ca-b8c0-4de79bcc65d4-16861963943aef9d76-2"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false
+      }
+    },
+    "b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--18894188511525__b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4-168395371840901cb6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rich text (left) black bg",
+            "heading_size": "h3"
+          }
+        },
+        "template--18894188511525__b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4-168395371840901cb6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inlight’s Face Collection overflows with antioxidants, skin-loving vitamins and essential fatty acids to nourish, cleanse and moisturise your skin, leaving it healthy and radiant. Choose our completely natural, synthetic free Cleanser, Tonic and Face Oil for your essential daily regime, with Deep Moisture Balm as the daily choice for drier skin. Gently exfoliate with a weekly Super-Food or Chocolate mask treatment. <\/p><p><\/p><p>For ageless beauty select our Line Softener Intensive, for timeless radiance our Under Eye Revive or Supreme Eye Serum.<\/p>"
+          }
+        },
+        "template--18894188511525__b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4-168395371840901cb6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "#",
+            "button_label_2": "Second button",
+            "button_link_2": "#",
+            "button_label_3": "Third button",
+            "button_link_3": "#"
+          }
+        },
+        "8156a8d9-b1fb-4021-bd09-58b74e573b70": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button without a link",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_label_3": "",
+            "button_link_3": ""
+          }
+        },
+        "40e97355-82d6-4a35-8d4e-2d526efb8d69": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Another Header set to H4",
+            "heading_size": "h4"
+          }
+        },
+        "7f7a7ee7-c7c5-41d3-9ec6-f518f8fb6f2e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4-168395371840901cb6-0",
+        "template--18894188511525__b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4-168395371840901cb6-1",
+        "template--18894188511525__b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4-168395371840901cb6-2",
+        "8156a8d9-b1fb-4021-bd09-58b74e573b70",
+        "40e97355-82d6-4a35-8d4e-2d526efb8d69",
+        "7f7a7ee7-c7c5-41d3-9ec6-f518f8fb6f2e"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "text_alignment": "left",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "no_margin": false
+      }
+    },
+    "55dab50f-3d38-4ae6-8c98-e9e24d2a3390": {
+      "type": "section-collection-list",
+      "blocks": {
+        "template--18894188511525__55dab50f-3d38-4ae6-8c98-e9e24d2a3390-168628952161bff78c-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses",
+            "title": ""
+          }
+        },
+        "c6fa3c01-a688-408e-8a97-aba7d9511111": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "urban-collection",
+            "title": ""
+          }
+        },
+        "d484a2d1-e5c4-4527-9bbd-e222077c132b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vintage-collection",
+            "title": "Title changed"
+          }
+        },
+        "9dd82386-ee07-4f22-a5bf-7f5b033b6969": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "womens-spring-collection",
+            "title": "Title changed"
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__55dab50f-3d38-4ae6-8c98-e9e24d2a3390-168628952161bff78c-2",
+        "c6fa3c01-a688-408e-8a97-aba7d9511111",
+        "d484a2d1-e5c4-4527-9bbd-e222077c132b",
+        "9dd82386-ee07-4f22-a5bf-7f5b033b6969"
+      ],
+      "settings": {
+        "title": "Collections",
+        "design": "imgs",
+        "columns": "4",
+        "heading_size": "h1"
+      }
+    },
+    "b80cdab0-a5ed-4502-a129-7ef234225743": {
+      "type": "section-lifestyle-grid",
+      "blocks": {
+        "34083516-ff8d-42bd-9963-ea599395e8eb": {
+          "type": "grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rh.png",
+            "image_mob": "shopify:\/\/shop_images\/KnobblyHoody.jpg",
+            "video_url": "",
+            "desktop_width": "half",
+            "text_alignment": "middle-left",
+            "color_scheme": "inverse",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "Image uploaded",
+            "heading_size": "h4",
+            "button_label": "Button",
+            "button_link": "#",
+            "button_label_2": "",
+            "button_link_2": "",
+            "description": ""
+          }
+        },
+        "aee253b0-4817-4743-bcf1-1cd7e7704d40": {
+          "type": "grid",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Clouds - 64759.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=zaOP91rqntk",
+            "desktop_width": "half",
+            "text_alignment": "middle-center",
+            "color_scheme": "background-1",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "Shopify hosted background video",
+            "heading_size": "h4",
+            "button_label": "Button",
+            "button_link": "#",
+            "button_label_2": "",
+            "button_link_2": "",
+            "description": ""
+          }
+        },
+        "8568a095-0417-4590-bea9-5d1ec5f20883": {
+          "type": "grid",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=qNDXdW4jO3I",
+            "desktop_width": "full",
+            "text_alignment": "top-left",
+            "color_scheme": "accent-1",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "Youtube background video",
+            "heading_size": "h4",
+            "button_label": "Button",
+            "button_link": "#",
+            "button_label_2": "test",
+            "button_link_2": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "34083516-ff8d-42bd-9963-ea599395e8eb",
+        "aee253b0-4817-4743-bcf1-1cd7e7704d40",
+        "8568a095-0417-4590-bea9-5d1ec5f20883"
+      ],
+      "settings": {
+        "section_heading": "Lifestyle Grid",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "58f6d952-cbb4-4885-9cff-8c56e612b03f": {
+      "type": "section-promo-cards",
+      "blocks": {
+        "0126468f-82d2-4200-9780-a4f59e8851a5": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
+            "button_label": "Button",
+            "button_link": "#"
+          }
+        },
+        "3c71b910-8611-460c-a5d9-c5af870e2ff2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_10_2_38f57bb1-1908-4474-93df-dc2812e710cc.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
+            "button_label": "Button",
+            "button_link": "#"
+          }
+        },
+        "909213cc-2528-45d9-89cf-a6a071de03b4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2_e78cc3aa-39dd-41fc-99c1-6fb3670e4e2d.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
+            "button_label": "Button",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "0126468f-82d2-4200-9780-a4f59e8851a5",
+        "3c71b910-8611-460c-a5d9-c5af870e2ff2",
+        "909213cc-2528-45d9-89cf-a6a071de03b4"
+      ],
+      "settings": {
+        "title": "Promotional cards showing 3",
+        "scrollable": false,
+        "design": "3",
+        "color_scheme": "",
+        "color_bg_black": "white",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "499fa979-421d-4506-b234-3e6b1dc32c82": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Rich text (centred) white bg",
+            "heading_size": "h2"
+          }
+        },
+        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_label_3": "",
+            "button_link_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-heading-1",
+        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-text-1",
+        "template--21745040195877__499fa979-421d-4506-b234-3e6b1dc32c82-button-1"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "text_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "no_margin": false
+      }
+    },
+    "af1d8c8e-cd5e-4d8e-9257-4d4700f4097c": {
+      "type": "section-promo-cards",
+      "blocks": {
+        "36e1652f-29da-4368-9df5-355d8598e2dc": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_10_5.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        },
+        "e412a5a5-73e7-4aae-91d9-b0944ca98c3a": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_10_4.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        },
+        "e2face11-5b93-4381-8450-16b9c1f1313d": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wide-shot-jumper.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        },
+        "2d4dcd8d-1e68-456a-85a7-24ad9ecc32cf": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Producthero.jpg",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        },
+        "2fda3f23-1655-4ad0-b7ce-b07d5f85ef32": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/black-shoe.png",
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "36e1652f-29da-4368-9df5-355d8598e2dc",
+        "e412a5a5-73e7-4aae-91d9-b0944ca98c3a",
+        "e2face11-5b93-4381-8450-16b9c1f1313d",
+        "2d4dcd8d-1e68-456a-85a7-24ad9ecc32cf",
+        "2fda3f23-1655-4ad0-b7ce-b07d5f85ef32"
+      ],
+      "settings": {
+        "title": "Promotional cards slider showing 4",
+        "scrollable": true,
+        "design": "4",
+        "color_scheme": "",
+        "color_bg_black": "black",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "67904a40-56f2-49cb-bac3-bb5c86de6e39": {
+      "type": "section-featured-collection",
+      "settings": {
+        "title": "Featured collection grid",
+        "home_featured_products": "dummy-collection",
+        "scrollable": false,
+        "count": 8,
+        "design": "4",
+        "color_bg_black": "white",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "be2fcff6-59ac-4b6c-bfb8-6d8b6896cd03": {
+      "type": "section-featured-collection",
+      "blocks": {
+        "7687bb64-ea30-4079-9256-481817cb6ebe": {
+          "type": "product",
+          "settings": {
+            "product": "ella-oversized-jacket-in-pink"
+          }
+        },
+        "50dd5a0d-9a30-4847-a4d8-52894fb01ede": {
+          "type": "product",
+          "settings": {
+            "product": "cropped-boxy-top-in-off-white"
+          }
+        },
+        "debaa222-7353-48aa-84d4-7d69498bf53e": {
+          "type": "product",
+          "settings": {
+            "product": "lilac-vest"
+          }
+        },
+        "f1ef846a-d4c6-40e6-b91d-d0267d94456b": {
+          "type": "product",
+          "settings": {
+            "product": "midi-jumper-dress"
+          }
+        },
+        "82ace671-2d23-4d64-9ed5-f89ce05bcf54": {
+          "type": "product",
+          "settings": {
+            "product": "dummy-one"
+          }
+        }
+      },
+      "block_order": [
+        "7687bb64-ea30-4079-9256-481817cb6ebe",
+        "50dd5a0d-9a30-4847-a4d8-52894fb01ede",
+        "debaa222-7353-48aa-84d4-7d69498bf53e",
+        "f1ef846a-d4c6-40e6-b91d-d0267d94456b",
+        "82ace671-2d23-4d64-9ed5-f89ce05bcf54"
+      ],
+      "settings": {
+        "title": "Bespoke collection slider",
+        "home_featured_products": "",
+        "scrollable": true,
+        "count": 4,
+        "design": "4",
+        "color_bg_black": "white",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "3a09cea7-1fbe-4659-ba7f-c8e63110ee35": {
+      "type": "section-blog-posts",
+      "settings": {
+        "title": "Featured blog",
+        "home_featured_blog": "news",
+        "count": 3,
+        "design": "3",
+        "scrollable": false,
+        "view_all": true,
+        "show_date": true,
+        "show_author": false,
+        "show_except": false,
+        "heading_size": "h1"
+      }
+    },
+    "2f52263b-845d-4e91-87ca-f8e59aa26d5d": {
+      "type": "section-featured-product",
+      "blocks": {
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "f66afbea-664b-4ec5-8045-5139e8e3cc0a": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch"
+          }
+        },
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-1",
+        "f66afbea-664b-4ec5-8045-5139e8e3cc0a",
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-2",
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-3",
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-4",
+        "template--18894188511525__2f52263b-845d-4e91-87ca-f8e59aa26d5d-1686356514d0742ee2-5"
+      ],
+      "settings": {
+        "product": "dummy-one",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "ee627394-2b5b-4b6f-85b6-f692ba6109c3": {
+      "type": "section-blog-posts",
+      "blocks": {
+        "37edb7bc-cb65-4bc7-a629-000e5b5b35f4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/html-article-elements",
+            "custom_title": "",
+            "custom_excerpt": ""
+          }
+        },
+        "e290b6b3-d8cf-404a-9b39-8713dffd03a0": {
+          "type": "article",
+          "settings": {
+            "article": "news\/aw23-latest-news",
+            "custom_title": "",
+            "custom_excerpt": ""
+          }
+        },
+        "caffe905-b341-423b-bbb3-29dae229ee12": {
+          "type": "article",
+          "settings": {
+            "article": "news\/fashion-retail-s-battle-for-third-party-brands",
+            "custom_title": "Custom title",
+            "custom_excerpt": "Custom excerpt"
+          }
+        },
+        "1256c276-6762-4885-b289-daff76139a7f": {
+          "type": "article",
+          "settings": {
+            "article": "news\/why-shopping-centres-are-enjoying-a-retail-renaissance",
+            "custom_title": "",
+            "custom_excerpt": ""
+          }
+        },
+        "4deb4514-600f-4077-8bb3-ee6c687922b8": {
+          "type": "article",
+          "settings": {
+            "article": "news\/leather-and-down-should-brands-fake-it-or-make-it",
+            "custom_title": "",
+            "custom_excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "37edb7bc-cb65-4bc7-a629-000e5b5b35f4",
+        "e290b6b3-d8cf-404a-9b39-8713dffd03a0",
+        "caffe905-b341-423b-bbb3-29dae229ee12",
+        "1256c276-6762-4885-b289-daff76139a7f",
+        "4deb4514-600f-4077-8bb3-ee6c687922b8"
+      ],
+      "settings": {
+        "title": "Custom blog list",
+        "home_featured_blog": "",
+        "count": 4,
+        "design": "4",
+        "scrollable": true,
+        "view_all": true,
+        "show_date": true,
+        "show_author": false,
+        "show_except": true,
+        "heading_size": "h1"
+      }
+    },
+    "6488ddf1-e89e-4e12-9ed1-81e95726e7a3": {
+      "type": "section-video",
+      "settings": {
+        "full_width": true,
+        "no_margin": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=CkJOTnsWY6M",
+        "cover_image": "shopify:\/\/shop_images\/Lifestyle_-_Small_156b8d17-a2b4-4e9d-b0a3-1841a1f31c43.png",
+        "text_alignment": "bottom-left",
+        "text_protection": 30,
+        "color_scheme": "white",
+        "heading": "Full width third party video and cover image added",
+        "button_label": "Optional button",
+        "link": "shopify:\/\/pages\/all-sections",
+        "button_label_two": "Optional button two",
+        "link_two": "#",
+        "description": "",
+        "heading_size": "h2"
+      }
+    },
+    "cf1fc9ea-33a7-4030-9374-5c1954692781": {
+      "type": "section-video",
+      "settings": {
+        "full_width": false,
+        "no_margin": false,
+        "video": "shopify:\/\/files\/videos\/Clouds - 64759.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_alignment": "middle-center",
+        "text_protection": 0,
+        "color_scheme": "black",
+        "heading": "Shopify hosted video added",
+        "button_label": "",
+        "link": "#",
+        "button_label_two": "",
+        "link_two": "",
+        "description": "",
+        "heading_size": "h2"
+      }
+    },
+    "de9a1b95-a57b-4b79-8740-468fe47a87c1": {
+      "type": "section-logo-list",
+      "blocks": {
+        "ae1a1c1a-69a5-41cc-a7ce-35ed5ed6f6cf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.svg"
+          }
+        },
+        "ec5c9367-21c9-45ef-aa65-dbc010c5a700": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer-leaf.svg"
+          }
+        },
+        "9c7f1ba5-7eed-450f-b095-4c1a80f42673": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fill_211.svg"
+          }
+        },
+        "1a42ce8d-1314-4a66-a409-2779a10e35ab": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer-service.svg"
+          }
+        },
+        "f3f7dc2b-8c3a-47be-be5f-3b1dff767a13": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bespoke-service.svg"
+          }
+        },
+        "09abc5dd-bf43-44a7-ad70-38cfe8b7e7e9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bug-insect-code-development-svgrepo-com.svg"
+          }
+        },
+        "6e7f9a53-4e0e-4df9-a351-bb0d3f74b6c4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/27323.svg"
+          }
+        },
+        "0d466914-8a4d-4274-953c-715719bcb950": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fill_211.svg"
+          }
+        }
+      },
+      "block_order": [
+        "ae1a1c1a-69a5-41cc-a7ce-35ed5ed6f6cf",
+        "ec5c9367-21c9-45ef-aa65-dbc010c5a700",
+        "9c7f1ba5-7eed-450f-b095-4c1a80f42673",
+        "1a42ce8d-1314-4a66-a409-2779a10e35ab",
+        "f3f7dc2b-8c3a-47be-be5f-3b1dff767a13",
+        "09abc5dd-bf43-44a7-ad70-38cfe8b7e7e9",
+        "6e7f9a53-4e0e-4df9-a351-bb0d3f74b6c4",
+        "0d466914-8a4d-4274-953c-715719bcb950"
+      ],
+      "settings": {
+        "title": "Logo list slider",
+        "design": "6",
+        "scrollable": true,
+        "heading_size": "h1"
+      }
+    },
+    "e35db63e-c58a-4ef4-83d4-8ce8ff546291": {
+      "type": "section-collection-list",
+      "blocks": {
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses",
+            "title": ""
+          }
+        },
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dummy-collection",
+            "title": ""
+          }
+        },
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "urban-collection",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-0",
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-1",
+        "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "design": "btns",
+        "columns": "6",
+        "heading_size": "h1"
+      }
+    },
+    "2f2477c0-2643-4989-ba92-80d248079bc4": {
+      "type": "section-logo-list",
+      "blocks": {
+        "597ba726-b619-49a5-bfa1-7c8f55062a05": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customer-service.svg"
+          }
+        },
+        "de52306c-9e6c-4a74-bdb4-919b970d158f": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bespoke-service.svg"
+          }
+        },
+        "46571572-6711-4b26-83b4-38dc71759c6d": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer-leaf.svg"
+          }
+        },
+        "d848ae47-edee-450a-aaed-604b0f6c79aa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bug-insect-code-development-svgrepo-com.svg"
+          }
+        },
+        "602f0d24-dda2-4c23-a4b9-3f21b4901842": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector.svg"
+          }
+        },
+        "0f9a2bd8-6c55-4cd9-81c2-5d14a780f503": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fill_211.svg"
+          }
+        }
+      },
+      "block_order": [
+        "597ba726-b619-49a5-bfa1-7c8f55062a05",
+        "de52306c-9e6c-4a74-bdb4-919b970d158f",
+        "46571572-6711-4b26-83b4-38dc71759c6d",
+        "d848ae47-edee-450a-aaed-604b0f6c79aa",
+        "602f0d24-dda2-4c23-a4b9-3f21b4901842",
+        "0f9a2bd8-6c55-4cd9-81c2-5d14a780f503"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "design": "6",
+        "scrollable": false,
+        "heading_size": "h1"
+      }
+    },
+    "81ff280e-745c-4422-9228-c7a03e2f6c70": {
+      "type": "section-collapsible-content",
+      "blocks": {
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed rhoncus ex, et lobortis nisi. Vestibulum imperdiet facilisis nunc sed dignissim. Vivamus sit amet varius justo. Integer dui ipsum, mattis ut ultrices lacinia, posuere eu massa. In nec pretium dui. Vestibulum fringilla tempor dui vel interdum. Nullam vel massa odio. Duis enim dui, laoreet laoreet sem sit amet, efficitur facilisis quam. Donec cursus dapibus risus, a dictum lorem. Nullam porttitor porttitor nisl in fermentum. Proin rhoncus semper quam at tincidunt<\/p>",
+            "page": ""
+          }
+        },
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": "wysisg-page"
+          }
+        },
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-0",
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-1",
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-2",
+        "template--18894188511525__81ff280e-745c-4422-9228-c7a03e2f6c70-1686354385333a0b11-3"
+      ],
+      "settings": {
+        "open_first_collapsible_row": true,
+        "title": "Frequently asked questions",
+        "content": "",
+        "heading_size": "h2"
+      }
+    },
+    "3749267a-f9e9-4e17-8a25-042cc1d38d46": {
+      "type": "section-email-signup-banner",
+      "settings": {
+        "title": "Sign up for alerts and get 10% off",
+        "color_bg_black": "black",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "c603e753-2e48-401e-9268-315cdda58c65": {
+      "type": "section-contact-form",
+      "settings": {
+        "title": "We are here to help",
+        "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
+        "color_bg_black": "white",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "71024b2a-dacb-4cd9-be27-1f3a0ab6827b": {
+      "type": "section-contact-form",
+      "settings": {
+        "title": "We are here to help",
+        "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
+        "color_bg_black": "black",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "d2a822f6-cba1-4412-8f97-ce1fe073e637": {
+      "type": "section-email-signup-banner",
+      "settings": {
+        "title": "Sign up for alerts and get 10% off",
+        "color_bg_black": "white",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "8f4b92af-75cf-4ced-aa55-dc60936074e5": {
+      "type": "section-featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "tops",
+        "scrollable": false,
+        "count": 4,
+        "design": "4",
+        "color_bg_black": "black",
+        "no_margin": true,
+        "heading_size": "h1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0226ae9e-a46f-41a4-a92a-dd773488ecea",
+    "3b747367-8f92-47ca-b8c0-4de79bcc65d4",
+    "b84904f6-2c14-4ce2-9a7c-6ce3ba3131b4",
+    "55dab50f-3d38-4ae6-8c98-e9e24d2a3390",
+    "b80cdab0-a5ed-4502-a129-7ef234225743",
+    "58f6d952-cbb4-4885-9cff-8c56e612b03f",
+    "499fa979-421d-4506-b234-3e6b1dc32c82",
+    "af1d8c8e-cd5e-4d8e-9257-4d4700f4097c",
+    "67904a40-56f2-49cb-bac3-bb5c86de6e39",
+    "be2fcff6-59ac-4b6c-bfb8-6d8b6896cd03",
+    "3a09cea7-1fbe-4659-ba7f-c8e63110ee35",
+    "2f52263b-845d-4e91-87ca-f8e59aa26d5d",
+    "ee627394-2b5b-4b6f-85b6-f692ba6109c3",
+    "6488ddf1-e89e-4e12-9ed1-81e95726e7a3",
+    "cf1fc9ea-33a7-4030-9374-5c1954692781",
+    "de9a1b95-a57b-4b79-8740-468fe47a87c1",
+    "e35db63e-c58a-4ef4-83d4-8ce8ff546291",
+    "2f2477c0-2643-4989-ba92-80d248079bc4",
+    "81ff280e-745c-4422-9228-c7a03e2f6c70",
+    "3749267a-f9e9-4e17-8a25-042cc1d38d46",
+    "c603e753-2e48-401e-9268-315cdda58c65",
+    "71024b2a-dacb-4cd9-be27-1f3a0ab6827b",
+    "d2a822f6-cba1-4412-8f97-ce1fe073e637",
+    "8f4b92af-75cf-4ced-aa55-dc60936074e5"
+  ]
+}

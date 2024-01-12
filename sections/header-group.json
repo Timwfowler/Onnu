@@ -1,0 +1,94 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Sign up for alerts and get 10% off",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "bg": "#000000",
+        "text": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "ce72350b-990c-4b5f-8fec-044e86bb2bbe": {
+          "type": "product",
+          "settings": {
+            "item": "Women",
+            "product_one": "long-knitted-jumper-dress",
+            "product_two": "sweat-seamless-long-sleeve-crop-top-1"
+          }
+        },
+        "d729fbd8-862b-42e4-a1a7-b2aabe6c0847": {
+          "type": "mobile",
+          "settings": {
+            "menu_item": "Women",
+            "image": "shopify:\/\/shop_images\/Women.jpg",
+            "text_colour": "black"
+          }
+        },
+        "8e388a7e-03aa-48ce-9b8a-0befd3ffe80c": {
+          "type": "mobile",
+          "settings": {
+            "menu_item": "men",
+            "image": "shopify:\/\/shop_images\/Women-1.jpg",
+            "text_colour": "black"
+          }
+        },
+        "3c623018-19f2-414d-805b-bcc6aba2f7e3": {
+          "type": "mobile",
+          "settings": {
+            "menu_item": "Sustainability",
+            "image": "shopify:\/\/shop_images\/Women-4.jpg",
+            "text_colour": "black"
+          }
+        },
+        "417512c0-261f-474b-9a23-d9a229b17f8b": {
+          "type": "mobile",
+          "settings": {
+            "menu_item": "blog",
+            "image": "shopify:\/\/shop_images\/Women-3.jpg",
+            "text_colour": "white"
+          }
+        },
+        "53334eeb-b7ff-4eb1-a3fe-e893b84d88a1": {
+          "type": "mobile",
+          "settings": {
+            "menu_item": "all sections",
+            "image": "shopify:\/\/shop_images\/Women_9f19b8d1-b7bc-4063-a1ce-0bd88f9e1739.jpg",
+            "text_colour": "white"
+          }
+        }
+      },
+      "block_order": [
+        "ce72350b-990c-4b5f-8fec-044e86bb2bbe",
+        "d729fbd8-862b-42e4-a1a7-b2aabe6c0847",
+        "8e388a7e-03aa-48ce-9b8a-0befd3ffe80c",
+        "3c623018-19f2-414d-805b-bcc6aba2f7e3",
+        "417512c0-261f-474b-9a23-d9a229b17f8b",
+        "53334eeb-b7ff-4eb1-a3fe-e893b84d88a1"
+      ],
+      "settings": {
+        "menu": "main-menu",
+        "menu_type_desktop": "mega"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

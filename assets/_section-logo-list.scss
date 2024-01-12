@@ -1,0 +1,23 @@
+.logo-card{
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 100%;
+  position: relative;
+  
+  img, svg{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    padding: 40px;
+    mix-blend-mode: darken;
+
+    @include breakpoint(md){
+      padding: 60px;
+    }
+  }
+}

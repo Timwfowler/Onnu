@@ -1,0 +1,12 @@
+.customer{
+  padding-bottom: 40px;
+  padding-top: 40px;
+
+  @include breakpoint(md){
+    padding-bottom:80px;
+  }
+
+  input, textarea{
+    width: 100%;
+  }
+}

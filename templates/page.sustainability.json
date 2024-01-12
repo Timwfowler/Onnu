@@ -1,0 +1,230 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1c40e5c9-00e6-4995-a0f3-d3a5527ae78b": {
+      "type": "section-breadcrumbs",
+      "settings": {
+      }
+    },
+    "3ffe5734-7f05-42d4-9b9c-79dbb914cac8": {
+      "type": "section-lifestyle-grid",
+      "blocks": {
+        "f91cf75d-40ce-4632-acfd-3ae63a1db9d3": {
+          "type": "grid",
+          "settings": {
+            "video_url": "https:\/\/vimeo.com\/840864353",
+            "desktop_width": "full",
+            "text_alignment": "middle-center",
+            "color_scheme": "white",
+            "text_protection": 20,
+            "sub_heading": "",
+            "heading": "Always Mindful Fashion",
+            "heading_size": "h1",
+            "button_label": "",
+            "button_link": "#",
+            "button_label_2": "",
+            "button_link_2": "#",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "f91cf75d-40ce-4632-acfd-3ae63a1db9d3"
+      ],
+      "settings": {
+        "section_heading": "",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "c0507e23-299c-4a49-9c74-b6104557e59b": {
+      "type": "section-usps",
+      "settings": {
+      }
+    },
+    "8949b606-4abc-4b09-9e38-32c233f0919c": {
+      "type": "section-promo-cards",
+      "blocks": {
+        "c6e08d13-65f3-4037-9213-3c127307ecbd": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kristen-plastique-sC2XIzZf1L8-unsplash.jpg",
+            "subheading": "",
+            "heading": "Natural fibers only",
+            "text": "<p>Keep it natural: Stick to natural fibers.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "45a7f19a-3eec-4e65-9d19-3058d6cae440": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brooke-cagle-z1B9f48F5dc-unsplash.jpg",
+            "subheading": "",
+            "heading": "Let’s recycle and remix",
+            "text": "<p>Start recycling and remixing for a better future.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "af503d1f-5604-409f-af98-da28fb6dca26": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marcell-viragh-ZQas4Ehf-F4-unsplash.jpg",
+            "subheading": "",
+            "heading": "Eco-friendly packaging",
+            "text": "<p>Packaging that’s better for the environment<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c6e08d13-65f3-4037-9213-3c127307ecbd",
+        "45a7f19a-3eec-4e65-9d19-3058d6cae440",
+        "af503d1f-5604-409f-af98-da28fb6dca26"
+      ],
+      "settings": {
+        "title": "Promotional cards",
+        "scrollable": false,
+        "design": "3",
+        "color_bg_black": "black",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "950bf4eb-fd8c-45c5-9f01-3513fa7a521b": {
+      "type": "section-lifestyle-grid",
+      "blocks": {
+        "db05cb0e-342a-41ab-831e-8a182a36ffc6": {
+          "type": "grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sustainability-1.jpg",
+            "video_url": "",
+            "desktop_width": "full",
+            "text_alignment": "top-left",
+            "color_scheme": "black",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "",
+            "heading_size": "h4",
+            "button_label": "",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "db05cb0e-342a-41ab-831e-8a182a36ffc6"
+      ],
+      "settings": {
+        "section_heading": "Lifestyle Grid",
+        "no_margin": true,
+        "heading_size": "h1"
+      }
+    },
+    "e5bad257-cb91-41bb-8824-710fc1a9dcca": {
+      "type": "section-rich-text",
+      "blocks": {
+        "template--19305632366885__e5bad257-cb91-41bb-8824-710fc1a9dcca-168629148137f5b792-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The end result",
+            "heading_size": "h3"
+          }
+        },
+        "template--19305632366885__e5bad257-cb91-41bb-8824-710fc1a9dcca-168629148137f5b792-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop sustainably and make a positive impact on our world.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19305632366885__e5bad257-cb91-41bb-8824-710fc1a9dcca-168629148137f5b792-0",
+        "template--19305632366885__e5bad257-cb91-41bb-8824-710fc1a9dcca-168629148137f5b792-1"
+      ],
+      "custom_css": [
+        ".rich-text__wrapper {padding-top: 40px;}"
+      ],
+      "settings": {
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "color_bg_black": "white",
+        "full_width": true,
+        "no_margin": false
+      }
+    },
+    "f39e5199-91cd-4c0e-bbf9-9e1e2c9adfe7": {
+      "type": "section-featured-collection",
+      "blocks": {
+        "68ed826f-c8ee-40e2-98ac-817bcde8e309": {
+          "type": "product",
+          "settings": {
+            "product": "long-knitted-jumper-dress"
+          }
+        },
+        "80de457f-7b1b-4c06-8dcb-05296695b17d": {
+          "type": "product",
+          "settings": {
+            "product": "sweat-seamless-long-sleeve-crop-top"
+          }
+        },
+        "76e35261-c6c1-448f-b80f-d83cda4bcb8a": {
+          "type": "product",
+          "settings": {
+            "product": "sweat-seamless-long-sleeve-crop-top-2"
+          }
+        }
+      },
+      "block_order": [
+        "68ed826f-c8ee-40e2-98ac-817bcde8e309",
+        "80de457f-7b1b-4c06-8dcb-05296695b17d",
+        "76e35261-c6c1-448f-b80f-d83cda4bcb8a"
+      ],
+      "settings": {
+        "title": "Our 3 Sustainability Award Winners",
+        "home_featured_products": "",
+        "scrollable": false,
+        "count": 3,
+        "design": "3",
+        "color_bg_black": "white",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "01631cbb-c81d-4a10-9248-8c2f2b546a19": {
+      "type": "section-blog-posts",
+      "settings": {
+        "title": "Articles",
+        "home_featured_blog": "news",
+        "count": 3,
+        "design": "3",
+        "scrollable": false,
+        "view_all": true,
+        "show_date": true,
+        "show_author": false,
+        "show_except": true,
+        "heading_size": "h1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1c40e5c9-00e6-4995-a0f3-d3a5527ae78b",
+    "3ffe5734-7f05-42d4-9b9c-79dbb914cac8",
+    "c0507e23-299c-4a49-9c74-b6104557e59b",
+    "8949b606-4abc-4b09-9e38-32c233f0919c",
+    "950bf4eb-fd8c-45c5-9f01-3513fa7a521b",
+    "e5bad257-cb91-41bb-8824-710fc1a9dcca",
+    "f39e5199-91cd-4c0e-bbf9-9e1e2c9adfe7",
+    "01631cbb-c81d-4a10-9248-8c2f2b546a19"
+  ]
+}

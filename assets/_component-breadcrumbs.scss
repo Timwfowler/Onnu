@@ -1,0 +1,12 @@
+.breadcrumb{
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+  @include breakpoint(md){
+    margin-bottom: 55px;
+  }
+
+  a, span{
+    text-decoration: none;
+  }
+}

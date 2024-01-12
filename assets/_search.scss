@@ -1,0 +1,33 @@
+.template-search{
+
+  h1{
+    margin-top: 50px;
+  }
+
+  &__results{
+    display: block !important;
+  }
+
+  .product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    @include breakpoint(md){
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  &__search{
+    margin: 0;
+    margin-bottom: 80px;
+  }
+
+  .predictive-search{
+    display: none !important;
+  }
+
+  .reset__button{
+    display: none;
+  }
+}

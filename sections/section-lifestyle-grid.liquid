@@ -1,0 +1,402 @@
+<div class="lifestyle-grid">
+  {% if section.settings.section_heading != blank %}
+    <div class="section-title page-width ">
+      <{{ section.settings.heading_size }} class="h3">{{ section.settings.section_heading }}</{{ section.settings.heading_size }}>  
+    </div>
+  {% endif %}
+  <div class="lifestyle-grid__inner page-width {% if section.settings.no_margin %} page-width--no-margin  {% endif %}">
+    {% for block in section.blocks %}
+    {% assign tp_percent = 100 | minus: block.settings.text_protection %}
+
+    {%- liquid 
+      assign mobile_video = false
+
+        if block.settings.image_mob == blank and block.settings.image == blank 
+          assign mobile_video = true
+        endif
+
+    -%}
+    <style>
+
+      .lifestyle-grid__card--{{ block.id }} img, .lifestyle-grid__card--{{ block.id }} iframe, .lifestyle-grid__card--{{ block.id }} video{
+        filter: brightness({{ tp_percent }}%)
+      }
+    </style>
+      <div class="lifestyle-grid__card color-{{ block.settings.color_scheme }} lifestyle-grid__card--{{ block.id }} lifestyle-grid__card--{{ block.settings.desktop_width }} color-scheme--{{ block.settings.color_scheme }} {% if mobile_video %}lifestyle-grid__card--mobile-video {% endif %}">
+        <div class="lifestyle-grid__image">
+          {% if block.settings.image != blank %}
+            {% if block.settings.image_mob != blank %}
+              <picture>
+                <source media="(max-width: 741px)" srcset="{{ block.settings.image_mob | image_url: width: 800 }}">
+                <source media="(min-width: 742px)" srcset="{{ block.settings.image | image_url: width: 2000 }}">
+                <img src="{{ block.settings.image | image_url: width: 300 }}" alt="{{ block.settings.image.alt }}">
+              </picture>
+            {% else %}
+              <picture>
+                <source media="(max-width: 741px)" srcset="{{ block.settings.image | image_url: width: 1000 }}">
+                <source media="(min-width: 742px)" srcset="{{ block.settings.image | image_url: width: 2000 }}">
+                <img src="{{ block.settings.image | image_url: width: 300 }}" alt="{{ block.settings.image.alt }}">
+              </picture>
+            {% endif %}
+          {% elsif block.settings.video != blank %}
+              {{ block.settings.video
+                | video_tag:
+                  image_size: "1100x",
+                  loop: true,
+                  autoplay: true,
+                  muted: true,
+                  controls: true
+              }}
+            {% elsif block.settings.video_url  != blank %}
+              {%- liquid
+                assign video_id = block.settings.video_url.id
+                assign loop = '&autoplay=1&controls=0&mute=1&loop=1&playlist=' | append: video_id           
+              -%}
+
+              {%- if block.settings.video_url.type == 'youtube' -%}
+                <iframe
+                  src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
+                  class="js-youtube"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen
+                  title="{{ block.settings.description | escape }}"
+                ></iframe>
+              {%- else -%}
+                <iframe
+                  src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1&loop=1&autopause=0&muted=1&controls=0"
+                  class="js-vimeo"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen
+                  title="{{ block.settings.description | escape }}"
+                ></iframe>
+
+            {%- endif -%}   
+            {% else %}
+            <img src="{{ settings.fallback | image_url: width: 1500 }}" alt="{{ block.settings.image.alt }}">
+          {% endif %}
+        </div>
+        <div class="lifestyle-grid__textwrap text_alignment--{{ block.settings.text_alignment }}">
+          <div>            
+            {%- if block.settings.sub_heading != blank -%}
+              <h5>{{ block.settings.sub_heading }}</h5>
+            {% endif %} 
+            {%- if block.settings.heading != blank -%}
+              <{{ block.settings.heading_size }} class="lifestyle-grid__heading">
+                {{ block.settings.heading }}
+              </{{ block.settings.heading_size }}>
+            {% endif %}
+            <div class="lifestyle-grid__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label != blank -%}
+                {% render 'component-button', label: block.settings.button_label, link: block.settings.button_link %}
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                {% render 'component-button', label: block.settings.button_label_2, link: block.settings.button_link_2, hide_svg: true %}
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}  
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Lifestyle bg vids & imgs",
+    "tag": "section",
+    "class": "section index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_heading",
+        "default": "Lifestyle Grid",
+        "label": "Section heading"
+      },
+      {
+        "type": "checkbox",
+        "id": "no_margin",
+        "label": "Remove section space below",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "SEO"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h1",
+            "label": "h1"
+          },
+          {
+            "value": "h2",
+            "label": "h2"
+          },
+          {
+            "value": "h3",
+            "label": "h3"
+          },
+          {
+            "value": "h4",
+            "label": "h4"
+          },
+          {
+            "value": "h5",
+            "label": "h5"
+          },
+          {
+            "value": "h6",
+            "label": "h6"
+          }
+        ],
+        "default": "h1",
+        "label": "Heading html tag"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "grid",
+        "name": "Grid",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Media"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Desktop image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_mob",
+            "label": "Optional mobile image"
+          },
+          {
+            "type": "header",
+            "content": "Or Shopify hosted background video"
+          },
+          {
+            "type": "paragraph",
+            "content": "NOTE: Videos added below will show as background videos - if you need a section with video controls, sound, and placeholder image, use the 'Video section'"
+          },
+          {
+            "type": "paragraph",
+            "content": "Shows when no images uploaded"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Or Youtube / Vimeo hosted background video"
+          },
+          {
+            "type": "header",
+            "content": "t:sections.video.settings.header__2.content"
+          },
+          {
+            "type": "paragraph",
+            "content": "Shows when no images OR Shopify video uploaded"
+          },
+          {
+            "type": "video_url",
+            "id": "video_url",
+            "accept": ["youtube", "vimeo"],
+            "label": "t:sections.video.settings.video_url.label",
+            "info": "t:sections.video.settings.video_url.info"
+          },
+          {
+            "type": "header",
+            "content": "Layout"
+          },
+          {
+            "type": "select",
+            "id": "desktop_width",
+            "options": [
+              {
+                "value": "half",
+                "label": "50%"
+
+              }, 
+              {
+                "value": "full",
+                "label": "100%"
+              }
+            ],
+            "default": "half",
+            "label": "Desktop Width"
+          },
+          {
+            "type": "select",
+            "id": "text_alignment",
+            "options": [
+              {
+                "value": "top-left",
+                "label": "Top Left"
+              },
+              {
+                "value": "top-center",
+                "label": "Top Center"
+              },
+              {
+                "value": "top-right",
+                "label": "Top Right"
+              },
+              {
+                "value": "middle-left",
+                "label": "Middle Left"
+              }, 
+              {
+                "value": "middle-center",
+                "label": "Middle Center"
+              }, 
+              {
+                "value": "middle-right",
+                "label": "Middle Right"
+              }, 
+              {
+                "value": "bottom-left",
+                "label": "Bottom Left"
+              }, 
+              {
+                "value": "bottom-center",
+                "label": "Bottom Center"
+              }, 
+              {
+                "value": "bottom-right",
+                "label": "Bottom Right"
+              }
+            ],
+            "default": "top-left",
+            "label": "Content alignment"
+          }, 
+          {
+            "type": "header",
+            "content": "Content"
+          },
+          {
+            "type": "color_scheme",
+            "id": "color_scheme",
+            "default": "scheme_1",
+            "label": "Color Scheme"
+          },
+          {
+            "type": "range",
+            "id": "text_protection",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "unit": "%",
+            "label": "Text protection (Darkens image)",
+            "default": 0
+          },
+          {
+            "type": "inline_richtext",
+            "id": "sub_heading",
+            "label": "Sub heading"
+          }, 
+          {
+            "type": "inline_richtext",
+            "id": "heading",
+            "default": "100% Vintage Style",
+            "label": "Heading"
+          }, 
+          {
+            "type": "select",
+            "id": "heading_size",
+            "options": [
+              {
+                "value": "h1",
+                "label": "h1"
+              },
+              {
+                "value": "h2",
+                "label": "h2"
+              },
+              {
+                "value": "h3",
+                "label": "h3"
+              },
+              {
+                "value": "h4",
+                "label": "h4"
+              },
+              {
+                "value": "h5",
+                "label": "h5"
+              },
+              {
+                "value": "h6",
+                "label": "h6"
+              }
+            ],
+            "default": "h4",
+            "label": "Heading size"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "default": "Home",
+            "label": "Button label",
+            "info": "Leave the label blank to hide the button."
+          }, 
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button link",
+            "default": "/"
+          }, 
+          {
+            "type": "text",
+            "id": "button_label_2",
+            "label": "Second button label",
+            "info": "Leave the label blank to hide the button."
+          }, 
+          {
+            "type": "url",
+            "id": "button_link_2",
+            "label": "Second button link"
+          },
+          {
+            "type": "header",
+            "content": "SEO"
+          },
+          {
+            "type": "text",
+            "id": "description",
+            "label": "Iframe title",
+            "info": "If you use Youtube - this will add a title to tthe iframe"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Lifestyle grid (bg videos and images)",
+        "blocks": [
+          {
+            "type": "grid",
+            "settings": {
+              "desktop_width": "half"
+            }
+          },
+          {
+            "type": "grid",
+            "settings": {
+              "desktop_width": "half",
+              "color_scheme": "inverse"
+            }
+          },
+          {
+            "type": "grid",
+            "settings": {
+              "desktop_width": "full",
+              "color_scheme": "inverse"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

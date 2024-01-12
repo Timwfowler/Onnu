@@ -1,0 +1,42 @@
+.text-image{
+
+  &__image{
+    margin-bottom: 20px;
+
+    @include breakpoint(md){
+      margin-bottom: 40px;
+    }
+
+    img{
+      width: 100%;
+    }
+  }
+
+  &__heading{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+
+    p{
+      margin: 0;
+    }
+  }
+
+  &__buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .button{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+
+}
+

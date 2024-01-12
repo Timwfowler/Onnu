@@ -1,0 +1,146 @@
+
+.blog-articles{
+  display: grid;  
+  grid-gap: 40px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr;
+
+  @include breakpoint(md){
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 60px;
+  }
+}
+
+.card-article{
+  
+  overflow: hidden;
+
+  &:hover{
+
+    img{
+      transform: scale(1.1);
+    }
+  }
+
+  &--full-width{
+    
+    background-color: #000000;
+
+    @include breakpoint(md){
+      grid-column: 1 / 4; 
+    }
+
+
+    .card-article__inner{
+      color: white !important;   
+
+      @include breakpoint(md){
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 20px;
+        text-decoration: none;
+      }
+    }
+
+    .card-article__excerpt{
+      color: white;
+    }
+
+    .card-article__date{
+
+      @include breakpoint(md){
+        margin-top: 0;
+      }
+    }
+
+    .card-article__content{
+      padding: 16px;
+
+
+      @include breakpoint(md){
+        padding: 30px 29px 30px 22px;
+      }
+    }
+
+    .card-article__image, img{      
+
+      @include breakpoint(md){
+        border-radius: 0px 0px !important;
+      }
+    }
+
+
+  }
+
+  &__inner{
+    // color: rgb(var(--color-background));
+    text-decoration: none;
+
+    h4{
+      margin-bottom: 15px;
+    }
+
+    p{
+      margin-bottom: 0;
+    }
+  }
+
+  &__content{
+    margin-top: 10px;
+  }
+
+  &__image{
+    padding-bottom: 50%;
+    position: relative;
+    overflow: hidden;
+    
+
+    img{
+      width: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      
+      transition: 0.2s;
+    }
+
+  }
+
+  &__date{
+    margin: 0;
+    margin-bottom: 10px !important;
+
+    time{
+      opacity: 0.6;
+    }
+  }
+
+  &__author{
+    margin-bottom: 14px!important;
+    margin-top: 0;
+  }
+}
+
+.collection-list--blog-tags{
+
+  .page-width{
+    margin-bottom: 41px;
+
+    @include breakpoint(md){
+      margin-bottom: 68px;
+    }
+  }
+
+  .button{
+    background-color: transparent;
+    border: 2px solid rgb(var(--color-background));
+    color: rgb(var(--color-background));
+
+    &.active, &:hover{
+      background-color: rgb(var(--color-background));
+      color: white;
+    }
+  }
+}

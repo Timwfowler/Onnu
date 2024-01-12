@@ -1,0 +1,98 @@
+.modal-overlay{
+  position: fixed;
+  background-color: white;
+  z-index: 8;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.2s;
+
+  @include breakpoint(sm){
+    background-color: #00000075;
+  }
+  
+
+  &.active{
+
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+    .modal-overlay__inner{
+      z-index: 9;
+      opacity: 1;
+      width: 200vh;
+      height: 200vh;
+
+      transform: translateX(calc(126vw - 11px)) ;
+      transition-delay: 0.2s;
+
+      @include breakpoint(sm){
+        width: 200vw;
+        height: 200vw;
+
+        transform: translateX(calc(150vw - 1118px)) ;
+      }
+
+      @include breakpoint(sm){
+        transform: translateX(calc(66vw )) ;
+      }
+  
+
+      @include breakpoint(md){
+        width: 150vw;
+        height: 150vw;
+        transform: translateX(calc(150vw - 1053px)) ;
+      }
+    }
+
+  }
+  
+  &__inner{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    background-color: white;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0.5;
+    height: 0;
+    width: 0;
+    transform: translateX(calc(150vw - 1118px));
+    transition:  0.3s;
+
+  }
+}
+
+.overflow-hidden-mobile{
+
+  .modal-overlay__inner{
+    width: 100%;
+  }
+
+  .collection-header__breadcrumbs, .mobile-facets__open-wrapper{
+    display: none;
+  }
+
+  .collection-header__inner.sticky{
+    top: -100%;
+  }
+
+  .modal-overlay .modal-overlay__inner{
+
+
+    width: 100%;
+    height: 100vh;
+    transform: translateY(calc(-100vh));
+  }
+
+  .modal-overlay.active .modal-overlay__inner{
+
+    @include breakpoint(sm){
+      
+    }
+
+    @include breakpoint(md){
+      transform: translateY(calc(-0px));
+    }
+  }
+}

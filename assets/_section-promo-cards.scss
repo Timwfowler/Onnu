@@ -1,0 +1,84 @@
+.promo-cards{
+
+  &__inner{
+    display: grid;
+    gap: 20px;
+
+    @include breakpoint(md){
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 40px;
+    }
+  }
+
+  &__card{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+
+  }
+
+  &__image {    
+    padding-bottom: 60%;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;      
+      left: 0px;
+    }
+  } 
+
+  &__textwrap {
+    padding: 20px;
+    height: 100%;
+
+    *:last-child{
+
+      margin-bottom: 0;
+    }
+
+    @include breakpoint(md) {
+      padding: 40px 32px;
+    }
+
+    p{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__subheading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  &__heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+
+  &__button {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

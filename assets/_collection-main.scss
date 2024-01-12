@@ -1,0 +1,412 @@
+.collection-header{
+  min-height: 109px;
+
+
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &.sticky{
+      position: fixed;
+      top: 0;
+      z-index: 9;
+      background: white;
+      width: 100%;
+      padding-bottom: 13px;
+
+      @include breakpoint(md){
+        padding-bottom: 24px;
+        padding-top: 11px;
+      }
+
+      .breadcrumb{
+        margin-top: 5px;
+
+        a, span{
+          display: none;
+        }
+
+
+
+
+      }
+    }
+  }
+
+  &__breadcrumbs{
+
+
+    @include breakpoint(md){
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .breadcrumb{
+      margin-bottom: 0;
+      margin-right: 30px;
+    }
+
+    @include breakpoint(mobile-only){
+      h3{
+        margin-top: 22px;
+      }
+    }
+  }
+
+  &__filters{
+    display: flex;
+    align-items: flex-end;
+    .product-count{
+      display: none;
+    }
+  }
+
+  #FacetFiltersPillsForm{
+    display: none;
+  }  
+}
+
+.collecion-layout-btn{
+  padding: 0;
+  background-color: white;
+  height: 42px;
+  width: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  transition: 0.4s;
+  display: none;
+
+  @include breakpoint(md){
+    display: flex;
+  }
+
+  svg{
+    path, rect{
+      stroke: rgb(var(--color-background));
+    }
+  }
+
+  &:hover, &.active{
+    background-color: #8A8A8A
+    ;
+    cursor: pointer;
+
+    svg{
+      path, rect{
+        stroke: white;
+      }
+    }
+  }
+
+  &.active{
+    background-color: #000000;
+  }
+}
+
+
+
+#product-grid{
+
+  display: grid;
+  grid-gap: 10px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr 1fr ;
+
+  @include breakpoint(md){
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  &.grid--1-col-tablet-down{
+
+    @include breakpoint(tablet-only){
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &.grid--3-col-desktop{
+    @include breakpoint(md){
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  &.grid--5-col-desktop{
+    @include breakpoint(md){
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+  }
+
+  &.two-cols{
+    
+    @include breakpoint(md){
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+.quick-add-modal__content-info{
+  background-color: white;
+}
+
+.product-form__input input[type='radio'] + label{
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid;
+  
+
+}
+
+.product-form__input input[type='radio']:checked + label{
+  background-color: rgba(var(--color-button),var(--alpha-button-background));;
+  color: rgb(var(--color-button-text));
+  border: 2px solid rgba(var(--color-button),var(--alpha-button-background));;
+}
+
+.active-facets-mobile{
+  display: none !important;
+}
+
+.mobile-facets{
+
+  &__open-label, &__open{
+    margin-left: 0 !important;
+  }
+
+  &__inner{
+    padding: 20px;
+    padding-top: 20px;
+    max-width: none;
+
+    @include breakpoint(md){
+      padding: 56px 94px 40px 40px;
+      width: 657px;
+    }
+  }
+
+  &__clear-wrapper{
+    margin-top: 27px;
+  }
+
+  &__count, &__count-again{
+    margin-left: 0px !important;
+  }
+
+  &__label{
+    padding-top: 10px;
+    padding-bottom: 2px;
+
+    @include breakpoint(md){
+      padding-top: 20px;
+      padding-bottom: 2px;
+    }
+
+    span{
+      font-size: 15px;
+    }
+
+    svg{
+      border-radius: 50%;
+      border: 2px solid rgb(var(--color-background));
+      height: 15px;
+      width: 15px;
+      top: 2px;
+      margin-right: 15px;
+
+      @include breakpoint(md){
+        top: 4px;
+      }
+
+      rect, path{
+        display: none;
+      }
+    }
+
+    .icon-checkmark{
+      left: 4px;
+      top: 27px;
+    }
+  }
+
+  &__close{
+    top: 42px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+
+    @include breakpoint(md){
+      top: 68px;
+      right: 94px;
+    }
+  }
+
+  &__footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  &__heading{
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+
+  &__header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__summary{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    span{
+      font-size: 15px;
+    }
+
+    @include breakpoint(md){
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+
+    svg{
+      width: 14px;
+      min-width: 14px;
+    }
+
+    label{
+      font-size: 15px;
+    }
+  }
+
+  &__close-button{
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    border: none;
+
+    svg{
+      transform: rotate(180deg);
+      margin-right: 20px;
+    }    
+  }
+
+  &__sort{
+    height: 20px;
+  }
+
+  &__info{
+    color: #8A8A8A;
+  }
+
+
+
+  .select__select{
+    text-align: right;
+    
+
+    
+    margin-right: 0px;
+    border: none;
+  }
+
+  .mobile-facets__arrow{
+    display: flex;
+  }
+
+  .js-selected{
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+  }
+}
+
+.facets__price{
+  align-items: center;
+  padding: 0;
+
+
+  label{
+    margin-right: 20px;
+  }
+
+  input{
+    padding-left: 0;
+  }
+
+  label, span, input{
+
+  }
+}
+
+.mobile-facets__label > input[type='checkbox']:checked ~{
+
+  svg{
+    background-color: #000000 !important;
+  }
+}
+
+.mobile-facets__label > input[type='checkbox']:checked ~ .icon-checkmark{ 
+  display: none !important;
+  svg{
+    background-color: #000000 !important;
+  }
+}
+
+.mobile-facets__checkbox{
+  background: none !important;
+}
+
+price-range{
+  input{
+    padding-left: 20px !important;
+    padding-right: 10px;
+    width: 100px;
+  }
+}
+
+.collection-list-pagination{
+  grid-column: span 2;
+}
+
+.collection-desscription{
+  margin-top: 22px;
+  max-width: 1117px;
+  margin-left: 0;
+
+  @include breakpoint(md){
+    margin-top: 61px;
+
+  }
+}
+
+.facets__form-vertical{
+  width: 295px;
+}
+
+.facets-vertical-form{
+  width: calc(100% - 339px);
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.facets-container{
+  margin-bottom: 20px;
+
+  @include breakpoint(md){
+    position: sticky;
+    top: 20px;
+    margin-top: -42px;
+  }
+}

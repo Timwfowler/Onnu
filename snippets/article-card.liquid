@@ -1,0 +1,54 @@
+{% if article.image != blank %}
+  {% assign article_image = article.image %}
+
+  {% else %}
+  {% assign article_image = settings.fallback %}
+{% endif %}
+
+
+<div class="card-article {% if full_width %}card-article--full-width {% endif %}">
+  <a href="{{ article.url }}" class="card-article__inner">
+    <div class="card-article__image">
+      {% if full_width %}
+      {{
+        article_image
+      | image_url: width: 1500
+      | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+        {% else %}
+        {{
+          article_image
+        | image_url: width: 400
+        | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+      {% endif %}
+    </div>
+    <div class="card-article__content">
+
+      {% if show_date %}
+      <p class="card-article__date">{{ article.published_at | time_tag: format: 'date' }}</p>
+      {% endif %}
+
+      {% if show_author %}
+      <p class="card-article__author">{{ article.author }}</p>
+      {% endif %}
+
+   
+
+      <h4>{% if custom_title != blank %} {{ custom_title }} {% else %}{{ article.title | truncate: 30 | escape }}{% endif %}</h4>
+      {% if show_excerpt %}
+        <p class="card-article__excerpt">
+          {% if custom_excerpt != blank %}
+            {{ custom_excerpt }}
+            {%- else -%}
+              {%- if article.excerpt.size > 0 -%}
+                {{ article.excerpt | strip_html | truncatewords: 22 }}
+              {%- else -%}
+                {{ article.content | strip_html | truncatewords: 22 }}
+              {%- endif -%}
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+  </a>
+</div>
+
+

@@ -1,0 +1,37 @@
+.section-accordian{
+
+  .accordion{
+    margin-top: 0;
+  }
+
+  .accordion__content{
+    max-width: 948px;
+  }
+
+  details{
+    border-bottom: 1px solid #F6F6F6;
+
+    @include breakpoint(md){
+      border: none;
+    }
+  }
+
+  summary .icon-caret{
+    height: 16px !important;
+    width: 16px !important;
+    margin-top: -9px;
+
+    @include breakpoint(md){
+      margin-top: 0;
+    }
+  }
+
+  .accordion details[open] > summary .icon-caret{
+
+
+    path:last-of-type{
+      display: none
+    }
+  }
+
+}

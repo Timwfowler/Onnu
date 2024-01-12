@@ -1,0 +1,203 @@
+<div class="featured-content-cards articles color-{{ section.settings.color_scheme }} {% if section.settings.no_margin %} page-width--no-margin  {% endif %}">
+  {% if section.settings.title != blank %}
+    <div class="section-title page-width ">
+      <{{ section.settings.heading_size }} class="h3">{{ section.settings.title }}</{{ section.settings.heading_size }}>   
+    </div>
+  {% endif %}    
+  <div class="featured-content-cards__inner featured-content-cards__inner--show-{{ section.settings.design }}  page-width {% unless section.settings.scrollable %} featured-content-cards__inner--grid {% endunless %} " {% if section.settings.scrollable %} scroller {% endif %}>    
+    {% for block in section.blocks %}
+    <div class="featured-content-cards__card">
+      <div class="promo-cards__card background-color--{{ section.settings.color_bg_black }}">
+        {% if block.settings.image != blank %}
+        <div class="promo-cards__image">
+ 
+            {{
+              block.settings.image
+            | image_url: width: 400
+            | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+          
+        </div>
+      {% endif %}
+        <div class="promo-cards__textwrap">
+          {% if block.settings.subheading != blank %}
+            <h5 class="promo-cards__subheading">
+              {{ block.settings.subheading }}
+            </h5>
+          {% endif %}
+          {% if block.settings.heading != blank %}
+            <h4 class="promo-cards__heading">
+              {{ block.settings.heading }}
+            </h4>
+          {% endif %}
+          {{ block.settings.text }}
+          {%- if block.settings.button_label != blank -%}
+            <div class="promo-cards__button">
+              {% render 'component-button', label: block.settings.button_label, link: block.settings.button_link %}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+ 
+
+
+{% schema %}
+{
+  "name": "Promotional cards",
+  "class": "index-section featured-collection-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Promotional cards"
+    },
+    {
+      "type": "header",
+      "content": "Display settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "scrollable",
+      "label": "Show as slider",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "design",
+      "options": [
+        {
+          "value": "3",
+          "label": "Three"
+        },
+        {
+          "value": "4",
+          "label": "Four"
+        }
+      ],
+      "default": "4",
+      "label": "Cards per row"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "inverse",
+      "label": "Color Scheme"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_margin",
+      "label": "Remove section space below",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "SEO"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        },
+        {
+          "value": "h5",
+          "label": "h5"
+        },
+        {
+          "value": "h6",
+          "label": "h6"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading html tag"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Desktop image"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "subheading",
+          "default": "SUBHEADING",
+          "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Heading",
+          "label": "Card heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.</p>",
+          "label": "Description"
+        }, 
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button",
+          "label": "Button label",
+          "info": "Leave the label blank to hide the button."
+        }, 
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promotional cards",
+      "blocks": [
+        {
+          "type": "card"      
+        },
+        {
+          "type": "card"      
+        },
+        {
+          "type": "card"      
+        },
+        {
+          "type": "card"      
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,214 @@
+<div class="collection-list color-{{ section.settings.color_scheme }} {% if section.settings.no_margin %} page-width--no-margin {% endif %}">
+
+  <div class="section-title page-width ">
+    {% if template.name == "collection" %}
+    {% render 'breadcrumbs' %}
+    {% else %}
+      {% if section.settings.title != blank %}
+      <h3>{{ section.settings.title }}</h3>
+      {% endif %}      
+    {% endif %}    
+  </div>
+  <div class="collection-list__inner columns--{{ section.settings.columns }} page-width" scroller>
+    {% for block in section.blocks %}
+      {% if section.settings.design == "btns" %}
+      {% if block.settings.collection != blank %} 
+          <div class="collection-list__btn-only">
+            {% if block.settings.title != blank %}
+              {% render 'component-button', link: block.settings.collection.url, label: block.settings.title %}
+            {% else %}
+              {% render 'component-button', link: block.settings.collection.url, label: block.settings.collection.title %}
+            {% endif %}
+          </div>          
+        {% endif %}
+      {% else %}
+        {% if block.settings.collection != blank %} 
+          <div class="collection-list__card">            
+            <a href="" class="collection-list__image">
+              {% if block.settings.collection.image != blank %}
+              {{
+                block.settings.collection.image
+                | image_url: width: 400
+                | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100, 1500, 2200, 3000'
+              }}
+
+              {% else %}
+              {{ settings.fallback
+                | image_url: width: 400
+                | image_tag: loading: 'lazy', sizes: sizes, widths: '375, 750, 1100, 1500, 1780, 2000, 3000, 3840', alt: alt
+              }}
+              {% endif %}
+   
+            </a>
+            {% if block.settings.title != blank %}
+              {% render 'component-button', link: block.settings.collection.url, label: block.settings.title %}
+            {% else %}
+              {% render 'component-button', link: block.settings.collection.url, label: block.settings.collection.title %}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endif %}      
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.collection-list.name",
+  "tag": "section",
+  "class": "section index-section section-collection-list",
+  "max_blocks": 15,
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Collections",
+      "label": "t:sections.collection-list.settings.title.label"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "inverse",
+      "label": "Color Scheme"
+    },
+    {
+      "type": "select",
+      "id": "design",
+      "options": [
+        {
+          "value": "btns",
+          "label": "Buttons"
+        },
+        {
+          "value": "imgs",
+          "label": "Cards with collection images"
+        }
+      ],
+      "default": "imgs",
+      "label": "Design"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_margin",
+      "label": "Remove section space below",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "Desktop columns",
+      "options": [
+        {
+          "value": "4",
+          "label": "Four"
+        },
+        {
+          "value": "5",
+          "label": "Five"
+        },
+        {
+          "value": "6",
+          "label": "Six"
+        }
+      ],
+      "default": "4"
+    },    
+    {
+      "type": "header",
+      "content": "SEO"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        },
+        {
+          "value": "h5",
+          "label": "h5"
+        },
+        {
+          "value": "h6",
+          "label": "h6"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading html tag"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "t:sections.collection-list.blocks.featured_collection.name",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Change collection title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.collection-list.presets.name",
+      "blocks": [
+        {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all",
+            "title": "Title"
+          }
+        },
+        {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all",
+            "title": "Title"
+          }
+        },
+        {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all",
+            "title": "Title"
+          }
+        },
+        {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "all",
+            "title": "Title"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,166 @@
+
+@font-face {
+  font-family: 'Nexa';
+  src: url("NexaRustSans-Trial-Black2.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy Light';
+  src: url("Gilroy-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url("Gilroy-Bold.ttf") format("truetype");
+}
+
+
+
+
+
+
+p, .p, body, a, select{
+  font-family: 'Gilroy Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+
+  @include breakpoint(md){
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+
+
+h1, .h1{
+  font-size: 28px;
+  line-height: 34px;
+
+  @include breakpoint(md){
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+h2, .h2{
+  font-size: 28px;
+  line-height: 34px;
+
+  @include breakpoint(md){
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+h3, .h3{
+  font-size: 22px;
+  line-height: 26px;  
+
+  @include breakpoint(md){
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+h4, .h4{
+  font-size: 16px;
+  line-height: 19px;
+
+  @include breakpoint(md){
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+h5, .h5{
+  font-size: 14px;
+  line-height: 17px;
+
+  @include breakpoint(md){
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+.hero-text{
+  font-size: 28px;
+  line-height: 100%;
+
+  @include breakpoint(md){
+    font-size: 80px;
+  }
+}
+
+strong, .strong{
+  font-family: 'Gilroy Bold';
+}
+
+input, textarea, select{
+  background-color: #F1F1F1;
+  height: 45px;
+  font-family: 'Gilroy Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  border-radius: 0;
+
+  @include breakpoint(md){
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  &::placeholder{
+    color: rgb(var(--color-foreground));
+    opacity: 0.6;
+  }
+
+  &:focus {
+    outline-style: none;
+    box-shadow: none;
+
+  }
+}
+
+.mega-menu__link, .footer-block--menu a{
+  font-family: 'Gilroy Light';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.45px;
+}
+
+
+.header__menu-item, .footer-block__heading, .mega-menu__link--level-2, .mobile-first-nav, .mobile-first-nav .menu-drawer__menu-item, .second-wrap A{
+  font-size: 15px;
+  font-family: 'Gilroy Bold';
+  letter-spacing: 0.45px;
+}
+
+.list-menu .third-item{
+  font-size: 15px;
+  font-family: 'Gilroy light';
+  letter-spacing: 0.45px;
+}
+
+.facets__heading--vertical{
+  margin-bottom: 18px;
+}
+
+
+
+
+

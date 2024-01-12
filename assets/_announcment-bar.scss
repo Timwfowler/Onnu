@@ -1,0 +1,14 @@
+.announcement-bar{
+
+  &__link{
+    padding: 6.84px 0px;
+  }
+ 
+  &__message{
+
+    span{
+      letter-spacing: normal;
+      text-transform: none;
+    }
+  }
+}

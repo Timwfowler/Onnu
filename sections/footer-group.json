@@ -1,0 +1,45 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "31d9c56e-41bd-49ab-ac23-563f887366da": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "0fd3c49e-9309-4aee-bb6b-74ab27d7ec78": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "68d2e984-cdd4-47e9-96cf-c58dead7d6e5": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "31d9c56e-41bd-49ab-ac23-563f887366da",
+        "0fd3c49e-9309-4aee-bb6b-74ab27d7ec78",
+        "68d2e984-cdd4-47e9-96cf-c58dead7d6e5"
+      ],
+      "settings": {
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

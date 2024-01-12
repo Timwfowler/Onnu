@@ -1,0 +1,65 @@
+.mega-menu {
+  position: static;
+}
+
+.shopify-section-header-sticky .mega-menu__content {
+  /* max-height: calc(100vh - var(--header-bottom-position-desktop, 20rem) - 4rem); */
+}
+
+.header-wrapper--border-bottom .mega-menu__content {
+  border-top: 0;
+}
+
+.js .mega-menu__content {
+  opacity: 0;
+  /* transform: translateY(-1.5rem); */
+  transition: 0.4s;
+}
+
+.mega-menu[open] .mega-menu__content {
+  opacity: 0;
+  transform: translateY(0);
+  transition: 0.4s;
+}
+
+.mega-menu__list {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  list-style: none;
+}
+
+.mega-menu__link {
+  display: block;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+
+
+
+.header--top-center .mega-menu__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 0;
+}
+
+.header--top-center .mega-menu__list > li {
+  width: 16%;
+  padding-right: 2.4rem;
+}
+
+
+
+.mega-menu__link--active:hover {
+  text-decoration-thickness: 0.2rem;
+}
+
+.mega-menu .mega-menu__list--condensed {
+  display: block;
+}
+
+.mega-menu__list--condensed .mega-menu__link {
+  font-weight: normal;
+}

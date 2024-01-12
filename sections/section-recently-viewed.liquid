@@ -1,0 +1,129 @@
+{%- liquid
+  assign collection = collections[section.settings.home_featured_products]
+  assign product_limit = section.settings.count 
+  if section.blocks.size > 0
+    assign custom = true
+  endif
+-%}
+
+
+<div class="featured-content-cards background-color--{{ section.settings.color_bg_black }}">
+  {% if section.settings.title != blank %}
+    <div class="section-title page-width">
+      <{{ section.settings.heading_size }} class="h3">{{ section.settings.title }}</{{ section.settings.heading_size }}>
+    </div>
+  {% endif %}
+  <div
+    id="product-card-container"
+    class="featured-content-cards__inner featured-content-cards__inner--show-{{ section.settings.design }}  page-width {% unless section.settings.scrollable %} featured-content-cards__inner--grid {% endunless %} {% if section.settings.no_margin %} page-width--no-margin  {% endif %}"
+    {% if section.settings.scrollable %}
+    scroller
+    {% endif %}>
+    <div></div>
+  </div>
+</div>
+
+{% comment %}
+  
+
+
+{% schema %}
+  {
+    "name": "Recently viewed",
+    "class": "index-section featured-collection-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Recently viewed"
+      },
+      {
+        "type": "header",
+        "content": "Display settings"
+      },
+      {
+        "type": "checkbox",
+        "id": "scrollable",
+        "label": "Show as slider",
+        "default": false
+      }, {
+        "type": "select",
+        "id": "design",
+        "options": [
+          {
+            "value": "3",
+            "label": "Three"
+          }, {
+            "value": "4",
+            "label": "Four"
+          }
+        ],
+        "default": "4",
+        "label": "Cards per row"
+      }, {
+        "type": "select",
+        "id": "color_bg_black",
+        "options": [
+          {
+            "value": "white",
+            "label": "None"
+          }, {
+            "value": "black",
+            "label": "Black"
+          }
+        ],
+        "default": "white",
+        "label": "Background colour"
+      }, {
+        "type": "checkbox",
+        "id": "no_margin",
+        "label": "Remove section space below",
+        "default": false
+      }, {
+        "type": "header",
+        "content": "SEO"
+      }, {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h1",
+            "label": "h1"
+          },
+          {
+            "value": "h2",
+            "label": "h2"
+          },
+          {
+            "value": "h3",
+            "label": "h3"
+          },
+          {
+            "value": "h4",
+            "label": "h4"
+          }, {
+            "value": "h5",
+            "label": "h5"
+          }, {
+            "value": "h6",
+            "label": "h6"
+          }
+        ],
+        "default": "h1",
+        "label": "Heading html tag"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Recently viewed"
+      }
+    ]
+  }
+{% endschema %}
+
+{% endcomment %}

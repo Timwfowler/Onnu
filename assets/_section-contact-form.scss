@@ -1,0 +1,63 @@
+.contact-form{
+
+  .section-title{
+    margin-bottom: inherit;
+    padding-bottom: inherit !important;
+  }
+
+  &__content{
+    max-width: 509px;
+  }
+
+  &__inner{
+
+    @include breakpoint(sm){
+      display: flex;
+      gap: 40px;
+    }
+
+    input, textarea{
+      margin-bottom: 20px;
+
+      @include breakpoint(md){
+        margin-bottom: 40px;
+      }
+    }
+
+    .contact__button{
+      
+      @include breakpoint(md){
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .double-input{
+      input{
+        width: 100%;
+      }
+
+      @include breakpoint(md){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+      }
+    }
+
+  }
+
+  &__left{
+
+    @include breakpoint(sm){
+      width: 50%;
+    }
+
+  }
+
+  &__right{
+
+    @include breakpoint(sm){
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
+{%- liquid assign paginate_by = section.settings.paginate -%}
+
+
+
+{% include 'breadcrumbs' %}
+
+
+<div class="lifestyle-grid">
+  {% if section.settings.section_heading != blank %}
+    <div class="section-title page-width">
+      <h3>{{ section.settings.section_heading }}</h3>
+    </div>
+  {% endif %}
+  <div class="lifestyle-grid__inner page-width }">
+
+    {%- paginate collections by paginate_by -%}
+    {%- for collection in collections -%}
+      <div class="lifestyle-grid__card lifestyle-grid__card--{{ block.settings.desktop_width }} lifestyle-grid--color_scheme-{{ block.settings.color_scheme }}">
+        <div class="lifestyle-grid__image">    
+            {% if collection.image != blank %}
+              {{
+                collection.image
+               | image_url: width: 2000
+               | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+            {% else %}
+              {{
+                 settings.fallback
+               | image_url: width: 1000
+               | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+
+            {% endif %}
+
+        </div>
+        <div class="lifestyle-grid__textwrap text_alignment--{{ block.settings.text_alignment }}">
+          <div>
+
+              <h4 class="lifestyle-grid__heading">
+                {{ collection.title }}
+              </h4>
+
+            <div class="lifestyle-grid__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+     
+                {% render 'component-button', label: "Shop now", link: collection.url %}
+   
+              {%- if block.settings.button_label_2 != blank -%}
+                {% render 'component-button', label: block.settings.button_label_2, link: block.settings.button_link_2 %}
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+    <div class="collection-list-pagination">
+      {% render 'pagination', paginate: paginate %}
+    </div>
+
+    {%- endpaginate -%}
+
+
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "t:sections.main-list-collections.name",
+  "class": "section",
+  "settings": [
+
+    {
+      "type": "range",
+      "id": "paginate",
+      "min": 4,
+      "max": 32,
+      "step": 4,
+      "label": "Number of collections per page",
+      "default": 16
+    }
+  ]
+}
+{% endschema %}

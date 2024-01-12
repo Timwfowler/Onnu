@@ -1,0 +1,54 @@
+@mixin breakpoint($point) {
+  @if $point == sm {
+    @media (min-width: 600px) {
+      @content;
+    }
+  } @else if $point == md {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  } @else if $point == lg {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  } @else if $point == xl {
+    @media (min-width: 1480px) {
+      @content;
+    }
+  } @else if $point == xxl {
+    @media (min-width: 1920px) {
+      @content;
+    }
+  } @else if $point == mobile-only {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if $point == tablet-only {
+    @media (max-width: 1023px) {
+      @content;
+    }
+  }
+}
+
+$breakpoints: (
+  "sm": only screen and
+    (
+      min-width: 768px,
+    ),
+  "md": only screen and
+    (
+      min-width: 1024px,
+    ),
+  "lg": only screen and
+    (
+      min-width: 1280px,
+    ),
+  "xl": only screen and
+    (
+      min-width: 1480px,
+    ),
+  "xxl": only screen and
+    (
+      min-width: 1920px,
+    ),
+) !default;

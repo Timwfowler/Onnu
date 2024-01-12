@@ -1,0 +1,31 @@
+
+
+
+
+<div class="global-usps global-usps{% if scroller%}--scroller {% endif %}">
+  <div class="global-usps__inner"  {% if scroller%} scroller {% endif %}>
+
+    {% if add_text != blank %}
+      {{ add_text }}
+    {% endif %}
+
+    {% if settings.copy_1 %}
+      <div class="global-usps__usp">
+        {{ settings.svg_1 }}
+        <div class="">{{ settings.copy_1 }}</div>        
+      </div>    
+    {% endif %}
+    {% if settings.copy_2 %}
+      <div class="global-usps__usp">
+        {{ settings.svg_2 }}
+        <div class="">{{ settings.copy_2 }}</div>
+      </div>    
+    {% endif %}
+    {% if settings.copy_3 %}
+      <div class="global-usps__usp">
+        {{ settings.svg_3 }}
+        <div class="">{{ settings.copy_3 }}</div>
+      </div>    
+    {% endif %}
+  </div>
+</div>

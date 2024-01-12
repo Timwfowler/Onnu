@@ -1,0 +1,41 @@
+
+<div class="usp-section {% if section.settings.no_margin %} page-width--no-margin {% endif %}">
+  <div class="usp-section__inner page-width">
+    {% render 'global-usps' add_text: settings.add_text %}
+  </div>  
+</div>
+
+
+{% comment %}
+  
+
+{% schema %}
+{
+  "name": "USP Icons",
+  "tag": "section",
+  "class": "section index-section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "The SVGs and content can be changed in Theme Settings under 'USPs'"
+    },
+    {
+      "type": "checkbox",
+      "id": "no_margin",
+      "label": "Remove section space below",
+      "default": false
+    }
+
+  ],
+  "presets": [
+    {
+      "name": "USP Icons"
+    }
+  ]
+}
+{% endschema %}
+
+{% endcomment %}

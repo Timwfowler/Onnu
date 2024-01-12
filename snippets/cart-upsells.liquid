@@ -1,0 +1,25 @@
+
+
+
+{%- liquid
+  assign collection = settings.cart_drawer_collection
+  assign product_limit = section.settings.count 
+-%}
+
+
+<div class="featured-content-cards background-color--{{ section.settings.color_bg_black }}">
+
+    <div class="section-title  ">
+      <h3 class="h3">{{  settings.collection_heading  }}</h3>   
+    </div>
+
+  <div class="featured-content-cards__inner featured-content-cards__inner--show-{{ section.settings.design }}   {% if section.settings.no_margin %} page-width--no-margin  {% endif %}"  scroller>    
+
+      {% for product in collections[settings.cart_drawer_collection].products limit: 50 %}       
+          <div class="featured-content-cards__card ">
+            {% render 'card-product', card_product: product,  show_quick_add: true, section_id: section.id,  show_rating: true %}
+          </div>
+      {% endfor %}      
+
+  </div>
+</div>

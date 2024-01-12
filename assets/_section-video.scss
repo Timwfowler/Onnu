@@ -1,0 +1,140 @@
+.video-section{
+
+
+  .deferred-media{
+    overflow: hidden !important;
+    // margin-left: -20px;
+    // width: calc(100% +);
+  }
+
+  .deferred-media__poster{
+
+    &:hover{
+      cursor: default;
+    }
+  }
+
+  &.full-width-with-margin{
+    .deferred-media{
+      border-radius: 0px;
+      overflow: hidden !important;
+    }
+
+    .lifestyle-grid__textwrap{
+      padding-left: 20px;
+      padding-right: 20px;
+
+      @include breakpoint(md){
+        padding-left: 80px;
+        padding-right: 80px;
+        max-width: 2000px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    
+  }
+
+  .lifestyle-grid__heading{
+    max-width: 500px;
+  }
+
+  .icon-play{
+    margin-bottom: 20px;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .deferred-media__poster-button{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+
+    @include breakpoint(md){
+      padding: 40px;
+    }
+
+    &.text_alignment--top-left {
+      justify-content: flex-start;
+      align-items: flex-start;   
+      text-align: left;
+    }
+
+    &.text_alignment--top-center {
+      justify-content: flex-start;
+      align-items: center;   
+
+      .lifestyle-grid__buttons {
+      justify-content: center;
+      width: 100%;
+      }
+
+      .lifestyle-grid__heading {
+          text-align: center;
+      }
+    }
+
+    &.text_alignment--top-right {
+        justify-content: flex-start;
+        align-items: flex-end;
+        text-align: left;
+    }
+
+    &.text_alignment--middle-left {
+        justify-content: center;
+        align-items: flex-start;   
+        text-align: left;
+    }
+    
+    &.text_alignment--middle-center {
+        justify-content: center;
+        align-items: center;
+
+        .lifestyle-grid__buttons {
+            justify-content: center;
+            width: 100%;
+            }
+
+        .lifestyle-grid__heading {
+            text-align: center;
+        }
+    }
+
+    &.text_alignment--middle-right {
+        justify-content: center;
+        align-items: flex-end;
+        text-align: left;
+    }
+
+    &.text_alignment--bottom-left {
+        justify-content: flex-end;
+        align-items: flex-start;   
+        text-align: left;
+    }
+
+    &.text_alignment--bottom-center {
+        justify-content: flex-end;
+        align-items: center;
+
+        .lifestyle-grid__buttons {
+            justify-content: center;
+            width: 100%;
+            }
+
+        .lifestyle-grid__heading {
+            text-align: center;
+        }
+    }
+
+    &.text_alignment--bottom-right {
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: left;
+    }
+
+  }
+}

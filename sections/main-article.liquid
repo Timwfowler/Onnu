@@ -1,0 +1,138 @@
+{{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
+
+
+<div class="article">
+
+  <div class="article__background"></div>
+
+  <div class="article__inner page-width">
+
+    {% render 'breadcrumbs' %}
+    {{ article.created_at | date: '%B %d, %Y' }} By {{ article.author }}
+    <div class="article__image">
+      {% if article.image != blank %}
+        {{
+           article.image
+         | image_url: width: 1440
+         | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+      {% else %}
+        {{
+           article.image
+         | image_url: width: 1000
+         | image_tag: loading: "lazy", widths: "550, 720, 990, 1100, 1500, 2200, 3000" }}
+      {% endif %}
+    </div>
+
+    <div class="article content wysiwig">
+      {{ article.content }}
+    </div>
+
+  <div class="article__share-social">
+    <p>Share</p>
+
+    {% capture permalink_url %}{{ shop.url }}{{ article.url }}{% endcapture %}
+    <a
+      class="share-buttons-item share-facebook"
+      target="_blank"
+      href="//www.facebook.com/sharer.php?u={{ permalink_url }}">
+      {% include 'icon-facebook' %}
+    </a>
+
+
+    <a
+      class="share-buttons-item share-twitter"
+      target="_blank"
+      href="//twitter.com/share?url={{ permalink_url }}">
+      {% include 'icon-twitter' %}
+    </a>
+
+    <a href="mailto:?subject={{ article.title }}&amp;body={{ permalink_url }}"
+      title="Share by Email">
+      {% include 'icon-mail' %}
+    </a>
+  </div>
+  
+</div>
+
+{% schema %}
+  {
+    "name": "t:sections.main-article.name",
+    "tag": "section",
+    "class": "section",
+    "blocks": [
+      {
+        "type": "@app"
+      },
+      {
+        "type": "featured_image",
+        "name": "t:sections.main-article.blocks.featured_image.name",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "select",
+            "id": "image_height",
+            "options": [
+              {
+                "value": "adapt",
+                "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__1.label"
+              }, {
+                "value": "small",
+                "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__2.label"
+              }, {
+                "value": "medium",
+                "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__3.label"
+              }, {
+                "value": "large",
+                "label": "t:sections.main-article.blocks.featured_image.settings.image_height.options__4.label"
+              }
+            ],
+            "default": "adapt",
+            "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label",
+            "info": "t:sections.main-article.blocks.featured_image.settings.image_height.info"
+          }
+        ]
+      },
+      {
+        "type": "title",
+        "name": "t:sections.main-article.blocks.title.name",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "blog_show_date",
+            "default": true,
+            "label": "t:sections.main-article.blocks.title.settings.blog_show_date.label"
+          }, {
+            "type": "checkbox",
+            "id": "blog_show_author",
+            "default": false,
+            "label": "t:sections.main-article.blocks.title.settings.blog_show_author.label"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "name": "t:sections.main-article.blocks.content.name",
+        "limit": 1
+      }, {
+        "type": "share",
+        "name": "t:sections.main-article.blocks.share.name",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "text",
+            "id": "share_label",
+            "label": "t:sections.main-article.blocks.share.settings.text.label",
+            "default": "Share"
+          }, {
+            "type": "paragraph",
+            "content": "t:sections.main-article.blocks.share.settings.featured_image_info.content"
+          }, {
+            "type": "paragraph",
+            "content": "t:sections.main-article.blocks.share.settings.title_info.content"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

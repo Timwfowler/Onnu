@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "f151054b-3d29-432d-acd5-e175a10fbf4b": {
+      "type": "section-lifestyle-grid",
+      "blocks": {
+        "dd4523a3-1f0b-47ca-96de-1b85844e8753": {
+          "type": "grid",
+          "settings": {
+            "video_url": "https:\/\/vimeo.com\/840117727",
+            "desktop_width": "full",
+            "text_alignment": "middle-center",
+            "color_scheme": "white",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "Womens pre-spring 23",
+            "heading_size": "h2",
+            "button_label": "Explore",
+            "button_link": "shopify:\/\/collections\/dummy-collection",
+            "button_label_2": "",
+            "button_link_2": "",
+            "description": ""
+          }
+        },
+        "822f8e90-e5dd-4eee-be27-49c61b98549c": {
+          "type": "grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lifestyle_-_Small_a0168c07-6d07-4da0-b25a-778df7cdd279.jpg",
+            "video_url": "",
+            "desktop_width": "half",
+            "text_alignment": "top-left",
+            "color_scheme": "black",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "AW23 Winter",
+            "heading_size": "h3",
+            "button_label": "Button",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "#",
+            "description": ""
+          }
+        },
+        "c826ffa5-ecc3-4407-838a-17fc27b5f317": {
+          "type": "grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lifestyle_-_Small-1_f43eee80-4e94-4e4b-bb5a-08c90b85ab1d.jpg",
+            "video_url": "",
+            "desktop_width": "half",
+            "text_alignment": "top-left",
+            "color_scheme": "black",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "Urban Collection",
+            "heading_size": "h3",
+            "button_label": "Button",
+            "button_link": "",
+            "button_label_2": "",
+            "button_link_2": "#",
+            "description": ""
+          }
+        },
+        "de0e9b61-7b0d-4391-841c-3d717fe295f8": {
+          "type": "grid",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16-9-image.jpg",
+            "video_url": "",
+            "desktop_width": "full",
+            "text_alignment": "middle-center",
+            "color_scheme": "black",
+            "text_protection": 0,
+            "sub_heading": "",
+            "heading": "100% Vintage Collection",
+            "heading_size": "h2",
+            "button_label": "Shop now",
+            "button_link": "#",
+            "button_label_2": "",
+            "button_link_2": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "dd4523a3-1f0b-47ca-96de-1b85844e8753",
+        "822f8e90-e5dd-4eee-be27-49c61b98549c",
+        "c826ffa5-ecc3-4407-838a-17fc27b5f317",
+        "de0e9b61-7b0d-4391-841c-3d717fe295f8"
+      ],
+      "settings": {
+        "section_heading": "",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "columns_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "f151054b-3d29-432d-acd5-e175a10fbf4b",
+    "banner",
+    "product-grid"
+  ]
+}

@@ -1,0 +1,36 @@
+
+
+.newsletter-section{
+
+  &.background-color--black{
+
+
+    .newsletter-section__inner{
+      padding-bottom: 80px;
+      padding-top: 0;
+    }
+  }
+
+  .h3{
+
+    @include breakpoint(mobile-only){
+      max-width: 66%;
+      margin-left: 0;
+    }
+  }
+
+  .inputs-wrap{
+    gap: 47px;
+    
+
+    @include breakpoint(md){
+      margin-bottom: 40px;
+    }
+
+    
+  }
+
+  .page-width{
+    max-width: 780px;
+  }
+}

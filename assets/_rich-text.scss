@@ -1,0 +1,54 @@
+.rich-text{
+
+  &__block{
+
+    &:first-child{
+      margin-top: 0;
+    }
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+  }
+
+  &__blocks{   
+
+    &--left{
+      margin-left: 0;
+    }
+
+    &.text-align--center{
+      text-align: center;
+
+      .rich-text__buttons{
+        justify-content: center;
+        
+
+
+      }
+    }
+  }
+
+  &__heading{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  &__text{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  &__buttons{
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+
+    .button{
+
+    }
+  }
+}
+

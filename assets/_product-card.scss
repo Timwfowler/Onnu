@@ -1,0 +1,244 @@
+
+.product-card{
+  position: relative;
+
+  &:hover{
+    img{
+      transform: scale(1.05);
+    }
+
+    .quick-add{
+      display: block;
+
+      span{
+        margin: 0;
+      }
+
+      svg{
+        display: none;
+
+      }
+
+      .icon-search, .icon-plus{
+        display: block;
+
+        path{
+          stroke: white;
+        }
+      }
+    }
+  }
+
+  &__swatches{
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+
+    @include breakpoint(md){
+      margin-top: 10px;
+    }
+
+    .swatch{
+      height: 13px;
+      width: 13px;
+      border-radius: 50%;
+      display: block;
+      background-color: #80808057;
+    }
+  }
+
+  &__image{
+    padding-bottom: 119%;
+    position: relative;
+    
+    overflow: hidden;
+
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.2s;
+    }
+  }
+
+  &__title{
+    margin-top: 10px;
+
+    @include breakpoint(md){
+      margin-top: 20px;
+    }
+  }
+
+  &__ratings{
+    margin-top: 8px;
+  }
+
+  &__title, &__price span{
+
+
+    @include breakpoint(md){
+
+    }
+  }
+
+  &__price{
+
+    .price--on-sale{
+      
+      .price__sale{
+        display: flex;
+      }
+
+      .price-item--sale{
+
+      }
+
+      .price-item--regular{
+        font-size: 14px;
+
+        @include breakpoint(md){
+          font-size: 15px;
+        }
+      }
+
+    }
+  }
+
+  &__sale-tag{
+    color: #FF0000;
+    margin: 0;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  &__quick-add{
+    position: absolute;
+    bottom: 9px;
+    right: 8px;
+
+    @include breakpoint(md){
+      display: none;
+      top: 20px;
+      left: 20px;
+      bottom: auto;
+      right:auto;
+    }
+
+    &--show{
+      display: block;
+      bottom: 20px;
+      right: 10px;
+      top: auto;
+      left: auto;
+    }
+  }
+}
+
+.quick-add{
+
+  &__submit{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: 0.2s;
+    overflow: hidden;
+
+    .hover-show{
+      opacity: 0;
+      position: absolute;
+      margin-left: 4px;
+      transition-delay: 0s;
+      font-size: 12px;
+    }
+
+    &:hover{
+
+      @include breakpoint(sm){
+        height: 40px;
+        width: 110px;
+        border-radius: 30px;
+  
+  
+        .hover-show{
+          display: block;
+          position: relative;
+          opacity: 1;
+          width: auto;
+          transition-delay: 0;      
+          color: white;
+          line-height: normal;
+          top: 1px;
+        }
+      }
+
+    }
+
+    @include breakpoint(md){
+      height: 40px;
+      width: 40px;
+    }
+
+    span{
+      margin-left: 0;
+      display: flex;
+    }
+
+    &.loading{
+
+      .icon-plus, .icon-search, .iconsearch{
+        display: none !important;
+      }
+
+      .hover-show{
+        opacity: 0;
+      }
+
+      .loading-overlay__spinner, .loading-overlay__spinner svg{
+        display: flex !important;
+        justify-content: center;
+
+        circle{
+          stroke: rgb(var(--color-background));
+        }
+      }
+    }
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    svg{
+      height: 12px;
+
+      @include breakpoint(md){
+        height: 15px;
+      }
+
+    }
+  }
+
+  .iconsearch{
+    display: block !important;
+    
+    path{
+      stroke: white !important;
+    }
+  }
+}
+
+
+modal-opener{
+
+  @include breakpoint(mobile-only){
+
+    button:first-of-type{
+      display: none;
+    }
+  }
+}

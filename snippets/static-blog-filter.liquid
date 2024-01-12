@@ -1,0 +1,35 @@
+
+{% if blog.all_tags.size %}
+
+  <div class="collection-list collection-list--blog-tags">
+    <div class="collection-list__inner page-width" scroller>
+      
+      <div class="collection-list__btn-only">
+        {% render 'component-button', link: blog.url, label: "Show all" %}
+      </div>      
+      {%- for tag in blog.all_tags -%}
+      {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
+        {%- assign articleLink = blog.url | append: "/tagged/" | append: tag.handle -%}
+        <div class="collection-list__btn-only">
+          {% render 'component-button', link: articleLink, label: tag %}
+        </div>      
+      {% endfor %}
+    </div>
+  </div>
+
+  <script>
+    const buttons = document.querySelectorAll('.collection-list__btn-only .button')
+    const currentPath = window.location.pathname
+
+    buttons.forEach((button) => {
+      console.log(button);
+      const btnURL = button.getAttribute('href')
+      console.log(btnURL);
+
+      if (btnURL == currentPath) {
+        button.classList.add('active')
+      }
+    })
+  </script>
+
+{% endif %}

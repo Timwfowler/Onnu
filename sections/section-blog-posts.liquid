@@ -1,0 +1,236 @@
+{%- liquid
+  assign product_limit = section.settings.count 
+  if section.blocks.size > 0
+    assign custom = true
+  endif
+-%}
+
+
+<div class="featured-content-cards articles color-{{ section.settings.color_scheme }} {% if section.settings.no_margin %} page-width--no-margin {% endif %}">
+  {% if section.settings.title != blank %}
+    <div class="section-title page-width">
+      <{{ section.settings.heading_size }} class="h3">{{ section.settings.title }}</{{ section.settings.heading_size }}>   
+    </div>
+  {% endif %}    
+  <div class="featured-content-cards__inner featured-content-cards__inner--show-{{ section.settings.design }}  page-width {% unless section.settings.scrollable %} featured-content-cards__inner--grid {% endunless %}" {% if section.settings.scrollable %} scroller {% endif %}>    
+    {% if custom %}
+    {% for block in section.blocks %}  
+      {% if block.settings.article != blank or block.settings.custom_title != blank %}
+        <div class="featured-content-cards__card">
+            {% render 'article-card',
+              article: block.settings.article,
+              media_aspect_ratio: 1.66,
+              show_image: section.settings.show_image,
+              show_date: section.settings.show_date,
+              show_author: section.settings.show_author,
+              show_excerpt: section.settings.show_except,
+              custom_title: block.settings.custom_title,
+              custom_excerpt: block.settings.custom_excerpt
+            %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    {% else %}
+    {%- for article in section.settings.home_featured_blog.articles limit: product_limit -%}
+        <div class="featured-content-cards__card">
+          {% render 'article-card',
+            blog: section.settings.blog,
+            article: article,
+            media_aspect_ratio: 1.66,
+            show_image: section.settings.show_image,
+            show_date: section.settings.show_date,
+            show_author: section.settings.show_author,
+            show_excerpt: section.settings.show_except
+          %}
+        </div>
+
+
+      {%- endfor -%}  
+    {% endif %}
+  </div>
+</div> 
+
+
+{% schema %}
+{
+  "name": "Blog posts",
+  "class": "index-section featured-collection-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Featured blog"
+    },
+    {
+      "type": "blog",
+      "id": "home_featured_blog",
+      "info": "You can create a collection of articles by adding them individually as blocks in this section instead",
+      "label": "Blog type"
+    },
+        {
+      "type": "checkbox",
+      "id": "no_margin",
+      "label": "Remove section space below",
+      "default": false
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "sceme_1",
+      "label": "Color Scheme"
+    },
+    {
+      "type": "range",
+      "id": "count",
+      "label": "Max number of products to show",
+      "default": 4,
+      "min": 3,
+      "max": 16,
+      "step": 1
+    },
+    {
+      "type": "select",
+      "id": "design",
+      "options": [
+        {
+          "value": "3",
+          "label": "Three"
+        },
+        {
+          "value": "4",
+          "label": "Four"
+        }
+      ],
+      "default": "3",
+      "label": "Cards per row"
+    },
+    {
+      "type": "checkbox",
+      "id": "scrollable",
+      "label": "Show as slider",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "view_all",
+      "label": "View all btn?",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "default": false,
+      "label": "t:sections.main-blog.settings.show_author.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_except",
+      "default": false,
+      "label": "Show excerpt"
+    },
+    {
+      "type": "header",
+      "content": "SEO"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        },
+        {
+          "value": "h5",
+          "label": "h5"
+        },
+        {
+          "value": "h6",
+          "label": "h6"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading html tag"
+    }
+  ],
+  "blocks": [
+  {
+    "type": "article",
+    "name": "article",
+    "settings": [
+      {
+        "type": "article",
+        "id": "article",
+        "label": "Article"
+      },
+      {
+        "type": "text",
+        "id": "custom_title",
+        "label": "Custom title"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_excerpt",
+        "label": "Custom excerpt"
+      }
+    ]
+  }
+],
+  "presets": [
+    {
+      "name": "Blog posts",
+      "blocks": [
+        {
+          "type": "article",
+          "settings": {
+            "custom_title": "Blog post title"
+          }
+        },
+        {
+          "type": "article",
+          "settings": {
+            "custom_title": "Blog post title"
+          }
+        },
+        {
+          "type": "article",
+          "settings": {
+            "custom_title": "Blog post title"
+          }
+        },
+        {
+          "type": "article",
+          "settings": {
+            "custom_title": "Blog post title"
+          }
+        },
+        {
+          "type": "article",
+          "settings": {
+            "custom_title": "Blog post title"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
