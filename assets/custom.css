@@ -1947,6 +1947,7 @@ cart-drawer #CartDrawer {
     padding-left: 0%;
     padding-right: 0%;
     grid-gap: 20px;
+    row-gap: 80px;
   }
 }
 .cart-drawer .cart-item {
@@ -2600,7 +2601,7 @@ price-range input {
   .facets-container {
     position: sticky;
     top: 20px;
-    margin-top: -42px;
+    margin-top: -59px;
   }
 }
 
