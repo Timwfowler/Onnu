@@ -2798,6 +2798,8 @@ details[open] > .header__menu-item .icon-caret {
   box-shadow: var(--popup-shadow-horizontal-offset) var(--popup-shadow-vertical-offset) var(--popup-shadow-blur-radius)
     rgba(var(--color-shadow), var(--popup-shadow-opacity));
   z-index: -1;
+  border-width: 1px;
+  box-shadow: 13px 11px 16px -7px rgba(0,0,0,0.05);
 }
 
 .header__submenu.list-menu {
@@ -2824,8 +2826,9 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__menu-item .icon-caret {
-  right: 21px;
-  top: 8px;
+  right: 33px;
+  top: 10px;
+  height: 8px;
 }
 
 .header__submenu .icon-caret {

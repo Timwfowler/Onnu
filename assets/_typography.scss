@@ -19,17 +19,17 @@
 
 
 
-p, .p, body, a, select{
+p, .p, body, a, select, ul, li{
   font-family: 'Gilroy Light';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.5px;
 
   @include breakpoint(md){
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 160%;
   }
 }
 
@@ -44,22 +44,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 
 
 h1, .h1{
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 30px;
+  line-height: 105%;
 
   @include breakpoint(md){
     font-size: 50px;
-    line-height: 60px;
   }
 }
 
 h2, .h2{
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 24px;
+  line-height: 105%;
 
   @include breakpoint(md){
     font-size: 40px;
-    line-height: 48px;
   }
 }
 
@@ -75,11 +73,10 @@ h3, .h3{
 
 h4, .h4{
   font-size: 16px;
-  line-height: 19px;
+  line-height: 105%;
 
   @include breakpoint(md){
     font-size: 22px;
-    line-height: 26px;
   }
 }
 
@@ -88,8 +85,8 @@ h5, .h5{
   line-height: 17px;
 
   @include breakpoint(md){
-    font-size: 14px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 125%;
   }
 }
 
@@ -102,7 +99,7 @@ h5, .h5{
   }
 }
 
-strong, .strong{
+p strong, span strong, .strong{
   font-family: 'Gilroy Bold';
 }
 
@@ -158,6 +155,12 @@ input, textarea, select{
 
 .facets__heading--vertical{
   margin-bottom: 18px;
+}
+
+.rte{
+  img{
+    margin-bottom: 20px;
+  }
 }
 
 

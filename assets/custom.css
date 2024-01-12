@@ -449,6 +449,12 @@ quantity-input button {
 .color-inverse.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-2.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-4.featured-content-cards .promo-cards__textwrap *:not(.button), .color-background-5.featured-content-cards .promo-cards__textwrap *:not(.button), .color-accent-1.featured-content-cards .promo-cards__textwrap *:not(.button) {
   color: rgb(var(--color-background));
 }
+.color-inverse.featured-content-cards .promo-cards__textwrap ul, .color-background-2.featured-content-cards .promo-cards__textwrap ul, .color-background-4.featured-content-cards .promo-cards__textwrap ul, .color-background-5.featured-content-cards .promo-cards__textwrap ul, .color-accent-1.featured-content-cards .promo-cards__textwrap ul {
+  width: fit-content;
+  margin: auto;
+  margin-block-start: 0;
+  padding-inline-start: 10px;
+}
 .color-inverse.newsletter-section input::placeholder, .color-inverse.newsletter-section textarea::placeholder, .color-inverse.contact-form input::placeholder, .color-inverse.contact-form textarea::placeholder, .color-background-2.newsletter-section input::placeholder, .color-background-2.newsletter-section textarea::placeholder, .color-background-2.contact-form input::placeholder, .color-background-2.contact-form textarea::placeholder, .color-background-4.newsletter-section input::placeholder, .color-background-4.newsletter-section textarea::placeholder, .color-background-4.contact-form input::placeholder, .color-background-4.contact-form textarea::placeholder, .color-background-5.newsletter-section input::placeholder, .color-background-5.newsletter-section textarea::placeholder, .color-background-5.contact-form input::placeholder, .color-background-5.contact-form textarea::placeholder, .color-accent-1.newsletter-section input::placeholder, .color-accent-1.newsletter-section textarea::placeholder, .color-accent-1.contact-form input::placeholder, .color-accent-1.contact-form textarea::placeholder {
   color: rgb(var(--color-background));
 }
@@ -514,18 +520,18 @@ quantity-input .quantity__input {
   font-family: "Gilroy Bold";
   src: url("Gilroy-Bold.ttf") format("truetype");
 }
-p, .p, body, a, select {
+p, .p, body, a, select, ul, li {
   font-family: "Gilroy Light";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.5px;
 }
 @media (min-width: 1024px) {
-  p, .p, body, a, select {
-    font-size: 15px;
-    line-height: 25px;
+  p, .p, body, a, select, ul, li {
+    font-size: 18px;
+    line-height: 160%;
   }
 }
 
@@ -537,24 +543,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 30px;
+  line-height: 105%;
 }
 @media (min-width: 1024px) {
   h1, .h1 {
     font-size: 50px;
-    line-height: 60px;
   }
 }
 
 h2, .h2 {
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 24px;
+  line-height: 105%;
 }
 @media (min-width: 1024px) {
   h2, .h2 {
     font-size: 40px;
-    line-height: 48px;
   }
 }
 
@@ -571,12 +575,11 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 105%;
 }
 @media (min-width: 1024px) {
   h4, .h4 {
     font-size: 22px;
-    line-height: 26px;
   }
 }
 
@@ -586,8 +589,8 @@ h5, .h5 {
 }
 @media (min-width: 1024px) {
   h5, .h5 {
-    font-size: 14px;
-    line-height: 120%;
+    font-size: 18px;
+    line-height: 125%;
   }
 }
 
@@ -601,7 +604,7 @@ h5, .h5 {
   }
 }
 
-strong, .strong {
+p strong, span strong, .strong {
   font-family: "Gilroy Bold";
 }
 
@@ -656,6 +659,10 @@ input:focus, textarea:focus, select:focus {
   margin-bottom: 18px;
 }
 
+.rte img {
+  margin-bottom: 20px;
+}
+
 .shopify-section-header-hidden {
   transform: translateY(-200px);
 }
@@ -708,6 +715,9 @@ input:focus, textarea:focus, select:focus {
   text-decoration: none;
   padding-right: 40px;
 }
+.header__menu-item[role=button] {
+  padding-right: 60px;
+}
 @media (min-width: 1024px) {
   .header__heading {
     min-width: 165px;
@@ -727,7 +737,7 @@ input:focus, textarea:focus, select:focus {
 @media (min-width: 1024px) {
   .header__icons {
     position: relative;
-    top: -16px;
+    top: 0px;
   }
 }
 .header__icon {

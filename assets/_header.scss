@@ -65,6 +65,10 @@
     &__menu-item{
         text-decoration: none;
         padding-right: 40px;
+
+        &[role="button"]{
+          padding-right: 60px;
+        }
     }
 
     &__heading{
@@ -87,7 +91,7 @@
 
       @include breakpoint(md){
         position: relative;
-        top: -16px;
+        top: 0px;
       }
     }
 
