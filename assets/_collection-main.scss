@@ -295,6 +295,10 @@
     svg{
       transform: rotate(180deg);
       margin-right: 20px;
+
+      path{
+        stroke: rgb(var(--color-foreground));
+      }
     }    
   }
 

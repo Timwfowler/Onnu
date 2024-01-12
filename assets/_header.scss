@@ -281,6 +281,10 @@
 .header--dropdown{
   header{
     align-items: center;
+
+    @include breakpoint(md){
+      align-items: flex-start;
+    }
   }
 
   .header__inline-menu{
