@@ -124,7 +124,7 @@
         "card_cYajrh"
       ],
       "custom_css": [
-        ".promo-cards__image img{object-fit: contain}"
+        ".promo-cards__image img {object-fit: contain;}"
       ],
       "settings": {
         "title": "Certificates",
@@ -132,6 +132,56 @@
         "design": "4",
         "color_scheme": "background-1",
         "no_margin": false,
+        "heading_size": "h1"
+      }
+    },
+    "section_logo_list_nGGqKG": {
+      "type": "section-logo-list",
+      "blocks": {
+        "logo_EwKD69": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png"
+          }
+        },
+        "logo_NpRz88": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soil_Association-logo-264E43B735-seeklogo.com.png"
+          }
+        },
+        "logo_xFmg94": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Certified_B_Corporation_B_Corp_Logo_2022_Black_RGB_svg.png"
+          }
+        },
+        "logo_RmcJmq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EBC_logo_360_c606442b-ad58-495c-b371-d0f3ae49afb8.png"
+          }
+        },
+        "logo_kLyEeY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_EwKD69",
+        "logo_NpRz88",
+        "logo_xFmg94",
+        "logo_RmcJmq",
+        "logo_kLyEeY"
+      ],
+      "settings": {
+        "title": "Certs",
+        "color_scheme": "",
+        "design": "4",
+        "no_margin": false,
+        "scrollable": true,
         "heading_size": "h1"
       }
     },
@@ -175,6 +225,7 @@
     "29f37c81-de94-49e5-a613-6e4274238d25",
     "collection_description_DfKNcD",
     "section_promo_cards_TFimpk",
+    "section_logo_list_nGGqKG",
     "banner",
     "collection-description",
     "product-grid"
