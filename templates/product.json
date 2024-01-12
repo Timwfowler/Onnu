@@ -79,6 +79,9 @@
         "heading_6t4Hpk",
         "text_3M9Np9"
       ],
+      "custom_css": [
+        ".max-width {max-width: 990px;}"
+      ],
       "settings": {
         "content_alignment": "left",
         "text_alignment": "left",
