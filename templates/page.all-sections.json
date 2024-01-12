@@ -280,6 +280,7 @@
         "0126468f-82d2-4200-9780-a4f59e8851a5": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Lawns_hero.png",
             "subheading": "SUBHEADING",
             "heading": "Heading",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
