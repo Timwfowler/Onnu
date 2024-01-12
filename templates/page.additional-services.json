@@ -69,12 +69,29 @@
         "button_label_2": "",
         "button_link_2": ""
       }
+    },
+    "section_image_text_RkAYye": {
+      "type": "section-image-text",
+      "settings": {
+        "no_margin": false,
+        "color_scheme": "",
+        "layout": "right",
+        "image": "shopify:\/\/shop_images\/Soil_Testing-unpaid.jpg",
+        "heading": "Soil Testing",
+        "heading_size": "h3",
+        "text": "<p>Understanding your soil is crucial for successful gardening and farming. Our soil testing services provide detailed insights into your soil's composition, nutrient levels, and pH balance. Armed with this information, you can make informed decisions about finding the ideal biochar blend for healthier plants and more productive soil. Let us help you unlock the full potential of your land with our comprehensive soil testing services.<\/p>",
+        "button_label": "Button",
+        "button_link": "",
+        "button_label_2": "",
+        "button_link_2": ""
+      }
     }
   },
   "order": [
     "section_breadcrumbs_LAYVdx",
     "main",
     "section_rich_text_eYEHwL",
-    "section_image_text_9hGyNw"
+    "section_image_text_9hGyNw",
+    "section_image_text_RkAYye"
   ]
 }
