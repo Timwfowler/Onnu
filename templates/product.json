@@ -80,7 +80,8 @@
         "text_3M9Np9"
       ],
       "custom_css": [
-        ".max-width {max-width: 990px;}"
+        ".max-width {max-width: 990px;}",
+        ".rich-text__heading{margin-bottom: 40px}"
       ],
       "settings": {
         "content_alignment": "left",
