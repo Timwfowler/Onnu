@@ -90,6 +90,48 @@
         "no_margin": false
       }
     },
+    "section_collapsible_content_Ng9dY3": {
+      "type": "section-collapsible-content",
+      "blocks": {
+        "collapsible_row_pPkQMR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Key features",
+            "row_content": "<p>A product metafield will need to be setup and added here<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_t3MDrA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Postage and Packaging",
+            "row_content": "<p>Generic content here Or setup a product metafield and add here<\/p>",
+            "page": "trade-form"
+          }
+        },
+        "collapsible_row_6FCq3E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Application Rates",
+            "row_content": "<p>A product metafield will need to be setup and added here<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_pPkQMR",
+        "collapsible_row_t3MDrA",
+        "collapsible_row_6FCq3E"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "title": "",
+        "content": "",
+        "color_scheme": "inverse",
+        "no_margin": false,
+        "heading_size": "h2"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -115,6 +157,7 @@
   "order": [
     "main",
     "product_description_CdF9gY",
+    "section_collapsible_content_Ng9dY3",
     "related-products",
     "b4acc032-b36b-4e53-9a0b-0034cd4e5135"
   ]
