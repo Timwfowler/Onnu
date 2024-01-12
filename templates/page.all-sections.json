@@ -27,7 +27,7 @@
             "heading_size": "h1"
           }
         }
-      },   
+      },
       "block_order": [
         "template--18894188511525__5e5b550e-7625-413f-8aca-8a99e7ff30fd-16838967495f9867d7-0"
       ],
@@ -225,7 +225,6 @@
             "description": ""
           }
         },
-
         "8568a095-0417-4590-bea9-5d1ec5f20883": {
           "type": "grid",
           "settings": {
@@ -250,7 +249,7 @@
         "8568a095-0417-4590-bea9-5d1ec5f20883"
       ],
       "settings": {
-        "section_heading": "Lifestyle Grid", 
+        "section_heading": "Lifestyle Grid",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -302,7 +301,6 @@
         "scrollable": false,
         "design": "3",
         "color_scheme": "",
-        "color_bg_black": "white",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -421,7 +419,6 @@
         "scrollable": true,
         "design": "4",
         "color_scheme": "",
-        "color_bg_black": "black",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -434,7 +431,6 @@
         "scrollable": false,
         "count": 8,
         "design": "4",
-        "color_bg_black": "white",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -486,7 +482,6 @@
         "scrollable": true,
         "count": 4,
         "design": "4",
-        "color_bg_black": "white",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -624,7 +619,7 @@
       }
     },
     "6488ddf1-e89e-4e12-9ed1-81e95726e7a3": {
-      "type": "section-video",  
+      "type": "section-video",
       "settings": {
         "full_width": true,
         "no_margin": false,
@@ -639,7 +634,7 @@
         "button_label_two": "Optional button two",
         "link_two": "#",
         "description": "",
-        "heading_size": "h2" 
+        "heading_size": "h2"
       }
     },
     "de9a1b95-a57b-4b79-8740-468fe47a87c1": {
@@ -856,7 +851,6 @@
       "type": "section-email-signup-banner",
       "settings": {
         "title": "Sign up for alerts and get 10% off",
-        "color_bg_black": "black",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -866,7 +860,6 @@
       "settings": {
         "title": "We are here to help",
         "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
-        "color_bg_black": "white",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -876,7 +869,6 @@
       "settings": {
         "title": "We are here to help",
         "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
-        "color_bg_black": "black",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -885,7 +877,6 @@
       "type": "section-email-signup-banner",
       "settings": {
         "title": "Sign up for alerts and get 10% off",
-        "color_bg_black": "white",
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -898,7 +889,6 @@
         "scrollable": false,
         "count": 4,
         "design": "4",
-        "color_bg_black": "black",
         "no_margin": true,
         "heading_size": "h1"
       }
