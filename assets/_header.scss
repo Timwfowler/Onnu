@@ -67,7 +67,7 @@
         padding-right: 40px;
 
         &[role="button"]{
-          padding-right: 60px;
+          padding-right: 52px;
         }
     }
 
@@ -742,6 +742,10 @@
 
     svg{
       margin-right: 20px;
+
+      path{
+        stroke: rgb(var(--color-foreground));
+      }
     }
   }
 

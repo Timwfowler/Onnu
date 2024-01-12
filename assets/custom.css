@@ -717,7 +717,7 @@ input:focus, textarea:focus, select:focus {
   padding-right: 40px;
 }
 .header__menu-item[role=button] {
-  padding-right: 60px;
+  padding-right: 52px;
 }
 @media (min-width: 1024px) {
   .header__heading {
@@ -1224,6 +1224,9 @@ input:focus, textarea:focus, select:focus {
 }
 .menu-drawer__close-button svg {
   margin-right: 20px;
+}
+.menu-drawer__close-button svg path {
+  stroke: rgb(var(--color-foreground));
 }
 .menu-drawer__menu-item.second-item {
   font-style: normal;
