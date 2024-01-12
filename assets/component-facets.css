@@ -359,6 +359,7 @@
 
 .facets__price .field__label {
   left: 1.5rem;
+  display: none;
 }
 
 button.facets__button {
