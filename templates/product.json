@@ -18,13 +18,6 @@
           "settings": {
           }
         },
-        "6c34ba82-ff66-46e0-8960-7ced1c39d385": {
-          "type": "text",
-          "settings": {
-            "text": "Relaxed Fit",
-            "text_style": "body"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -48,7 +41,6 @@
         "title",
         "price",
         "28f8de42-eaf4-4052-94d9-909455e10fa5",
-        "6c34ba82-ff66-46e0-8960-7ced1c39d385",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
