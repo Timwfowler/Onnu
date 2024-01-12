@@ -13,13 +13,13 @@
             "subheading": "Unleashing the power of Biochar",
             "show_below": true,
             "heading": "Nurturing Trees, Elevating Growth",
-            "button_label": "",
-            "link": "#",
+            "button_label": "View all sections page",
+            "link": "shopify:\/\/pages\/all-sections",
             "button_label_two": "",
             "link_two": "#",
             "heading_size": "h1"
           }
-        } 
+        }
       },
       "block_order": [
         "template--18893739131173__e98b3c02-a1d0-460f-be28-c436dab9a1e2-168388454115d31620-0"
