@@ -101,7 +101,7 @@
       "settings": {
         "title": "Certificates",
         "color_scheme": "inverse",
-        "design": "5",
+        "design": "4",
         "no_margin": false,
         "scrollable": true,
         "heading_size": "h1"
