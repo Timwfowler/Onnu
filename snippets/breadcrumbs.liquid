@@ -14,7 +14,7 @@
           <a href="{{ routes.collections_url }}">{{ 'general.search.collections' | t | replace: ':', ''}}</a>
         {% endif %}
 
-        <span class="breadcrumb__divider" aria-hidden="true">/</span>
+  
 
         {% if collection.handle %}
           {% capture url %}{{ routes.collections_url }}/{{ collection.handle }}{% endcapture %}
