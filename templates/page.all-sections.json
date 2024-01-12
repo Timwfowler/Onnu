@@ -27,7 +27,7 @@
             "heading_size": "h1"
           }
         }
-      },
+      },   
       "block_order": [
         "template--18894188511525__5e5b550e-7625-413f-8aca-8a99e7ff30fd-16838967495f9867d7-0"
       ],
@@ -225,25 +225,7 @@
             "description": ""
           }
         },
-        "aee253b0-4817-4743-bcf1-1cd7e7704d40": {
-          "type": "grid",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/Clouds - 64759.mp4",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=zaOP91rqntk",
-            "desktop_width": "half",
-            "text_alignment": "middle-center",
-            "color_scheme": "background-1",
-            "text_protection": 0,
-            "sub_heading": "",
-            "heading": "Shopify hosted background video",
-            "heading_size": "h4",
-            "button_label": "Button",
-            "button_link": "#",
-            "button_label_2": "",
-            "button_link_2": "",
-            "description": ""
-          }
-        },
+
         "8568a095-0417-4590-bea9-5d1ec5f20883": {
           "type": "grid",
           "settings": {
@@ -265,11 +247,10 @@
       },
       "block_order": [
         "34083516-ff8d-42bd-9963-ea599395e8eb",
-        "aee253b0-4817-4743-bcf1-1cd7e7704d40",
         "8568a095-0417-4590-bea9-5d1ec5f20883"
       ],
       "settings": {
-        "section_heading": "Lifestyle Grid",
+        "section_heading": "Lifestyle Grid", 
         "no_margin": false,
         "heading_size": "h1"
       }
@@ -643,7 +624,7 @@
       }
     },
     "6488ddf1-e89e-4e12-9ed1-81e95726e7a3": {
-      "type": "section-video",
+      "type": "section-video",  
       "settings": {
         "full_width": true,
         "no_margin": false,
@@ -658,26 +639,7 @@
         "button_label_two": "Optional button two",
         "link_two": "#",
         "description": "",
-        "heading_size": "h2"
-      }
-    },
-    "cf1fc9ea-33a7-4030-9374-5c1954692781": {
-      "type": "section-video",
-      "settings": {
-        "full_width": false,
-        "no_margin": false,
-        "video": "shopify:\/\/files\/videos\/Clouds - 64759.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text_alignment": "middle-center",
-        "text_protection": 0,
-        "color_scheme": "black",
-        "heading": "Shopify hosted video added",
-        "button_label": "",
-        "link": "#",
-        "button_label_two": "",
-        "link_two": "",
-        "description": "",
-        "heading_size": "h2"
+        "heading_size": "h2" 
       }
     },
     "de9a1b95-a57b-4b79-8740-468fe47a87c1": {
@@ -958,7 +920,6 @@
     "2f52263b-845d-4e91-87ca-f8e59aa26d5d",
     "ee627394-2b5b-4b6f-85b6-f692ba6109c3",
     "6488ddf1-e89e-4e12-9ed1-81e95726e7a3",
-    "cf1fc9ea-33a7-4030-9374-5c1954692781",
     "de9a1b95-a57b-4b79-8740-468fe47a87c1",
     "e35db63e-c58a-4ef4-83d4-8ce8ff546291",
     "2f2477c0-2643-4989-ba92-80d248079bc4",
