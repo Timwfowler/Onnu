@@ -2529,7 +2529,14 @@ product-info .loading__spinner:not(.hidden) ~ *,
   display: flex;
   grid-area: icons;
   justify-self: end;
-  padding-right: 0.8rem;
+  padding-right: 27px;
+}
+
+@media (min-width: 1024px){
+  .header__icons {
+
+    padding-right: 0px;
+  }
 }
 
 .header__icons .shopify-app-block {
