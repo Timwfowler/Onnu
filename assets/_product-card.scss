@@ -204,7 +204,7 @@
         justify-content: center;
 
         circle{
-          stroke: rgb(var(--color-background));
+          stroke: rgb(var(--color-background)) !important;
         }
       }
     }
@@ -240,5 +240,12 @@ modal-opener{
     button:first-of-type{
       display: none;
     }
+  }
+}
+
+.loading-overlay__spinner{
+
+  svg circle{
+    stroke: rgb(var(--color-background)) !important;
   }
 }

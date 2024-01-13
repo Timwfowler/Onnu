@@ -2828,7 +2828,7 @@ price-range input {
   justify-content: center;
 }
 .quick-add__submit.loading .loading-overlay__spinner circle, .quick-add__submit.loading .loading-overlay__spinner svg circle {
-  stroke: rgb(var(--color-background));
+  stroke: rgb(var(--color-background)) !important;
 }
 .quick-add__submit:hover {
   cursor: pointer;
@@ -2852,6 +2852,10 @@ price-range input {
   modal-opener button:first-of-type {
     display: none;
   }
+}
+
+.loading-overlay__spinner svg circle {
+  stroke: rgb(var(--color-background)) !important;
 }
 
 .article .breadcrumb {
