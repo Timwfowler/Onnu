@@ -155,12 +155,6 @@
         "columns_mobile": "2"
       }
     },
-    "b4acc032-b36b-4e53-9a0b-0034cd4e5135": {
-      "type": "section-recently-viewed",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "section_collection_list_yyAqfH": {
       "type": "section-collection-list",
       "blocks": {
@@ -214,7 +208,6 @@
     "product_description_CdF9gY",
     "section_collapsible_content_Ng9dY3",
     "related-products",
-    "b4acc032-b36b-4e53-9a0b-0034cd4e5135",
     "section_collection_list_yyAqfH"
   ]
 }
