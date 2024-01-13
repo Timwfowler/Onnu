@@ -40,6 +40,11 @@
     </div>
     {% endfor %}
   </div>
+  {%- if section.settings.button_label != blank -%}
+  <div class="promo-cards__button" style="margin-top: 40px;">
+    {% render 'component-button', label: section.settings.button_label, link: section.settings.button_link %}
+  </div>
+{%- endif -%}
 </div>
 
 
@@ -61,6 +66,17 @@
       "id": "title",
       "label": "Title",
       "default": "Promotional cards"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Optional button (appears at bottom of section belwo cards)",
+      "info": "Leave the label blank to hide the button."
+    }, 
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
     },
     {
       "type": "header",
