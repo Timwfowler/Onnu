@@ -3320,6 +3320,18 @@ price-range input {
   margin-right: 9px !important;
 }
 
+@media (min-width: 756px) and (max-width: 1200px) {
+  .product__media-wrapper {
+    width: 50% !important;
+  }
+  .product__info-wrapper {
+    width: 50% !important;
+  }
+  .collection-list__card {
+    width: 25%;
+    height: calc(25vw - 18px);
+  }
+}
 .video-section .deferred-media {
   overflow: hidden !important;
 }

@@ -2361,6 +2361,17 @@ product-info .loading__spinner:not(.hidden) ~ *,
   align-items: center;
 }
 
+@media screen and (max-width: 1022px) {
+  .header {
+    display: grid;
+    grid-template-areas: 'heading icons left-icons';
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .header--has-app {
     grid-template-columns: auto 1fr auto;

@@ -374,3 +374,23 @@
     margin-right: 9px !important;
   }
 }
+
+
+@include breakpoint(sm){
+
+}
+
+@media (min-width: 756px) and (max-width: 1200px) {
+  .product__media-wrapper{
+    width: 50% !important;
+  }
+
+  .product__info-wrapper{
+    width: 50% !important;
+  }
+
+  .collection-list__card {
+    width: 25%;
+    height: calc(100vw / 4 - 18px);
+  }
+}
