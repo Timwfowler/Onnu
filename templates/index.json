@@ -97,8 +97,8 @@
       ],
       "settings": {
         "title": "Why Onnu Biochar?",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Know more",
+        "button_link": "#",
         "scrollable": false,
         "design": "3",
         "color_scheme": "inverse",
@@ -217,32 +217,6 @@
         "no_margin": true,
         "heading_size": "h1"
       }
-    },
-    "section_rich_text_gAwCkJ": {
-      "type": "section-rich-text",
-      "blocks": {
-        "button_Rt6Dzy": {
-          "type": "button",
-          "settings": {
-            "button_label": "Know more",
-            "button_link": "shopify:\/\/pages\/additional-services",
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_label_3": "",
-            "button_link_3": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_Rt6Dzy"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "color_scheme": "inverse",
-        "full_width": true,
-        "no_margin": true
-      }
     }
   },
   "order": [
@@ -250,7 +224,6 @@
     "section_image_text_LXp9Uk",
     "5d44f721-1083-441c-862d-58ea9fa4a97c",
     "2aa64823-3250-4f9d-aa30-367f74081903",
-    "1b8fd989-dbff-4f7e-ad71-e6a67f924b58",
-    "section_rich_text_gAwCkJ"
+    "1b8fd989-dbff-4f7e-ad71-e6a67f924b58"
   ]
 }
