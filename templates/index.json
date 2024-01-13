@@ -210,7 +210,7 @@
       "settings": {
         "title": "Additional Services",
         "button_label": "Know more",
-        "button_link": "#",
+        "button_link": "shopify:\/\/pages\/additional-services",
         "scrollable": false,
         "design": "4",
         "color_scheme": "inverse",
