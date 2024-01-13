@@ -38,7 +38,6 @@
         },
         "usps_hKtXeg": {
           "type": "usps",
-          "disabled": true,
           "settings": {
             "usp_1": "shopify:\/\/shop_images\/EBC.png",
             "usp_title_1": "EBC certified",
