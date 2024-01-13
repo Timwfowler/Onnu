@@ -97,6 +97,8 @@
       ],
       "settings": {
         "title": "Why Onnu Biochar?",
+        "button_label": "",
+        "button_link": "",
         "scrollable": false,
         "design": "3",
         "color_scheme": "inverse",
@@ -207,6 +209,8 @@
       ],
       "settings": {
         "title": "Additional Services",
+        "button_label": "Know more",
+        "button_link": "#",
         "scrollable": false,
         "design": "4",
         "color_scheme": "inverse",
