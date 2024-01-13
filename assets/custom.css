@@ -2662,6 +2662,15 @@ price-range input {
   }
 }
 
+.product-count__text {
+  margin-top: 11px !important;
+}
+@media (min-width: 1024px) {
+  .product-count__text {
+    margin-top: 0 !important;
+  }
+}
+
 .product-card {
   position: relative;
 }
@@ -3199,7 +3208,7 @@ price-range input {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   .product-form__submit span {
     top: -2px;
     position: relative;

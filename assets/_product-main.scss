@@ -205,7 +205,7 @@
 
     span{
 
-      @include breakpoint(md){
+      @include breakpoint(sm){
         top: -2px;
         position: relative;
       }

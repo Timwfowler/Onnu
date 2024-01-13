@@ -414,3 +414,11 @@ price-range{
     margin-top: -59px;
   }
 }
+
+.product-count__text{
+  margin-top: 11px !important;
+
+  @include breakpoint(md){
+    margin-top: 0 !important;
+  }
+}

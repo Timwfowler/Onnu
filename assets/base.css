@@ -1066,6 +1066,13 @@ product-recommendations .product-grid{
   }
 }
 
+@media (min-width: 756px) and (max-width: 1200px) {
+  product-recommendations .grid--2-col-tablet-down .grid__item{
+  width: calc(25% - 27px);
+
+ }
+}
+
 
 @media screen and (min-width: 990px) {
   .grid--1-col-desktop {
@@ -1103,7 +1110,7 @@ product-recommendations .product-grid{
     margin-left: calc(-1 * var(--grid-mobile-horizontal-spacing));
   }
 
-  .grid--2-col-tablet-down .grid__item {
+  product-recommendations .grid--2-col-tablet-down .grid__item {
     width: calc(50% - 10px);
   }
 

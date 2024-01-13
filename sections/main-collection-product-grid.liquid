@@ -37,7 +37,7 @@
         <div class="product-count-vertical" role="status">
           <h2 class="product-count__text text-body p strong">
             <span id="ProductCountDesktop">
-              <strong>
+              
               {%- if collection.results_count -%}
                 {{
                   'templates.search.results_with_count'
@@ -51,7 +51,7 @@
                   | t: product_count: collection.products_count, count: collection.all_products_count
                 }}
               {%- endif -%}
-              </strong>
+              
             </span>
           </h2>
           {%- render 'loading-spinner' -%}
