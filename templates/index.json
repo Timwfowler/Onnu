@@ -122,13 +122,13 @@
             "button_link": ""
           }
         },
-        "fd7c52d9-146e-4c81-ae40-b968d78371eb": {
+        "card_WLWWYE": {
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/leafv1.svg",
-            "subheading": "Subheading",
+            "subheading": "",
             "heading": "",
-            "text": "<ul><li>Reduced Need for Chemical Fertilizers<\/li><li>Enhanced Disease Resistance<\/li><li>Stimulation of Mycorrhizal Fungi<\/li><\/ul>",
+            "text": "<p>Mitigation of Heavy Metal Uptake<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -144,12 +144,13 @@
             "button_link": ""
           }
         },
-        "card_WLWWYE": {
+        "fd7c52d9-146e-4c81-ae40-b968d78371eb": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/leafv1.svg",
             "subheading": "",
             "heading": "",
-            "text": "<p>Mitigation of Heavy Metal Uptake<\/p>",
+            "text": "<p>Reduced Need for Chemical Fertilizers<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -162,9 +163,9 @@
         "card_ffAm4k",
         "fb0037db-5228-4cdd-adb9-5177a92fb85c",
         "card_jwYYE6",
-        "fd7c52d9-146e-4c81-ae40-b968d78371eb",
+        "card_WLWWYE",
         "card_pwxrNy",
-        "card_WLWWYE"
+        "fd7c52d9-146e-4c81-ae40-b968d78371eb"
       ],
       "settings": {
         "title": "Why Onnu Biochar?",
