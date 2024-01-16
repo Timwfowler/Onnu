@@ -108,6 +108,16 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "card_ffAm4k": {
+          "type": "card",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "text": "<p>Improved Resistance to Environmental Stresses<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -115,7 +125,8 @@
         "card_J6Rfyy",
         "card_fDQErX",
         "fb0037db-5228-4cdd-adb9-5177a92fb85c",
-        "fd7c52d9-146e-4c81-ae40-b968d78371eb"
+        "fd7c52d9-146e-4c81-ae40-b968d78371eb",
+        "card_ffAm4k"
       ],
       "settings": {
         "title": "Why Onnu Biochar?",
