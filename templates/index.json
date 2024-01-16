@@ -60,9 +60,9 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/leafv1.svg",
-            "subheading": "Subheading",
+            "subheading": "",
             "heading": "",
-            "text": "<ul><li>Improved Soil Structure<\/li><li>Enhanced Water Retention<\/li><li>Increased Nutrient Retention<\/li><li>Improved Resistance to<\/li><li>Environmental Stresses<\/li><\/ul>",
+            "text": "<p>Improved Soil Structure<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -100,7 +100,7 @@
         "button_label": "Know more",
         "button_link": "#",
         "scrollable": false,
-        "design": "3",
+        "design": "4",
         "color_scheme": "inverse",
         "no_margin": false,
         "heading_size": "h1"
@@ -217,6 +217,56 @@
         "no_margin": true,
         "heading_size": "h1"
       }
+    },
+    "section_promo_cards_emUrLk": {
+      "type": "section-promo-cards",
+      "blocks": {
+        "card_GkXRqY": {
+          "type": "card",
+          "settings": {
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        },
+        "card_bpdQMP": {
+          "type": "card",
+          "settings": {
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        },
+        "card_wAedLk": {
+          "type": "card",
+          "settings": {
+            "subheading": "SUBHEADING",
+            "heading": "Heading",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
+            "button_label": "Button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_GkXRqY",
+        "card_bpdQMP",
+        "card_wAedLk"
+      ],
+      "settings": {
+        "title": "Promotional cards",
+        "button_label": "",
+        "button_link": "",
+        "scrollable": false,
+        "design": "4",
+        "color_scheme": "",
+        "no_margin": false,
+        "heading_size": "h1"
+      }
     }
   },
   "order": [
@@ -224,6 +274,7 @@
     "section_image_text_LXp9Uk",
     "5d44f721-1083-441c-862d-58ea9fa4a97c",
     "2aa64823-3250-4f9d-aa30-367f74081903",
-    "1b8fd989-dbff-4f7e-ad71-e6a67f924b58"
+    "1b8fd989-dbff-4f7e-ad71-e6a67f924b58",
+    "section_promo_cards_emUrLk"
   ]
 }
