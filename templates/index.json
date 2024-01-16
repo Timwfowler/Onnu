@@ -70,6 +70,7 @@
         "card_J6Rfyy": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/leafv1.svg",
             "subheading": "",
             "heading": "",
             "text": "<p>Enhanced Water Retention<\/p><p><\/p>",
@@ -80,9 +81,21 @@
         "card_fDQErX": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/leafv1.svg",
             "subheading": "",
             "heading": "",
             "text": "<p>Increased Nutrient Retention<\/p><p><\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "card_ffAm4k": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/leafv1.svg",
+            "subheading": "",
+            "heading": "",
+            "text": "<p>Improved Resistance to Environmental Stresses<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -91,9 +104,20 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/leafv1.svg",
-            "subheading": "Subheading",
+            "subheading": "",
             "heading": "",
-            "text": "<ul><li>Support for Beneficial Microorganisms<\/li><li>Reduced Soil Acidity<\/li><li>Carbon Sequestration<\/li><li>Mitigation of Heavy Metal Uptake<\/li><\/ul>",
+            "text": "<p>Support for Beneficial Microorganisms<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "card_jwYYE6": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/leafv1.svg",
+            "subheading": "",
+            "heading": "",
+            "text": "<p>Reduced Soil Acidity<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -109,12 +133,13 @@
             "button_link": ""
           }
         },
-        "card_ffAm4k": {
+        "card_pwxrNy": {
           "type": "card",
           "settings": {
+            "image": "shopify:\/\/shop_images\/leafv1.svg",
             "subheading": "",
             "heading": "",
-            "text": "<p>Improved Resistance to Environmental Stresses<\/p>",
+            "text": "<p>Carbon Sequestration<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -124,9 +149,11 @@
         "045854ed-4eb1-462a-8158-b29b2cdcebf8",
         "card_J6Rfyy",
         "card_fDQErX",
+        "card_ffAm4k",
         "fb0037db-5228-4cdd-adb9-5177a92fb85c",
+        "card_jwYYE6",
         "fd7c52d9-146e-4c81-ae40-b968d78371eb",
-        "card_ffAm4k"
+        "card_pwxrNy"
       ],
       "settings": {
         "title": "Why Onnu Biochar?",
@@ -134,7 +161,7 @@
         "button_link": "#",
         "scrollable": false,
         "design": "4",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "no_margin": false,
         "heading_size": "h1"
       }
