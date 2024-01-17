@@ -374,7 +374,7 @@
             "image": "shopify:\/\/shop_images\/Rectangle_2dd.png",
             "text_protection": 0,
             "color_scheme": "inverse",
-            "layout": "bottom-left",
+            "layout": "middle-center",
             "subheading": "",
             "show_below": true,
             "heading": "",
@@ -390,11 +390,12 @@
       "block_order": [
         "slide_Ni6bxT"
       ],
+      "disabled": true,
       "settings": {
-        "mob_height": 500,
+        "mob_height": 680,
         "tab_height": 500,
         "desk_height": 700,
-        "layout": "full_bleed",
+        "layout": "grid",
         "no_margin": false,
         "slider_visual": "none",
         "auto_rotate": false,
