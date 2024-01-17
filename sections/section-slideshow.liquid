@@ -193,6 +193,12 @@
               </{{ block.settings.heading_size }}>
             {%- endif -%}
 
+            {% if block.settings.text != blank %}
+            <div style="margin-bottom: 20px;" class=" {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              {{ block.settings.text }}
+            </div>
+            {% endif %}
+
             {%- if block.settings.subheading != blank and block.settings.show_below-%}
             <div class="banner__text rte" {{ block.shopify_attributes }}>
               <h5>{{ block.settings.subheading }}</h5>
@@ -558,6 +564,8 @@
           "default": "SUBHEADING",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
+        
+        
         {
           "type": "checkbox",
           "id": "show_below",
@@ -570,6 +578,11 @@
           "default": "Time for a refresh",
           "label": "t:sections.slideshow.blocks.slide.settings.heading.label"
         },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }, 
         {
           "type": "header",
           "content": "Buttons"
