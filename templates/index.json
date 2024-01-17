@@ -45,7 +45,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_2dd.png",
-            "text_protection": 0,
+            "text_protection": 20,
             "color_scheme": "inverse",
             "layout": "middle-center",
             "subheading": "",
