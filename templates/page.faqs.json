@@ -51,7 +51,7 @@
         "text_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "no_margin": false
+        "no_margin": true
       }
     },
     "section_collapsible_content_PKrYY4": {
@@ -145,7 +145,7 @@
         "open_first_collapsible_row": false,
         "title": "",
         "content": "<p>Add some text here<\/p>",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "no_margin": false,
         "heading_size": "h2"
       }
