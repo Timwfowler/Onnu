@@ -12,7 +12,7 @@
   <div class="collection-list__inner columns--{{ section.settings.columns }} page-width" scroller>
     {% for block in section.blocks %}
       {% if section.settings.design == "btns" %}
-      {% if block.settings.collection != blank %} 
+      {% if block.settings.collection != blank or block.settings.cutom_link != blank %} 
           <div class="collection-list__btn-only">
             {% if block.settings.title != blank %}
               {% render 'component-button', link: block.settings.collection.url, label: block.settings.title %}
@@ -22,12 +22,28 @@
           </div>          
         {% endif %}
       {% else %}
-        {% if block.settings.collection != blank %} 
+        {% if block.settings.collection != blank or block.settings.custom_link != blank %} 
+          
+          {% if block.settings.custom_link != blank %}
+            {% assign link = block.settings.custom_link %}
+
+            {% else %}
+            {% assign link = block.settings.collection.url  %}
+          {% endif %}
+
+          {% if block.settings.custom_image != blank %}
+            {% assign img = block.settings.custom_image %}
+            
+
+            {% else %}
+            {% assign img = block.settings.collection.image  %}
+          {% endif %}
+
           <div class="collection-list__card">            
-            <a href="{{ block.settings.collection.url   }}" class="collection-list__image">
-              {% if block.settings.collection.image != blank %}
+            <a href="{{ link  }}" class="collection-list__image">
+              {% if img != blank %}
               {{
-                block.settings.collection.image
+                img
                 | image_url: width: 800
                 | image_tag: loading: 'lazy', widths: '550, 720, 990, 1100, 1500, 2200, 3000'
               }}
@@ -41,9 +57,9 @@
    
             </a>
             {% if block.settings.title != blank %}
-              {% render 'component-button', link: block.settings.collection.url, label: block.settings.title %}
+              {% render 'component-button', link: link, label: block.settings.title %}
             {% else %}
-              {% render 'component-button', link: block.settings.collection.url, label: block.settings.collection.title %}
+              {% render 'component-button', link: link, label: block.settings.collection.title %}
             {% endif %}
           </div>
         {% endif %}
@@ -54,7 +70,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.collection-list.name",
+  "name": "Collection list or custom",
   "tag": "section",
   "class": "section index-section section-collection-list",
   "max_blocks": 15,
@@ -168,16 +184,30 @@
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
         },
         {
+          "type": "header",
+          "content": "Custom content"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Custom image"
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "Change collection title"
+        },
+        {
+          "type": "url",
+          "id": "custom_link",
+          "label": "Custom link"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "t:sections.collection-list.presets.name",
+      "name": "Collection list or custom",
       "blocks": [
         {
           "type": "featured_collection",
