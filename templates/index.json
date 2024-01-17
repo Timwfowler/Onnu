@@ -347,7 +347,7 @@
         "title": "Additional Services",
         "button_label": "Know more",
         "button_link": "shopify:\/\/pages\/additional-services",
-        "scrollable": false,
+        "scrollable": true,
         "design": "4",
         "color_scheme": "inverse",
         "no_margin": true,

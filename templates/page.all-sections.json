@@ -25,9 +25,10 @@
             "subheading": "Unleashing the power of Biochar",
             "show_below": true,
             "heading": "All Sections",
+            "text": "",
             "button_label": "Button one",
             "link": "#",
-            "button_label_two": "Button Two",
+            "button_label_two": "",
             "link_two": "#",
             "heading_size": "h1"
           }
@@ -186,28 +187,32 @@
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-horticulture",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         },
         "c6fa3c01-a688-408e-8a97-aba7d9511111": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-trees",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         },
         "d484a2d1-e5c4-4527-9bbd-e222077c132b": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-agriculture",
-            "title": "Title changed"
+            "title": "Title changed",
+            "custom_link": ""
           }
         },
         "9dd82386-ee07-4f22-a5bf-7f5b033b6969": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-trees",
-            "title": "Title changed"
+            "title": "Title changed",
+            "custom_link": ""
           }
         }
       },
@@ -649,28 +654,32 @@
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-trees",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         },
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-lawns-and-turfs",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         },
         "template--18894188511525__e35db63e-c58a-4ef4-83d4-8ce8ff546291-1686289691ea274740-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-agriculture",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         },
         "featured_collection_cYMVBB": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-lawns-and-turfs",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         }
       },
