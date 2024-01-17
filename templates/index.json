@@ -63,7 +63,6 @@
       "block_order": [
         "slide_Ni6bxT"
       ],
-      "disabled": true,
       "settings": {
         "mob_height": 680,
         "tab_height": 500,
@@ -79,6 +78,7 @@
     },
     "section_image_text_LXp9Uk": {
       "type": "section-image-text",
+      "disabled": true,
       "settings": {
         "no_margin": false,
         "color_scheme": "",
@@ -249,28 +249,32 @@
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-trees",
-            "title": ""
+            "title": "",
+            "custom_link": ""
           }
         },
         "template--21745040523557__2aa64823-3250-4f9d-aa30-367f74081903-featured_collection-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-horticulture",
-            "title": "For Horticulture"
+            "title": "For Horticulture",
+            "custom_link": ""
           }
         },
         "template--21745040523557__2aa64823-3250-4f9d-aa30-367f74081903-featured_collection-3": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-lawns-and-turfs",
-            "title": "For Lawns and Turfs"
+            "title": "For Lawns and Turfs",
+            "custom_link": ""
           }
         },
         "d622a4cb-a5f1-44e4-bc70-465a3d67091b": {
           "type": "featured_collection",
           "settings": {
             "collection": "biochar-for-agriculture",
-            "title": "For Agriculture"
+            "title": "For Agriculture",
+            "custom_link": ""
           }
         }
       },
@@ -354,53 +358,55 @@
         "heading_size": "h1"
       }
     },
-    "section_promo_cards_emUrLk": {
-      "type": "section-promo-cards",
+    "section_collection_list_QxHe74": {
+      "type": "section-collection-list",
       "blocks": {
-        "card_GkXRqY": {
-          "type": "card",
+        "featured_collection_9iXJjQ": {
+          "type": "featured_collection",
           "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
-            "button_label": "Button",
-            "button_link": ""
+            "collection": "",
+            "custom_image": "shopify:\/\/shop_images\/bespoke_blends-unpaid.jpg",
+            "title": "Bespoke Blends",
+            "custom_link": ""
           }
         },
-        "card_bpdQMP": {
-          "type": "card",
+        "featured_collection_hUEqrq": {
+          "type": "featured_collection",
           "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
-            "button_label": "Button",
-            "button_link": ""
+            "collection": "",
+            "title": "Title",
+            "custom_link": ""
           }
         },
-        "card_wAedLk": {
-          "type": "card",
+        "featured_collection_bgUCUT": {
+          "type": "featured_collection",
           "settings": {
-            "subheading": "SUBHEADING",
-            "heading": "Heading",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet tincidunt augue, non ultrices metus blandit nec.<\/p>",
-            "button_label": "Button",
-            "button_link": ""
+            "collection": "",
+            "title": "Title",
+            "custom_link": ""
+          }
+        },
+        "featured_collection_MjMYNH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Title",
+            "custom_link": ""
           }
         }
       },
       "block_order": [
-        "card_GkXRqY",
-        "card_bpdQMP",
-        "card_wAedLk"
+        "featured_collection_9iXJjQ",
+        "featured_collection_hUEqrq",
+        "featured_collection_bgUCUT",
+        "featured_collection_MjMYNH"
       ],
       "settings": {
-        "title": "Promotional cards",
-        "button_label": "",
-        "button_link": "",
-        "scrollable": false,
-        "design": "4",
+        "title": "Collections",
         "color_scheme": "",
+        "design": "btns",
         "no_margin": false,
+        "columns": "4",
         "heading_size": "h1"
       }
     }
@@ -412,6 +418,6 @@
     "5d44f721-1083-441c-862d-58ea9fa4a97c",
     "2aa64823-3250-4f9d-aa30-367f74081903",
     "1b8fd989-dbff-4f7e-ad71-e6a67f924b58",
-    "section_promo_cards_emUrLk"
+    "section_collection_list_QxHe74"
   ]
 }
