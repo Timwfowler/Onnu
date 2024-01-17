@@ -347,6 +347,7 @@
         "1d25f3de-6a1f-4669-96c5-80ec4c479a1c",
         "b4fa6c42-2f4c-419c-a8a4-312f4efcc333"
       ],
+      "disabled": true,
       "settings": {
         "title": "Additional Services",
         "button_label": "Know more",
