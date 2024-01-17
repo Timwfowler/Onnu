@@ -357,58 +357,6 @@
         "no_margin": true,
         "heading_size": "h1"
       }
-    },
-    "section_collection_list_QxHe74": {
-      "type": "section-collection-list",
-      "blocks": {
-        "featured_collection_9iXJjQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "custom_image": "shopify:\/\/shop_images\/bespoke_blends-unpaid.jpg",
-            "title": "Bespoke Blends",
-            "custom_link": ""
-          }
-        },
-        "featured_collection_hUEqrq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": "Title",
-            "custom_link": ""
-          }
-        },
-        "featured_collection_bgUCUT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": "Title",
-            "custom_link": ""
-          }
-        },
-        "featured_collection_MjMYNH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": "Title",
-            "custom_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_9iXJjQ",
-        "featured_collection_hUEqrq",
-        "featured_collection_bgUCUT",
-        "featured_collection_MjMYNH"
-      ],
-      "settings": {
-        "title": "Collections",
-        "color_scheme": "",
-        "design": "btns",
-        "no_margin": false,
-        "columns": "4",
-        "heading_size": "h1"
-      }
     }
   },
   "order": [
@@ -417,7 +365,6 @@
     "section_image_text_LXp9Uk",
     "5d44f721-1083-441c-862d-58ea9fa4a97c",
     "2aa64823-3250-4f9d-aa30-367f74081903",
-    "1b8fd989-dbff-4f7e-ad71-e6a67f924b58",
-    "section_collection_list_QxHe74"
+    "1b8fd989-dbff-4f7e-ad71-e6a67f924b58"
   ]
 }

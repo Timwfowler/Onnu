@@ -2,6 +2,60 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "section_collection_list_PXz7dr": {
+      "type": "section-collection-list",
+      "blocks": {
+        "featured_collection_rfHDXj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "title": "Bespoke Blends",
+            "custom_link": "shopify:\/\/pages\/additional-services"
+          }
+        },
+        "featured_collection_xArwGK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_image": "shopify:\/\/shop_images\/Soil_Testing-unpaid.jpg",
+            "title": "Soil Testing",
+            "custom_link": "shopify:\/\/pages\/additional-services"
+          }
+        },
+        "featured_collection_8PUWXm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_image": "shopify:\/\/shop_images\/soil_consulting-unpaid.jpg",
+            "title": "Soil Consultation",
+            "custom_link": "shopify:\/\/pages\/additional-services"
+          }
+        },
+        "featured_collection_He8Rmx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_image": "shopify:\/\/shop_images\/truckv1.png",
+            "title": "Transportation",
+            "custom_link": "shopify:\/\/pages\/additional-services"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_rfHDXj",
+        "featured_collection_xArwGK",
+        "featured_collection_8PUWXm",
+        "featured_collection_He8Rmx"
+      ],
+      "settings": {
+        "title": "",
+        "color_scheme": "",
+        "design": "imgs",
+        "no_margin": true,
+        "columns": "4",
+        "heading_size": "h1"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -42,6 +96,7 @@
     }
   },
   "order": [
+    "section_collection_list_PXz7dr",
     "footer"
   ]
 }
