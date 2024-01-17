@@ -60,32 +60,72 @@
         "collapsible_row_cUnVh4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
+            "heading": "How do I determine the right application rate of biochar for my soil?",
+            "row_content": "<p>Guidance on application rates can be found under the 'Application Rates' tab of each product page.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_QmHUVt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
+            "heading": "Can biochar be used with other fertilizers or soil amendments?",
+            "row_content": "<p>TerraBoost, our 100% pure biochar product can be mixed with other fertilizers and soil amendments to best suit your needs. For customers ease, we also have a range of ready-made biochar and soil amendment blends for a variety of applications. Please see our<span style=\"text-decoration:underline\">Products<\/span>page for more information.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_EkaDGn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
+            "heading": "How long does it take to see the effects of biochar in my soil?",
+            "row_content": "<p>Biochar works gradually to enhance soil structure, water retention, and nutrient availability, with its impact becoming more pronounced as it integrates into the soil ecosystem over time. Generally, some improvements may be noticed within one growing season, however this can vary depending on a range of conditions such as the weather, soil type and plant species.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_cfCjFz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "",
+            "heading": "Is biochar safe for all types of plants, including vegetables and flowers?",
+            "row_content": "<p>We can assure that our products are completely safe for use as soil amendments for any plants. Onnu's biochar products are peat-free, eco-friendly and are specially curated with trees, lawns, turf, vegetable and flowering plants in mind.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_U76VEE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does biochar contribute to sustainable gardening and farming?",
+            "row_content": "<p>Biochar contributes to sustainable agriculture by enhancing soil health, conserving water, improving nutrient efficiency, reducing the need for chemical fertilizers, and aiding in carbon sequestration to combat climate change. To further show our commitment to a eco-friendly farming, we also align with several UN SDG's (Sustainable Development Goals). See our <a href=\"\/pages\/about-us\" title=\"About Us\">Company page<\/a> for more info.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LMHhn4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can biochar be used in both indoor and outdoor gardening?",
+            "row_content": "<p>Yes! Biochar is extremely versatile, making it ideal for both indoor and outdoor use.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8pdpRC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does biochar impact soil pH levels?",
+            "row_content": "<p>Biochar is slightly alkaline, making it the ideal soil amendment to neutralize acidic soils.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_66ADWW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the shelf life of biochar?",
+            "row_content": "<p>Biochar has an exceptionally long shelf life. When stored properly in a dry environment, it can remain stable and effective for years, even decades.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kC9yhi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does biochar help with water conservation in soil?",
+            "row_content": "<p>Biochar helps with water retention in soil due to its highly porous structure, which acts like a sponge, absorbing and holding water. This property allows the soil to maintain moisture for longer periods, reducing the need for frequent watering and helping plants withstand drought conditions.<\/p>",
             "page": ""
           }
         }
@@ -94,7 +134,12 @@
         "collapsible_row_cUnVh4",
         "collapsible_row_QmHUVt",
         "collapsible_row_EkaDGn",
-        "collapsible_row_cfCjFz"
+        "collapsible_row_cfCjFz",
+        "collapsible_row_U76VEE",
+        "collapsible_row_LMHhn4",
+        "collapsible_row_8pdpRC",
+        "collapsible_row_66ADWW",
+        "collapsible_row_kC9yhi"
       ],
       "settings": {
         "open_first_collapsible_row": false,
