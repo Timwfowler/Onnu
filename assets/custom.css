@@ -3310,6 +3310,20 @@ price-range input {
   max-width: 66px;
   /* text-align: center; */
 }
+.pdp-usps.footer-usps {
+  margin-top: 30px;
+}
+@media (min-width: 1024px) {
+  .pdp-usps.footer-usps {
+    margin-top: 50px;
+  }
+}
+.pdp-usps.footer-usps p {
+  font-size: 15px;
+}
+.pdp-usps.footer-usps img {
+  height: 31%;
+}
 
 .spr-form-review-rating {
   min-height: 53px !important;
