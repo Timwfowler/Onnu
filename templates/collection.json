@@ -65,6 +65,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/EBC.png",
+            "contain": true,
             "subheading": "",
             "heading": "Nutrient Retention and Water Management",
             "text": "<p><strong>Maximizing Efficiency:<\/strong><\/p><p>Biochar improves soil's water and nutrient retention, leading to less frequent need for watering and fertilization.<\/p><p><strong>Long-term Benefits:<\/strong><\/p><p>Biochar ensures sustained soil fertility, benefiting tree health for years.<\/p>",
@@ -76,6 +77,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/pngtree-iso-14001-certified-company-logo-badge-png-image_6137639.png",
+            "contain": true,
             "subheading": "",
             "heading": "Nutrient Retention and Water Management",
             "text": "<p><strong>Maximizing Efficiency:<\/strong><\/p><p>Biochar improves soil's water and nutrient retention, leading to less frequent need for watering and fertilization.<\/p><p><strong>Long-term Benefits:<\/strong><\/p><p>Biochar ensures sustained soil fertility, benefiting tree health for years.<\/p>",
@@ -87,6 +89,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/Soil_Association-logo-264E43B735-seeklogo.com.png",
+            "contain": true,
             "subheading": "",
             "heading": "Nutrient Retention and Water Management",
             "text": "<p><strong>Maximizing Efficiency:<\/strong><\/p><p>Biochar improves soil's water and nutrient retention, leading to less frequent need for watering and fertilization.<\/p><p><strong>Long-term Benefits:<\/strong><\/p><p>Biochar ensures sustained soil fertility, benefiting tree health for years.<\/p>",
