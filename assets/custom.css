@@ -1427,6 +1427,9 @@ input:focus, textarea:focus, select:focus {
   object-fit: cover;
   left: 0px;
 }
+.promo-cards__image--contain img {
+  object-fit: contain;
+}
 .promo-cards__textwrap {
   padding: 20px;
   height: 100%;
