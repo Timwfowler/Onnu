@@ -34,6 +34,13 @@
       object-fit: cover;      
       left: 0px;
     }
+
+    &--contain{
+
+      img{
+        object-fit: contain;
+      }
+    }
   } 
 
   &__textwrap {

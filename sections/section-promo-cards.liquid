@@ -9,7 +9,9 @@
     <div class="featured-content-cards__card">
       <div class="promo-cards__card background-color--{{ section.settings.color_bg_black }}">
         {% if block.settings.image != blank %}
-        <div class="promo-cards__image">
+
+        
+        <div class="promo-cards__image {% if block.settings.contain %}promo-cards__image--contain{% endif %}">
  
             {{
               block.settings.image
@@ -163,6 +165,12 @@
           "id": "image",
           "label": "Image",
           "info": "Recommended size: Minimum 580px by 350px height"
+        },
+        {
+          "type": "checkbox",
+          "id": "contain",
+          "label": "Contain image (do not crop)",
+          "default": false
         },
         {
           "type": "inline_richtext",
