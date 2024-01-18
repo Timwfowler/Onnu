@@ -89,6 +89,15 @@
       ],
       "settings": {
         "nl_heading": "<h2>Sign up to our newsletter<\/h2>",
+        "usp_1": "shopify:\/\/shop_images\/EBC.png",
+        "usp_title_1": "EBC certified",
+        "usp_2": "shopify:\/\/shop_images\/b-corp.png",
+        "usp_title_2": "B-Corp certified",
+        "usp_3": "shopify:\/\/shop_images\/leafv3.png",
+        "usp_title_3": "Carbon negative",
+        "usp_title_4": "",
+        "usp_title_5": "",
+        "usp_title_6": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true
